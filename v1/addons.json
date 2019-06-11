@@ -28,7 +28,7 @@
     },
     {
         "name": "Mandrill Integration",
-        "description": "Use Mandrill to deliver your campaigns",
+        "description": "Use Mandrill to deliver your campaigns.",
         "image": "//mailster.github.io/addons/mandrill.png",
         "wpslug": "mailster-mandrill/mailster-mandrill.php",
         "is_free": true,
@@ -46,7 +46,7 @@
     },
     {
         "name": "Mailster for WooCommerce",
-        "description": "Add your customers to Mailster",
+        "description": "Add your customers to Mailster.",
         "image": "//mailster.github.io/addons/woocommerce.png",
         "wpslug": "mailster-woocommerce/mailster-woocommerce.php",
         "is_free": true,
@@ -55,7 +55,7 @@
     },
     {
         "name": "Cool Captcha for Forms",
-        "description": "Add a Captcha to your Mailster subscription forms",
+        "description": "Add a Captcha to your Mailster subscription forms.",
         "image": "//mailster.github.io/addons/coolcaptcha.png",
         "wpslug": "mailster-cool-captcha/mailster-cool-captcha.php",
         "is_free": true,
@@ -64,7 +64,7 @@
     },
     {
         "name": "reCaptcha™ for Forms",
-        "description": "Add a Captcha to your Mailster subscription forms",
+        "description": "Add a Captcha to your Mailster subscription forms.",
         "image": "//mailster.github.io/addons/recaptcha.png",
         "wpslug": "mailster-recaptcha/mailster-recaptcha.php",
         "is_free": true,
@@ -82,7 +82,7 @@
     },
     {
         "name": "Contact Form 7 for Mailster",
-        "description": "Create your Signup Forms with Contact Form 7 and allow users to signup to your newsletter",
+        "description": "Create your Signup Forms with Contact Form 7 and allow users to signup to your newsletter.",
         "image": "//mailster.github.io/addons/cf7.png",
         "wpslug": "mailster-contact-form-7/mailster-contact-form-7.php",
         "is_free": true,
@@ -91,7 +91,7 @@
     },
     {
         "name": "Email Verify for Mailster",
-        "description": "Verifies your subscribers email addresses",
+        "description": "Verifies your subscribers email addresses.",
         "image": "//mailster.github.io/addons/sev.png",
         "wpslug": "mailster-email-verify/mailster-email-verify.php",
         "is_free": true,
@@ -100,7 +100,7 @@
     },
     {
         "name": "Kickbox.io Integration",
-        "description": "Verifies your subscribers email addresses with kickbox.io",
+        "description": "Verifies your subscribers email addresses with kickbox.io.",
         "image": "//mailster.github.io/addons/kickbox-io.png",
         "wpslug": "mailster-kickbox-io/mailster-kickbox-io.php",
         "is_free": true,
@@ -109,7 +109,7 @@
     },
     {
         "name": "Live! for Mailster",
-        "description": "see who opens your newsletter campaigns in real time!",
+        "description": "See who opens your newsletter campaigns in real time!",
         "image": "//mailster.github.io/addons/live.png",
         "wpslug": "mailster-live/mailster-live.php",
         "is_free": true,
@@ -127,7 +127,7 @@
     },
     {
         "name": "Piwik Analytics for Mailster",
-        "description": "Integrates Piwik Analytics with Mailster Newsletter Plugin to track your clicks",
+        "description": "Integrates Piwik Analytics with Mailster Newsletter Plugin to track your clicks.",
         "image": "//mailster.github.io/addons/piwik.png",
         "wpslug": "mailster-piwik/mailster-piwik.php",
         "is_free": true,
@@ -136,7 +136,7 @@
     },
     {
         "name": "Mailster Multi SMTP",
-        "description": "Allows to use multiple SMTP connection for the Mailster Newsletter Plugin",
+        "description": "Allows to use multiple SMTP connection for the Mailster Newsletter Plugin.",
         "image": "//mailster.github.io/addons/multismtp.png",
         "wpslug": "mailster-multi-smtp/mailster-multi-smtp.php",
         "is_free": true,
@@ -151,6 +151,15 @@
         "is_free": true,
         "author": "MailOptin",
         "author_url": "https://mailoptin.io"
+    },
+    {
+        "name": "Mailster Importer for Mailchimp",
+        "description": "Import your lists and subscribers from Mailchimp.",
+        "image": "//mailster.github.io/addons/mailchimp.png",
+        "wpslug": "mailster-mailchimp/mailster-mailchimp.php",
+        "is_free": true,
+        "author": "EverPress",
+        "author_url": "https://1.envato.market/c/1244590/275988/4415?u=https://codecanyon.net/user/everpress?utm_source=Mailster+Add-on+Page"
     },
     {
         "name": "Layered Popups for WordPress",
