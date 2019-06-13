@@ -2,7 +2,7 @@
     {
         "name": "AmazonSES Integration",
         "description": "Use Amazon's Simple Email Service (SES) to deliver your campaigns.",
-        "image": "//mailster.github.io/addons/amazonses.png",
+        "image": "//static.mailster.co/addons/amazonses.png",
         "wpslug": "mailster-amazonses/mailster-amazonses.php",
         "is_free": true,
         "author": "EverPress",
@@ -11,7 +11,7 @@
     {
         "name": "SparkPost Integration",
         "description": "Use SparkPost to deliver your campaigns.",
-        "image": "//mailster.github.io/addons/sparkpost.png",
+        "image": "//static.mailster.co/addons/sparkpost.png",
         "wpslug": "mailster-sparkpost/mailster-sparkpost.php",
         "is_free": true,
         "author": "EverPress",
@@ -20,7 +20,7 @@
     {
         "name": "Mailgun Integration",
         "description": "Use Mailgun to deliver your campaigns.",
-        "image": "//mailster.github.io/addons/mailgun.png",
+        "image": "//static.mailster.co/addons/mailgun.png",
         "wpslug": "mailster-mailgun/mailster-mailgun.php",
         "is_free": true,
         "author": "EverPress",
@@ -29,7 +29,7 @@
     {
         "name": "Mandrill Integration",
         "description": "Use Mandrill to deliver your campaigns.",
-        "image": "//mailster.github.io/addons/mandrill.png",
+        "image": "//static.mailster.co/addons/mandrill.png",
         "wpslug": "mailster-mandrill/mailster-mandrill.php",
         "is_free": true,
         "author": "EverPress",
@@ -38,7 +38,7 @@
     {
         "name": "SendGrid Integration",
         "description": "Use SendGrid to deliver your campaigns.",
-        "image": "//mailster.github.io/addons/sendgrid.png",
+        "image": "//static.mailster.co/addons/sendgrid.png",
         "wpslug": "mailster-sendgrid/mailster-sendgrid.php",
         "is_free": true,
         "author": "EverPress",
@@ -47,7 +47,7 @@
     {
         "name": "Mailster for WooCommerce",
         "description": "Add your customers to Mailster.",
-        "image": "//mailster.github.io/addons/woocommerce.png",
+        "image": "//static.mailster.co/addons/woocommerce.png",
         "wpslug": "mailster-woocommerce/mailster-woocommerce.php",
         "is_free": true,
         "author": "EverPress",
@@ -56,7 +56,7 @@
     {
         "name": "Cool Captcha for Forms",
         "description": "Add a Captcha to your Mailster subscription forms.",
-        "image": "//mailster.github.io/addons/coolcaptcha.png",
+        "image": "//static.mailster.co/addons/coolcaptcha.png",
         "wpslug": "mailster-cool-captcha/mailster-cool-captcha.php",
         "is_free": true,
         "author": "EverPress",
@@ -65,7 +65,7 @@
     {
         "name": "reCaptcha™ for Forms",
         "description": "Add a Captcha to your Mailster subscription forms.",
-        "image": "//mailster.github.io/addons/recaptcha.png",
+        "image": "//static.mailster.co/addons/recaptcha.png",
         "wpslug": "mailster-recaptcha/mailster-recaptcha.php",
         "is_free": true,
         "author": "EverPress",
@@ -74,7 +74,7 @@
     {
         "name": "Gravity Forms Mailster Add-On",
         "description": "Integrates Mailster Newsletter Plugin with Gravity Forms to subscribe users with a Gravity Form.",
-        "image": "//mailster.github.io/addons/gravityforms.png",
+        "image": "//static.mailster.co/addons/gravityforms.png",
         "wpslug": "mailster-gravity-forms/mailster-gravity-forms.php",
         "is_free": true,
         "author": "EverPress",
@@ -83,7 +83,7 @@
     {
         "name": "Contact Form 7 for Mailster",
         "description": "Create your Signup Forms with Contact Form 7 and allow users to signup to your newsletter.",
-        "image": "//mailster.github.io/addons/cf7.png",
+        "image": "//static.mailster.co/addons/cf7.png",
         "wpslug": "mailster-contact-form-7/mailster-contact-form-7.php",
         "is_free": true,
         "author": "EverPress",
@@ -92,7 +92,7 @@
     {
         "name": "Email Verify for Mailster",
         "description": "Verifies your subscribers email addresses.",
-        "image": "//mailster.github.io/addons/sev.png",
+        "image": "//static.mailster.co/addons/sev.png",
         "wpslug": "mailster-email-verify/mailster-email-verify.php",
         "is_free": true,
         "author": "EverPress",
@@ -101,7 +101,7 @@
     {
         "name": "Kickbox.io Integration",
         "description": "Verifies your subscribers email addresses with kickbox.io.",
-        "image": "//mailster.github.io/addons/kickbox-io.png",
+        "image": "//static.mailster.co/addons/kickbox-io.png",
         "wpslug": "mailster-kickbox-io/mailster-kickbox-io.php",
         "is_free": true,
         "author": "EverPress",
@@ -110,7 +110,7 @@
     {
         "name": "Live! for Mailster",
         "description": "See who opens your newsletter campaigns in real time!",
-        "image": "//mailster.github.io/addons/live.png",
+        "image": "//static.mailster.co/addons/live.png",
         "wpslug": "mailster-live/mailster-live.php",
         "is_free": true,
         "author": "EverPress",
@@ -119,7 +119,7 @@
     {
         "name": "Google Analytics for Mailster",
         "description": "Integrates Google Analytics with Mailster Newsletter Plugin to track your clicks with the popular Analytics service",
-        "image": "//mailster.github.io/addons/googleanalytics.png",
+        "image": "//static.mailster.co/addons/googleanalytics.png",
         "wpslug": "mailster-google-analytics/mailster-google-analytics.php",
         "is_free": true,
         "author": "EverPress",
@@ -128,7 +128,7 @@
     {
         "name": "Piwik Analytics for Mailster",
         "description": "Integrates Piwik Analytics with Mailster Newsletter Plugin to track your clicks.",
-        "image": "//mailster.github.io/addons/piwik.png",
+        "image": "//static.mailster.co/addons/piwik.png",
         "wpslug": "mailster-piwik/mailster-piwik.php",
         "is_free": true,
         "author": "EverPress",
@@ -137,7 +137,7 @@
     {
         "name": "Mailster Multi SMTP",
         "description": "Allows to use multiple SMTP connection for the Mailster Newsletter Plugin.",
-        "image": "//mailster.github.io/addons/multismtp.png",
+        "image": "//static.mailster.co/addons/multismtp.png",
         "wpslug": "mailster-multi-smtp/mailster-multi-smtp.php",
         "is_free": true,
         "author": "EverPress",
@@ -146,16 +146,16 @@
     {
         "name": "MailOptin - Optin Form Plugin",
         "description": "MailOptin convert your website visitors into email subscribers. It grows your Mailster email list by displaying targeted opt-in forms across your WordPress website with popups, slide ins, notification bars, before & after post forms, sidebar widgets and lots more.",
-        "image": "//mailster.github.io/addons/mailoptin.png",
+        "image": "//static.mailster.co/addons/mailoptin.png",
         "wpslug": "mailoptin/mailoptin.php",
         "is_free": true,
         "author": "MailOptin",
         "author_url": "https://mailoptin.io"
     },
     {
-        "name": "Mailster Importer for Mailchimp",
+        "name": "Mailchimp Importer for Mailster",
         "description": "Import your lists and subscribers from Mailchimp.",
-        "image": "//mailster.github.io/addons/mailchimp.png",
+        "image": "//static.mailster.co/addons/mailchimp.png",
         "wpslug": "mailster-mailchimp/mailster-mailchimp.php",
         "is_free": true,
         "author": "EverPress",
@@ -164,7 +164,7 @@
     {
         "name": "Layered Popups for WordPress",
         "description": "Create completely unique popups, attract user attention and get more subscribers.",
-        "image": "//mailster.github.io/addons/layeredpopups.png",
+        "image": "//static.mailster.co/addons/layeredpopups.png",
         "link": "https://1.envato.market/c/1244590/275988/4415?u=https://codecanyon.net/item/layered-popups-for-wordpress/5978263",
         "author": "halfdata",
         "author_url": "https://1.envato.market/c/1244590/275988/4415?u=https://codecanyon.net/user/halfdata"
@@ -172,7 +172,7 @@
     {
         "name": "FormCraft",
         "description": "Add to your Mailster subscribers using FormCraft forms.",
-        "image": "//mailster.github.io/addons/formcraft.png",
+        "image": "//static.mailster.co/addons/formcraft.png",
         "link": "http://formcraft-wp.com/addons/mymail/",
         "author": "Nishant Agrawal",
         "author_url": "http://ncrafts.net"
@@ -180,7 +180,7 @@
     {
         "name": "Mailster integration with Arforms",
         "description": "Create completely unique popups, attract user attention and get more subscribers.",
-        "image": "//mailster.github.io/addons/arforms.png",
+        "image": "//static.mailster.co/addons/arforms.png",
         "link": "https://1.envato.market/c/1244590/275988/4415?u=https://codecanyon.net/item/mymail-integration-with-arforms/9844977",
         "author": "reputeinfosystems",
         "author_url": "https://1.envato.market/c/1244590/275988/4415?u=https://codecanyon.net/user/reputeinfosystems"
@@ -188,7 +188,7 @@
     {
         "name": "Bloom Email Opt-In Plugin",
         "description": "Bloom gives you all the tools you need to turn your website's visitors into loyal followers and customers.",
-        "image": "//mailster.github.io/addons/bloom.png",
+        "image": "//static.mailster.co/addons/bloom.png",
         "link": "http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=41179_7_1_27",
         "author": "Elegant Themes",
         "author_url": "http://www.elegantthemes.com/affiliates/idevaffiliate.php?id=41179"
@@ -196,7 +196,7 @@
     {
         "name": "ConvertPlug - Popup Plugin",
         "description": "ConvertPlug is the all-in-one WordPress Popup plugin that transforms your website into a lead generation powerhouse.",
-        "image": "//mailster.github.io/addons/convertplug.png",
+        "image": "//static.mailster.co/addons/convertplug.png",
         "link": "https://1.envato.market/c/1244590/275988/4415?u=https://codecanyon.net/item/popup-plugin-for-wordpress-convertplug/14058953",
         "author": "BrainstormForce",
         "author_url": "https://1.envato.market/c/1244590/275988/4415?u=https://codecanyon.net/user/brainstormforce"
@@ -204,7 +204,7 @@
     {
         "name": "Ninja Popups for WordPress",
         "description": "With this plugin you can effortlessly create popups on your website for newsletter subscriptions, social follows and much more.",
-        "image": "//mailster.github.io/addons/ninjapopups.png",
+        "image": "//static.mailster.co/addons/ninjapopups.png",
         "link": "https://1.envato.market/c/1244590/275988/4415?u=https://codecanyon.net/item/ninja-popups-for-wordpress/3476479",
         "author": "arscode",
         "author_url": "https://1.envato.market/c/1244590/275988/4415?u=https://codecanyon.net/user/arscode"
@@ -212,7 +212,7 @@
     {
         "name": "OptinSpin - Fortune Wheel",
         "description": "We have experience companies used marketing tools to achieve their sales goal. Similarly we introduced Optin Spin a guarantee sales booster through engaging visitors on website.",
-        "image": "//mailster.github.io/addons/optinspin.png",
+        "image": "//static.mailster.co/addons/optinspin.png",
         "link": "https://1.envato.market/c/1244590/275988/4415?u=https://codecanyon.net/item/optinspin-fortune-wheel-fully-integrated-with-woocommerce-coupons/20768678",
         "author": "WPExpertsio",
         "author_url": "https://1.envato.market/c/1244590/275988/4415?u=https://codecanyon.net/user/wpexpertsio"
