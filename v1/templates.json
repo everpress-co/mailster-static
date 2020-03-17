@@ -345,6 +345,7 @@
         "description": "Industrial style email template with bold text for business and creatives.",
         "uri": "https://1.envato.market/c/1244590/275988/4415?utm_campaign=plugin&utm_medium=templates&utm_source=mailster_plugin&u=https://themeforest.net/item/market/474864",
         "endpoint": "https://mailster.co/template-activation/",
+        "is_sale": true,
         "envato_item_id": 474864
     },
     "skyline": {
@@ -354,6 +355,7 @@
         "description": "Sophisticated email templates for blogger, small companies and personal sites.",
         "uri": "https://1.envato.market/c/1244590/275988/4415?utm_campaign=plugin&utm_medium=templates&utm_source=mailster_plugin&u=https://themeforest.net/item/skyline/516891",
         "endpoint": "https://mailster.co/template-activation/",
+        "is_sale": true,
         "envato_item_id": 516891
     },
    "linus": {
@@ -363,6 +365,7 @@
         "description": "Sleek email template for sport related businesses and E-commerce stores.",
         "uri": "https://1.envato.market/c/1244590/275988/4415?utm_campaign=plugin&utm_medium=templates&utm_source=mailster_plugin&u=https://themeforest.net/item/linus/4203334",
         "endpoint": "https://mailster.co/template-activation/",
+        "is_sale": true,
         "envato_item_id": 4203334
     },
     "business": {
@@ -372,6 +375,7 @@
         "description": "A flexible email template for agencies, creatives and design studios.",
         "uri": "https://1.envato.market/c/1244590/275988/4415?utm_campaign=plugin&utm_medium=templates&utm_source=mailster_plugin&u=https://themeforest.net/item/business/1476153",
         "endpoint": "https://mailster.co/template-activation/",
+        "is_sale": true,
         "envato_item_id": 1476153
     },
     "looseleaf": {
@@ -381,6 +385,7 @@
         "description": "Email template for Fashion and Food blogs in skeuomorphic design.",
         "uri": "https://1.envato.market/c/1244590/275988/4415?utm_campaign=plugin&utm_medium=templates&utm_source=mailster_plugin&u=https://themeforest.net/item/looseleaf/1332914",
         "endpoint": "https://mailster.co/template-activation/",
+        "is_sale": true,
         "envato_item_id": 1332914
     },
     "metro": {
@@ -390,6 +395,7 @@
         "description": "Email template in block style for technical business and cooperatives.",
         "uri": "https://1.envato.market/c/1244590/275988/4415?utm_campaign=plugin&utm_medium=templates&utm_source=mailster_plugin&u=https://themeforest.net/item/metro/2630053",
         "endpoint": "https://mailster.co/template-activation/",
+        "is_sale": true,
         "envato_item_id": 2630053
     },
     "letterpress": {
@@ -399,6 +405,7 @@
         "description": "A versatile email template for blogger, photographer and artists.",
         "uri": "https://1.envato.market/c/1244590/275988/4415?utm_campaign=plugin&utm_medium=templates&utm_source=mailster_plugin&u=https://themeforest.net/item/letterpress/1213194",
         "endpoint": "https://mailster.co/template-activation/",
+        "is_sale": true,
         "envato_item_id": 1213194
     },
     "mymail2": {
