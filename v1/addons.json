@@ -162,6 +162,15 @@
         "author_url": "https://1.envato.market/c/1244590/275988/4415?utm_campaign=plugin&utm_medium=addons&utm_source=mailster_plugin&u=https://codecanyon.net/user/everpress"
     },
     {
+        "name": "WP EasyCart with Mailster",
+        "description": "EasyCart is a full eCommerce platform for WordPress with subscribers automatically going into Mailster when installed together!",
+        "image": "//static.mailster.co/addons/easycart.jpg",
+        "wpslug": "wp-easycart/wpeasycart.php",
+        "is_free": true,
+        "author": "WP EasyCart",
+        "author_url": "https://www.wpeasycart.com"
+    },
+    {
         "name": "MailOptin - Optin Form Plugin",
         "description": "MailOptin convert your website visitors into email subscribers. It grows your Mailster email list by displaying targeted opt-in forms across your WordPress website with popups, slide ins, notification bars, before & after post forms, sidebar widgets and lots more.",
         "image": "//static.mailster.co/addons/mailoptin.png",
