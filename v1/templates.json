@@ -423,5 +423,13 @@
         "description": "A basic template for Mailster.",
         "endpoint": "http://static.mailster.co/templates/mymail.json",
         "is_free": true
+    },
+    "slick": {
+        "name": "Slick",
+        "author_profile": "https://1.envato.market/c/1244590/275988/4415?utm_campaign=plugin&utm_medium=templates&utm_source=mailster_plugin&u=https://themeforest.net/user/EverPress",
+        "image": "//static.mailster.co/preview/slick.jpg",
+        "description": "A minimal and clean template for Mailster.",
+        "endpoint": "http://static.mailster.co/templates/slick.json",
+        "is_free": true
     }
 }
