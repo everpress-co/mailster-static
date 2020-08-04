@@ -2,7 +2,7 @@
     "mymail": {
         "name": "MyMail",
         "author_profile": "https://1.envato.market/c/1244590/275988/4415?utm_campaign=plugin&utm_medium=templates&utm_source=mailster_plugin&u=https://themeforest.net/user/EverPress",
-        "image": "//static.mailster.co/preview/mymail.jpg",
+        "image": "//static.mailster.co/preview/mymail.png",
         "description": "A basic template for Mailster.",
         "endpoint": "http://static.mailster.co/templates/mymail.json",
         "is_free": true
@@ -10,7 +10,7 @@
     "mymail2": {
         "name": "MyMail²",
         "author_profile": "https://1.envato.market/c/1244590/275988/4415?utm_campaign=plugin&utm_medium=templates&utm_source=mailster_plugin&u=https://themeforest.net/user/EverPress",
-        "image": "//static.mailster.co/preview/mymail2.jpg",
+        "image": "//static.mailster.co/preview/mymail2.png",
         "description": "Another basic template for Mailster.",
         "endpoint": "http://static.mailster.co/templates/mymail2.json",
         "is_free": true
