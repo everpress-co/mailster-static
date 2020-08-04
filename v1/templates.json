@@ -1,5 +1,29 @@
 {
-    "bloom": {
+    "mymail": {
+        "name": "MyMail",
+        "author_profile": "https://1.envato.market/c/1244590/275988/4415?utm_campaign=plugin&utm_medium=templates&utm_source=mailster_plugin&u=https://themeforest.net/user/EverPress",
+        "image": "//static.mailster.co/preview/mymail.jpg",
+        "description": "A basic template for Mailster.",
+        "endpoint": "http://static.mailster.co/templates/mymail.json",
+        "is_free": true
+    },
+    "mymail2": {
+        "name": "MyMail²",
+        "author_profile": "https://1.envato.market/c/1244590/275988/4415?utm_campaign=plugin&utm_medium=templates&utm_source=mailster_plugin&u=https://themeforest.net/user/EverPress",
+        "image": "//static.mailster.co/preview/mymail2.jpg",
+        "description": "Another basic template for Mailster.",
+        "endpoint": "http://static.mailster.co/templates/mymail2.json",
+        "is_free": true
+    },
+    "slick": {
+        "name": "Slick",
+        "author_profile": "https://1.envato.market/c/1244590/275988/4415?utm_campaign=plugin&utm_medium=templates&utm_source=mailster_plugin&u=https://themeforest.net/user/EverPress",
+        "image": "//static.mailster.co/preview/slick.png",
+        "description": "A minimal and clean template for Mailster.",
+        "endpoint": "http://static.mailster.co/templates/slick.json",
+        "is_free": true
+	},
+	"bloom": {
         "name": "Bloom",
         "author_profile": "https://1.envato.market/c/1244590/275988/4415?utm_campaign=plugin&utm_medium=templates&utm_source=mailster_plugin&u=https://themeforest.net/user/akshrav",
         "image": "//static.mailster.co/preview/bloom.jpg",
@@ -407,29 +431,5 @@
         "endpoint": "https://mailster.co/template-activation/",
         "is_sale": false,
         "envato_item_id": 1213194
-    },
-    "mymail2": {
-        "name": "MyMail²",
-        "author_profile": "https://1.envato.market/c/1244590/275988/4415?utm_campaign=plugin&utm_medium=templates&utm_source=mailster_plugin&u=https://themeforest.net/user/EverPress",
-        "image": "//static.mailster.co/preview/mymail2.jpg",
-        "description": "Another basic template for Mailster.",
-        "endpoint": "http://static.mailster.co/templates/mymail2.json",
-        "is_free": true
-    },
-    "mymail": {
-        "name": "MyMail",
-        "author_profile": "https://1.envato.market/c/1244590/275988/4415?utm_campaign=plugin&utm_medium=templates&utm_source=mailster_plugin&u=https://themeforest.net/user/EverPress",
-        "image": "//static.mailster.co/preview/mymail.jpg",
-        "description": "A basic template for Mailster.",
-        "endpoint": "http://static.mailster.co/templates/mymail.json",
-        "is_free": true
-    },
-    "slick": {
-        "name": "Slick",
-        "author_profile": "https://1.envato.market/c/1244590/275988/4415?utm_campaign=plugin&utm_medium=templates&utm_source=mailster_plugin&u=https://themeforest.net/user/EverPress",
-        "image": "//static.mailster.co/preview/slick.png",
-        "description": "A minimal and clean template for Mailster.",
-        "endpoint": "http://static.mailster.co/templates/slick.json",
-        "is_free": true
     }
 }
