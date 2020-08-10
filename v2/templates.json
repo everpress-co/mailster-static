@@ -3,6 +3,7 @@
         "name": "MyMail",
         "author_profile": "https://1.envato.market/c/1244590/275988/4415?utm_campaign=plugin&utm_medium=templates&utm_source=mailster_plugin&u=https://themeforest.net/user/EverPress",
         "image": "//static.mailster.co/preview/mymail.png",
+        "download_link": "https://static.mailster.co/templates/mymail.zip",
         "description": "A basic template for Mailster.",
         "is_free": true
     },
@@ -10,6 +11,7 @@
         "name": "MyMail²",
         "author_profile": "https://1.envato.market/c/1244590/275988/4415?utm_campaign=plugin&utm_medium=templates&utm_source=mailster_plugin&u=https://themeforest.net/user/EverPress",
         "image": "//static.mailster.co/preview/mymail2.png",
+        "download_link": "https://static.mailster.co/templates/mymail2.zip",
         "description": "Another basic template for Mailster.",
         "is_free": true
     },
@@ -17,6 +19,7 @@
         "name": "Slick",
         "author_profile": "https://1.envato.market/c/1244590/275988/4415?utm_campaign=plugin&utm_medium=templates&utm_source=mailster_plugin&u=https://themeforest.net/user/EverPress",
         "image": "//static.mailster.co/preview/slick.png",
+        "download_link": "https://static.mailster.co/templates/slick.zip",
         "description": "A minimal and clean template for Mailster.",
         "is_free": true
 	},
