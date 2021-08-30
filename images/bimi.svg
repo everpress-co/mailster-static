@@ -1,4 +1,5 @@
-<svg version="1.2" baseProfile="tiny-ps" viewBox="0 0 1000 1000">
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000" xml:space="preserve">
 	<title>Mailster</title>
-	<path fill="#2bb2e8" d="M645.2 0L474.4 208.7 303.6 0H0v778h265.7V341.6l208.7 284.6 208.7-284.6V778h265.7V0z"/>
+	<path fill="#2bb2e8" d="M645.2,0L474.4,208.7L303.6,0H0v778h265.7V341.6l208.7,284.6l208.7-284.6V778h265.7V0H645.2z"/>
 </svg>
