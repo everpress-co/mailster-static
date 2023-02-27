@@ -97,6 +97,9 @@
 	bottom: 0;
 	margin-top: 5em;
 }
+#fullArticle .footnote-time {
+	display: none;
+}
 #fullArticle figure.wp-block-video,
 #fullArticle figure.wp-block-embed {
 	display: flex;
