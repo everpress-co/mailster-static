@@ -109,3 +109,14 @@
 	position: relative;
 	max-width: calc(100% + 40px);
 }
+
+#fullArticle details summary {
+	font-weight: bold;
+	font-size: 1.1em;
+	cursor: pointer;
+}
+#fullArticle details ul {
+	padding-left: 2em;
+	padding-top: 1em;
+	padding-bottom: 2em;
+}
