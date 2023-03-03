@@ -114,9 +114,19 @@
 	font-weight: bold;
 	font-size: 1.1em;
 	cursor: pointer;
+	padding: 0.4em 0;
+	border-top: 1px solid #ccc;
+	position: relative;
 }
 #fullArticle details ul {
 	padding-left: 2em;
 	padding-top: 1em;
-	padding-bottom: 2em;
+	padding-bottom: 1em;
+}
+#fullArticle details summary .changelog-date {
+	font-weight: normal;
+	font-size: 0.8em;
+	position: absolute;
+	color: #ccc;
+	right: 0;
 }
