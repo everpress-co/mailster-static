@@ -39,23 +39,34 @@
 	display: inline;
 	margin: 0 0.2em;
 }
-#fullArticle .wp-block-coblocks-alert {
+
+#fullArticle .is-style-success {
 	background: rgb(214, 237, 255);
 	border-left: 3px solid rgb(87, 176, 251);
 	border-radius: 2px;
 	margin: 0px 0px 2em;
 	padding: 1.2em 1em 1em;
 	font-weight: 500;
-}
-#fullArticle .wp-block-coblocks-alert.is-style-success {
 	background: rgb(228, 251, 230);
 	border-left: 3px solid rgb(129, 220, 158);
 }
-#fullArticle .wp-block-coblocks-alert.is-style-warning {
+#fullArticle .is-style-warning {
+	background: rgb(214, 237, 255);
+	border-left: 3px solid rgb(87, 176, 251);
+	border-radius: 2px;
+	margin: 0px 0px 2em;
+	padding: 1.2em 1em 1em;
+	font-weight: 500;
 	background: rgb(255, 246, 226);
 	border-left: 3px solid rgb(255, 213, 109);
 }
-#fullArticle .wp-block-coblocks-alert.is-style-error {
+#fullArticle .is-style-error {
+	background: rgb(214, 237, 255);
+	border-left: 3px solid rgb(87, 176, 251);
+	border-radius: 2px;
+	margin: 0px 0px 2em;
+	padding: 1.2em 1em 1em;
+	font-weight: 500;
 	background: rgb(255, 227, 226);
 	border-left: 3px solid rgb(244, 91, 85);
 }
