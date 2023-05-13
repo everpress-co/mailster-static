@@ -85,13 +85,6 @@
 #fullArticle a {
 	color: #2bb3e7;
 }
-#fullArticle .wp-block-embed__wrapper iframe {
-	_height: auto;
-}
-#fullArticle .is-type-video .wp-block-embed__wrapper {
-	display: flex;
-	height: 100%;
-}
 #fullArticle .is-type-video .wp-block-embed__wrapper {
 	display: flex;
 }
@@ -133,7 +126,6 @@
 }
 #fullArticle figure.wp-block-video,
 #fullArticle figure.wp-block-embed {
-	_display: flex;
 	justify-content: center;
 	margin: 20px -20px;
 	position: relative;
