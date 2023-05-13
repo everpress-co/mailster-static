@@ -1,5 +1,5 @@
 .c-Article--modal .c-Modal__innerWrapper {
-	max-width: 100% !important;
+	max-width: 1400px !important;
 	width: 76vw;
 	max-height: 100% !important;
 	height: 80vh;
@@ -90,6 +90,12 @@
 }
 #fullArticle .is-type-video .wp-block-embed__wrapper {
 	display: flex;
+	height: 100%;
+}
+#fullArticle .is-type-video .wp-block-embed__wrapper {
+	display: flex;
+}
+.c-Article--modal #fullArticle .is-type-video .wp-block-embed__wrapper {
 	height: 100%;
 }
 #fullArticle .is-type-video .wp-block-embed__wrapper iframe {
