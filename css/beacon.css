@@ -86,6 +86,14 @@
 #fullArticle .wp-block-embed__wrapper iframe {
 	height: auto;
 }
+#fullArticle .is-type-video .wp-block-embed__wrapper {
+	display: flex;
+}
+#fullArticle .is-type-video .wp-block-embed__wrapper iframe {
+	width: 100%;
+	max-width: 980px;
+	margin: 0 auto;
+}
 #fullArticle .alignright {
 	float: right;
 	margin-left: 2em;
@@ -114,7 +122,7 @@
 }
 #fullArticle figure.wp-block-video,
 #fullArticle figure.wp-block-embed {
-	display: flex;
+	_display: flex;
 	justify-content: center;
 	margin: 20px -20px;
 	position: relative;
