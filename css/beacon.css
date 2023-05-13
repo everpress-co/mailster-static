@@ -131,11 +131,16 @@
 	position: relative;
 	max-width: calc(100% + 40px);
 }
-#fullArticle figure.wp-block-embed.wp-embed-aspect-16-9 {
+#fullArticle figure.wp-block-embed.is-type-video {
 	aspect-ratio: 16/9;
 	max-width: 980px;
+}
+.c-Article--modal #fullArticle figure.wp-block-embed.is-type-video {
 	margin-left: auto;
 	margin-right: auto;
+}
+#fullArticle figure.wp-block-embed.is-type-video .wp-element-caption {
+	margin-top: 20px;
 }
 
 #fullArticle details summary {
