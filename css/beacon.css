@@ -1,5 +1,5 @@
 .c-Article--modal .c-Modal__innerWrapper {
-	max-width: 1400px !important;
+	max-width: 1040px !important;
 	width: 76vw;
 	max-height: 100% !important;
 	height: 80vh;
@@ -103,6 +103,7 @@
 	width: 100%;
 	max-width: 980px;
 	margin: 0 auto;
+	height: auto;
 }
 #fullArticle .alignright {
 	float: right;
