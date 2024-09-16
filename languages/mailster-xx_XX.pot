@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-09-16T07:11:02+00:00\n"
+"POT-Creation-Date: 2024-09-16T09:31:46+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: mailster\n"
@@ -2831,10 +2831,6 @@ msgstr ""
 msgid "My Campaigns"
 msgstr ""
 
-#: classes/dashboard.class.php:132
-msgid "My Mailster"
-msgstr ""
-
 #: classes/dashboard.class.php:134
 msgid "My Subscribers"
 msgstr ""
@@ -3679,7 +3675,8 @@ msgstr ""
 
 #: classes/mailster.class.php:1343
 #: classes/mailster.class.php:1453
-msgid "Mailster Setup"
+msgctxt "Mailster"
+msgid "%s Setup"
 msgstr ""
 
 #: classes/mailster.class.php:1343
@@ -3718,6 +3715,7 @@ msgid "Check the JS console for more info!"
 msgstr ""
 
 #: classes/mailster.class.php:1531
+#: build/workflows/trigger/index.js:1
 msgid "Copied!"
 msgstr ""
 
@@ -4429,7 +4427,8 @@ msgstr ""
 
 #: classes/notification.class.php:312
 #: classes/notification.class.php:317
-msgid "Mailster Test Email"
+msgctxt "Mailster"
+msgid "%s Test Email"
 msgstr ""
 
 #: classes/notification.class.php:315
@@ -6158,7 +6157,8 @@ msgid "The web browser on your device cannot be used to upload files. You may be
 msgstr ""
 
 #: classes/templates.class.php:1694
-msgid "Mailster Template ZIP file"
+msgctxt "Mailster"
+msgid "%s Template ZIP file"
 msgstr ""
 
 #: classes/templates.class.php:1713
@@ -6327,7 +6327,8 @@ msgid "Current Day"
 msgstr ""
 
 #: classes/tinymce.class.php:143
-msgid "Mailster Tags"
+msgctxt "Mailster"
+msgid "%s Tags"
 msgstr ""
 
 #: classes/tinymce.class.php:148
@@ -6390,7 +6391,8 @@ msgid "Automatic Updates are not enabled for Mailster!"
 msgstr ""
 
 #: classes/update.class.php:160
-msgid "Downloading the latest version of Mailster"
+msgctxt "Mailster"
+msgid "Downloading the latest version of %s"
 msgstr ""
 
 #: classes/update.class.php:176
@@ -6550,7 +6552,7 @@ msgstr ""
 msgid "Action failed with %1$s"
 msgstr ""
 
-#: classes/workflow.class.php:1081
+#: classes/workflow.class.php:1082
 msgid "This email was triggered by workflow %s"
 msgstr ""
 
@@ -7973,7 +7975,8 @@ msgid "Custom Mailster styles should be added by using the %s action. Please che
 msgstr ""
 
 #: includes/functions.php:1404
-msgid "Mailster has been updated to %s."
+msgctxt "[Mailster] has been updated to [version]"
+msgid "%1$s has been updated to %2$s."
 msgstr ""
 
 #: includes/functions.php:1404
@@ -10974,15 +10977,17 @@ msgid "Some of these settings may affect your website. In normal circumstance it
 msgstr ""
 
 #: views/settings/advanced.php:4
-msgid "Mailster Branding"
+msgid "Branding"
 msgstr ""
 
 #: views/settings/advanced.php:6
-msgid "Show Mailster Branding in your campaigns."
+msgctxt "Mailster"
+msgid "Show %s Branding in your campaigns."
 msgstr ""
 
 #: views/settings/advanced.php:6
-msgid "If you enable this option your campaigns contain a small logo of Mailster at the very bottom of the email."
+msgctxt "Mailster"
+msgid "If you enable this option your campaigns contain a small logo of %s at the very bottom of the email."
 msgstr ""
 
 #: views/settings/advanced.php:10
@@ -10998,11 +11003,13 @@ msgid "Enable this option if you have issue with the security nonce on Mailster 
 msgstr ""
 
 #: views/settings/advanced.php:13
-msgid "Disable Object Cache for Mailster"
+msgctxt "Mailster"
+msgid "Disable Object Cache for %s"
 msgstr ""
 
 #: views/settings/advanced.php:13
-msgid "If enabled Mailster doesn't use cache anymore. This causes an increase in page load time! This option is not recommended!"
+msgctxt "Mailster"
+msgid "If enabled %s doesn't use cache anymore. This causes an increase in page load time! This option is not recommended!"
 msgstr ""
 
 #: views/settings/advanced.php:17
@@ -11026,7 +11033,8 @@ msgid "Remove all data on plugin deletion"
 msgstr ""
 
 #: views/settings/advanced.php:23
-msgid "Mailster will remove all it's data if you delete the plugin via the plugin page."
+msgctxt "Mailster"
+msgid "%s will remove all it's data if you delete the plugin via the plugin page."
 msgstr ""
 
 #: views/settings/advanced.php:27
@@ -11038,7 +11046,8 @@ msgid "Website supports URL rewrite"
 msgstr ""
 
 #: views/settings/advanced.php:28
-msgid "Mailster detects this setting by default so change only if detection fails."
+msgctxt "Mailster"
+msgid "%s detects this setting by default so change only if detection fails."
 msgstr ""
 
 #: views/settings/advanced.php:32
@@ -11676,15 +11685,18 @@ msgid "System Mails"
 msgstr ""
 
 #: views/settings/general.php:39
-msgid "Decide how Mailster uses the wp_mail function."
+msgctxt "Mailster"
+msgid "Decide how %s uses the wp_mail function."
 msgstr ""
 
 #: views/settings/general.php:42
-msgid "Do not use Mailster for outgoing WordPress mails"
+msgctxt "Mailster"
+msgid "Do not use %s for outgoing WordPress mails"
 msgstr ""
 
 #: views/settings/general.php:43
-msgid "Use Mailster for all outgoing WordPress mails"
+msgctxt "Mailster"
+msgid "Use %s for all outgoing WordPress mails"
 msgstr ""
 
 #: views/settings/general.php:44
@@ -11778,7 +11790,8 @@ msgid "Cleanup is delayed so the database can contain more entries. Keep fields 
 msgstr ""
 
 #: views/settings/manage-settings.php:5
-msgid "Use this data to copy your settings between Mailster installations. This data contains sensitive information like passwords so don't share them. Capabilities are not included."
+msgctxt "Mailster"
+msgid "Use this data to copy your settings between %s installations. This data contains sensitive information like passwords so don't share them. Capabilities are not included."
 msgstr ""
 
 #: views/settings/manage-settings.php:9
@@ -11802,7 +11815,8 @@ msgid "Reset all settings"
 msgstr ""
 
 #: views/settings/manage-settings.php:27
-msgid "Use this options to reset the data to Mailster default values."
+msgctxt "Mailster"
+msgid "Use this options to reset the data to %s default values."
 msgstr ""
 
 #: views/settings/privacy.php:6
@@ -12815,11 +12829,13 @@ msgid "This line is required in most countries. Your subscribers need to know wh
 msgstr ""
 
 #: views/setup/start.php:9
-msgid "Thanks for Testing Mailster!"
+msgctxt "Mailster"
+msgid "Thanks for Testing %s!"
 msgstr ""
 
 #: views/setup/start.php:11
-msgid "Welcome to Mailster"
+msgctxt "Mailster"
+msgid "Welcome to %s"
 msgstr ""
 
 #: views/setup/start.php:14
@@ -14202,10 +14218,6 @@ msgstr ""
 msgid "Enter Error Message"
 msgstr ""
 
-#: build/homepage-context/index.js:5
-msgid "[Mailster]: %s"
-msgstr ""
-
 #: build/homepage/index.js:5
 msgid "Mailster Legacy Shortcodes have been detected!"
 msgstr ""
@@ -15392,7 +15404,27 @@ msgid "Trigger this workflow by executing some code."
 msgstr ""
 
 #: build/workflows/trigger/index.js:1
+msgid "Trigger for a single subscriber"
+msgstr ""
+
+#: build/workflows/trigger/index.js:1
+msgid "Copy Snippet"
+msgstr ""
+
+#: build/workflows/trigger/index.js:1
+msgid "Trigger for multiple subscribers"
+msgstr ""
+
+#: build/workflows/trigger/index.js:1
+msgid "Trigger for all subscribers"
+msgstr ""
+
+#: build/workflows/trigger/index.js:1
 msgid "You can use it in your theme or in a plugin. Make sure you define the subscriber ID to trigger this workflow for the right subscriber."
+msgstr ""
+
+#: build/workflows/trigger/index.js:1
+msgid "Use conditions to further segment your selection."
 msgstr ""
 
 #: build/workflows/trigger/index.js:1
