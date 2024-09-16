@@ -9,9 +9,9 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-09-10T08:06:24+00:00\n"
+"POT-Creation-Date: 2024-09-16T07:05:02+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"X-Generator: WP-CLI 2.11.0\n"
+"X-Generator: WP-CLI 2.10.0\n"
 "X-Domain: mailster\n"
 
 #. Plugin Name of the plugin
@@ -99,23 +99,23 @@ msgstr ""
 #: classes/addons.class.php:280
 #: classes/campaigns.class.php:742
 #: classes/campaigns.class.php:1740
-#: classes/conditions.class.php:597
-#: classes/conditions.class.php:599
-#: classes/conditions.class.php:603
-#: classes/conditions.class.php:609
-#: classes/conditions.class.php:615
-#: classes/conditions.class.php:621
-#: classes/conditions.class.php:745
-#: classes/conditions.class.php:923
+#: classes/conditions.class.php:600
+#: classes/conditions.class.php:602
+#: classes/conditions.class.php:606
+#: classes/conditions.class.php:612
+#: classes/conditions.class.php:618
+#: classes/conditions.class.php:624
+#: classes/conditions.class.php:748
 #: classes/conditions.class.php:926
-#: classes/conditions.class.php:955
-#: classes/conditions.class.php:993
-#: classes/conditions.class.php:1012
-#: classes/conditions.class.php:1023
-#: classes/conditions.class.php:1042
-#: classes/conditions.class.php:1050
-#: classes/conditions.class.php:1086
-#: classes/conditions.class.php:1103
+#: classes/conditions.class.php:929
+#: classes/conditions.class.php:958
+#: classes/conditions.class.php:996
+#: classes/conditions.class.php:1015
+#: classes/conditions.class.php:1026
+#: classes/conditions.class.php:1045
+#: classes/conditions.class.php:1053
+#: classes/conditions.class.php:1089
+#: classes/conditions.class.php:1106
 #: classes/convert.class.php:43
 #: classes/forms.class.php:557
 #: classes/helper.class.php:621
@@ -501,7 +501,7 @@ msgstr ""
 #: classes/privacy.class.php:221
 #: classes/subscribers.class.php:1952
 #: views/settings/texts.php:15
-#: build/form/index.js:218
+#: build/form/index.js:229
 #: build/homepage-context/index.js:1
 #: build/homepage/index.js:1
 msgid "Unsubscribe"
@@ -649,18 +649,18 @@ msgstr ""
 msgid "Compare Plans"
 msgstr ""
 
-#: classes/automation.class.php:779
+#: classes/automation.class.php:783
 msgid "Inactive"
 msgstr ""
 
-#: classes/automation.class.php:781
+#: classes/automation.class.php:785
 #: classes/campaigns.class.php:390
 #: classes/campaigns.class.php:392
 #: views/addons/addon.php:62
 msgid "Active"
 msgstr ""
 
-#: classes/automation.class.php:805
+#: classes/automation.class.php:809
 #: classes/block-forms.class.php:241
 #: classes/widget.class.php:31
 #: classes/widget.class.php:250
@@ -668,7 +668,7 @@ msgstr ""
 msgid "Title"
 msgstr ""
 
-#: classes/automation.class.php:806
+#: classes/automation.class.php:810
 #: classes/campaigns.class.php:828
 #: classes/campaigns.class.php:4497
 #: classes/form.class.php:305
@@ -683,37 +683,37 @@ msgstr ""
 msgid "Status"
 msgstr ""
 
-#: classes/automation.class.php:807
+#: classes/automation.class.php:811
 #: classes/campaigns.class.php:829
 #: views/newsletter/template.php:39
 msgid "Total"
 msgstr ""
 
-#: classes/automation.class.php:808
+#: classes/automation.class.php:812
 #: classes/campaigns.class.php:830
 #: build/forms/form-wrapper/index.js:1
 msgid "Open"
 msgstr ""
 
-#: classes/automation.class.php:809
+#: classes/automation.class.php:813
 #: classes/campaigns.class.php:831
 #: views/newsletter/template.php:39
 msgid "Clicks"
 msgstr ""
 
-#: classes/automation.class.php:810
+#: classes/automation.class.php:814
 #: classes/campaigns.class.php:832
 #: classes/campaigns.class.php:4505
 msgid "Unsubscribes"
 msgstr ""
 
-#: classes/automation.class.php:811
+#: classes/automation.class.php:815
 #: classes/campaigns.class.php:833
 #: classes/campaigns.class.php:4506
 msgid "Bounces"
 msgstr ""
 
-#: classes/automation.class.php:812
+#: classes/automation.class.php:816
 #: classes/block-forms.class.php:247
 #: classes/campaigns.class.php:834
 #: classes/settings.class.php:409
@@ -725,7 +725,7 @@ msgstr ""
 msgid "Date"
 msgstr ""
 
-#: classes/automation.class.php:881
+#: classes/automation.class.php:885
 #: classes/campaigns.class.php:1050
 #: views/settings/delivery.php:52
 #: views/settings/frontend.php:195
@@ -733,13 +733,13 @@ msgstr ""
 msgid "active"
 msgstr ""
 
-#: classes/automation.class.php:882
+#: classes/automation.class.php:886
 #: views/settings/frontend.php:194
 #: build/workflows/triggers/index.js:1
 msgid "finished"
 msgstr ""
 
-#: classes/automation.class.php:883
+#: classes/automation.class.php:887
 #: views/manage/delete.php:19
 #: views/manage/delete.php:24
 #: views/manage/export.php:43
@@ -748,11 +748,11 @@ msgstr ""
 msgid "total"
 msgstr ""
 
-#: classes/automation.class.php:905
-#: classes/automation.class.php:921
+#: classes/automation.class.php:909
 #: classes/automation.class.php:925
-#: classes/automation.class.php:943
+#: classes/automation.class.php:929
 #: classes/automation.class.php:947
+#: classes/automation.class.php:951
 #: classes/campaigns.class.php:1277
 #: classes/campaigns.class.php:1302
 #: classes/campaigns.class.php:1309
@@ -761,16 +761,16 @@ msgstr ""
 msgid "%s of sent"
 msgstr ""
 
-#: classes/automation.class.php:963
+#: classes/automation.class.php:967
 #: classes/campaigns.class.php:1362
 msgid "%s of totals"
 msgstr ""
 
-#: classes/automation.class.php:996
+#: classes/automation.class.php:1000
 msgid "Duplicate Workflow %s"
 msgstr ""
 
-#: classes/automation.class.php:996
+#: classes/automation.class.php:1000
 #: classes/campaigns.class.php:1393
 #: classes/campaigns.class.php:1540
 #: classes/forms.table.class.php:129
@@ -778,149 +778,149 @@ msgstr ""
 msgid "Duplicate"
 msgstr ""
 
-#: classes/automation.class.php:1007
+#: classes/automation.class.php:1011
 msgid "Activate Workflow %s"
 msgstr ""
 
-#: classes/automation.class.php:1007
+#: classes/automation.class.php:1011
 #: classes/campaigns.class.php:1395
 #: views/addons/addon.php:68
 msgid "Activate"
 msgstr ""
 
-#: classes/automation.class.php:1018
+#: classes/automation.class.php:1022
 msgid "Deactivate Workflow %s"
 msgstr ""
 
-#: classes/automation.class.php:1018
+#: classes/automation.class.php:1022
 #: classes/campaigns.class.php:1396
 #: views/addons/addon.php:67
 msgid "Deactivate"
 msgstr ""
 
-#: classes/automation.class.php:1034
+#: classes/automation.class.php:1038
 msgid "You are not allowed to duplicate this workflow."
 msgstr ""
 
-#: classes/automation.class.php:1042
+#: classes/automation.class.php:1046
 msgid "You are not allowed to activate this workflow."
 msgstr ""
 
-#: classes/automation.class.php:1050
+#: classes/automation.class.php:1054
 msgid "You are not allowed to deactivate this workflow."
 msgstr ""
 
-#: classes/automation.class.php:1070
+#: classes/automation.class.php:1074
 msgctxt "Post Type General Name"
 msgid "Workflows"
 msgstr ""
 
-#: classes/automation.class.php:1071
+#: classes/automation.class.php:1075
 msgctxt "Post Type Singular Name"
 msgid "Workflow"
 msgstr ""
 
-#: classes/automation.class.php:1072
-#: classes/automation.class.php:1074
+#: classes/automation.class.php:1076
+#: classes/automation.class.php:1078
 #: views/dashboard/mb-quicklinks.php:29
 msgid "Automations"
 msgstr ""
 
-#: classes/automation.class.php:1073
+#: classes/automation.class.php:1077
 msgid "Workflow Attributes"
 msgstr ""
 
-#: classes/automation.class.php:1075
-#: classes/automation.class.php:1076
+#: classes/automation.class.php:1079
+#: classes/automation.class.php:1080
 msgid "Add New Workflow"
 msgstr ""
 
-#: classes/automation.class.php:1077
+#: classes/automation.class.php:1081
 msgid "New Workflow"
 msgstr ""
 
-#: classes/automation.class.php:1078
+#: classes/automation.class.php:1082
 msgid "Edit Workflow"
 msgstr ""
 
-#: classes/automation.class.php:1079
+#: classes/automation.class.php:1083
 msgid "Update Workflow"
 msgstr ""
 
-#: classes/automation.class.php:1080
+#: classes/automation.class.php:1084
 msgid "View Workflow"
 msgstr ""
 
-#: classes/automation.class.php:1081
+#: classes/automation.class.php:1085
 msgid "View Workflows"
 msgstr ""
 
-#: classes/automation.class.php:1082
+#: classes/automation.class.php:1086
 msgid "Search Workflow"
 msgstr ""
 
-#: classes/automation.class.php:1083
+#: classes/automation.class.php:1087
 #: classes/block-forms.class.php:609
 msgid "Not found"
 msgstr ""
 
-#: classes/automation.class.php:1084
+#: classes/automation.class.php:1088
 #: classes/block-forms.class.php:610
 msgid "Not found in Trash"
 msgstr ""
 
-#: classes/automation.class.php:1085
+#: classes/automation.class.php:1089
 msgid "Workflows list"
 msgstr ""
 
-#: classes/automation.class.php:1086
+#: classes/automation.class.php:1090
 msgid "Workflows list navigation"
 msgstr ""
 
-#: classes/automation.class.php:1087
+#: classes/automation.class.php:1091
 msgid "Filter workflow list"
 msgstr ""
 
-#: classes/automation.class.php:1088
+#: classes/automation.class.php:1092
 msgid "Workflow published"
 msgstr ""
 
-#: classes/automation.class.php:1089
+#: classes/automation.class.php:1093
 msgid "Workflow published privately."
 msgstr ""
 
-#: classes/automation.class.php:1090
+#: classes/automation.class.php:1094
 msgid "Workflow reverted to draft."
 msgstr ""
 
-#: classes/automation.class.php:1091
+#: classes/automation.class.php:1095
 msgid "Workflow scheduled."
 msgstr ""
 
-#: classes/automation.class.php:1092
+#: classes/automation.class.php:1096
 msgid "Workflow updated."
 msgstr ""
 
-#: classes/automation.class.php:1097
+#: classes/automation.class.php:1101
 #: views/manage/delete.php:50
 msgid "Automation"
 msgstr ""
 
-#: classes/automation.class.php:1098
+#: classes/automation.class.php:1102
 msgid "Newsletter Automation"
 msgstr ""
 
-#: classes/automation.class.php:1315
+#: classes/automation.class.php:1319
 msgid "Workflow Steps"
 msgstr ""
 
-#: classes/automation.class.php:1386
+#: classes/automation.class.php:1390
 msgid "Mailster Automations"
 msgstr ""
 
-#: classes/automation.class.php:1445
-#: classes/automation.class.php:1455
-#: classes/automation.class.php:1475
+#: classes/automation.class.php:1449
+#: classes/automation.class.php:1459
+#: classes/automation.class.php:1479
 msgid "This workflow doesn't exists."
 msgstr ""
 
@@ -1018,7 +1018,7 @@ msgstr ""
 
 #: classes/block-forms.class.php:604
 #: views/forms/detail.php:73
-#: build/form/index.js:222
+#: build/form/index.js:233
 msgid "Edit Form"
 msgstr ""
 
@@ -1085,7 +1085,7 @@ msgstr ""
 #: classes/tinymce.class.php:197
 #: classes/widget.class.php:33
 #: classes/widget.class.php:523
-#: build/form/index.js:222
+#: build/form/index.js:233
 msgid "Form"
 msgstr ""
 
@@ -1110,7 +1110,7 @@ msgid "Click here to confirm"
 msgstr ""
 
 #: classes/block-forms.class.php:930
-#: build/form/index.js:222
+#: build/form/index.js:233
 #: build/homepage-context/index.js:5
 #: build/homepage/index.js:5
 msgid "Preview %s"
@@ -1564,20 +1564,20 @@ msgid "inactive"
 msgstr ""
 
 #: classes/campaigns.class.php:1056
-#: classes/conditions.class.php:832
+#: classes/conditions.class.php:835
 #: includes/autoresponder.php:6
 msgid "minute(s)"
 msgstr ""
 
 #: classes/campaigns.class.php:1057
-#: classes/conditions.class.php:833
+#: classes/conditions.class.php:836
 #: includes/autoresponder.php:7
 #: views/newsletter/delivery.php:226
 msgid "hour(s)"
 msgstr ""
 
 #: classes/campaigns.class.php:1058
-#: classes/conditions.class.php:834
+#: classes/conditions.class.php:837
 #: includes/autoresponder.php:8
 #: views/newsletter/delivery.php:227
 #: views/newsletter/delivery.php:360
@@ -1585,7 +1585,7 @@ msgid "day(s)"
 msgstr ""
 
 #: classes/campaigns.class.php:1059
-#: classes/conditions.class.php:835
+#: classes/conditions.class.php:838
 #: includes/autoresponder.php:9
 #: views/newsletter/delivery.php:228
 #: views/newsletter/delivery.php:361
@@ -1593,7 +1593,7 @@ msgid "week(s)"
 msgstr ""
 
 #: classes/campaigns.class.php:1060
-#: classes/conditions.class.php:836
+#: classes/conditions.class.php:839
 #: includes/autoresponder.php:10
 #: views/newsletter/delivery.php:229
 #: views/newsletter/delivery.php:362
@@ -2653,31 +2653,37 @@ msgstr ""
 msgid "Any Campaigns within the last 12 months"
 msgstr ""
 
-#: classes/conditions.class.php:576
+#. translators: opening and closing double quote in your language
+#: classes/conditions.class.php:577
+msgctxt "openquote, space closing quote"
+msgid "“ ”"
+msgstr ""
+
+#: classes/conditions.class.php:579
 msgctxt "opening curly double quote"
 msgid "&#8220;"
 msgstr ""
 
-#: classes/conditions.class.php:577
+#: classes/conditions.class.php:580
 msgctxt "closing curly double quote"
 msgid "&#8221;"
 msgstr ""
 
-#: classes/conditions.class.php:599
-#: classes/conditions.class.php:931
+#: classes/conditions.class.php:602
+#: classes/conditions.class.php:934
 msgid "in"
 msgstr ""
 
-#: classes/conditions.class.php:628
+#: classes/conditions.class.php:631
 msgid "%d stars"
 msgstr ""
 
-#: classes/conditions.class.php:669
-#: classes/conditions.class.php:957
+#: classes/conditions.class.php:672
+#: classes/conditions.class.php:960
 msgid "Any Campaign"
 msgstr ""
 
-#: classes/conditions.class.php:742
+#: classes/conditions.class.php:745
 #: classes/helper.class.php:623
 #: views/conditions/conditions.php:37
 #: views/conditions/render.php:6
@@ -2686,69 +2692,69 @@ msgstr ""
 msgid "and"
 msgstr ""
 
-#: classes/conditions.class.php:882
+#: classes/conditions.class.php:885
 msgid "No Form available"
 msgstr ""
 
-#: classes/conditions.class.php:893
+#: classes/conditions.class.php:896
 #: views/newsletter/details.php:162
 msgid "Desktop"
 msgstr ""
 
-#: classes/conditions.class.php:894
+#: classes/conditions.class.php:897
 msgid "Webmail"
 msgstr ""
 
-#: classes/conditions.class.php:895
+#: classes/conditions.class.php:898
 #: views/newsletter/details.php:163
 #: build/forms/form-wrapper/index.js:1
 msgid "Mobile"
 msgstr ""
 
-#: classes/conditions.class.php:925
-#: classes/conditions.class.php:992
-#: classes/conditions.class.php:1022
-#: classes/conditions.class.php:1049
-#: classes/conditions.class.php:1102
+#: classes/conditions.class.php:928
+#: classes/conditions.class.php:995
+#: classes/conditions.class.php:1025
+#: classes/conditions.class.php:1052
+#: classes/conditions.class.php:1105
 #: views/settings/template.php:41
 #: build/workflows/trigger/index.js:1
 msgid "remove"
 msgstr ""
 
-#: classes/conditions.class.php:961
+#: classes/conditions.class.php:964
 msgid "Workflow Campaigns"
 msgstr ""
 
-#: classes/conditions.class.php:969
+#: classes/conditions.class.php:972
 msgid "Aggregate Campaigns"
 msgstr ""
 
-#: classes/conditions.class.php:988
-#: classes/conditions.class.php:1019
-#: classes/conditions.class.php:1046
+#: classes/conditions.class.php:991
+#: classes/conditions.class.php:1022
+#: classes/conditions.class.php:1049
 #: classes/rest-controller/rest.automations.class.php:313
 #: views/newsletter/delivery.php:448
 msgid "no title"
 msgstr ""
 
-#: classes/conditions.class.php:997
+#: classes/conditions.class.php:1000
 #: views/newsletter/delivery.php:455
 msgid "No campaigns available"
 msgstr ""
 
-#: classes/conditions.class.php:1027
+#: classes/conditions.class.php:1030
 msgid "No lists available"
 msgstr ""
 
-#: classes/conditions.class.php:1054
+#: classes/conditions.class.php:1057
 msgid "No tags available"
 msgstr ""
 
-#: classes/conditions.class.php:1074
+#: classes/conditions.class.php:1077
 msgid "Separate tags with commas"
 msgstr ""
 
-#: classes/conditions.class.php:1089
+#: classes/conditions.class.php:1092
 msgid "Continents"
 msgstr ""
 
@@ -2888,7 +2894,7 @@ msgstr[1] ""
 
 #: classes/divi.class.php:9
 #: classes/elementor.class.php:15
-#: build/form/index.js:222
+#: build/form/index.js:233
 msgid "Mailster Form"
 msgstr ""
 
@@ -3959,7 +3965,7 @@ msgstr ""
 #: classes/tinymce.class.php:179
 #: views/settings/frontend.php:5
 #: views/setup.php:20
-#: build/form/index.js:222
+#: build/form/index.js:233
 #: build/homepage-context/index.js:5
 #: build/homepage/index.js:5
 msgid "Newsletter Homepage"
@@ -5031,7 +5037,7 @@ msgstr ""
 #: patterns/forms.php:354
 #: patterns/forms.php:405
 #: patterns/forms.php:571
-#: build/form/index.js:218
+#: build/form/index.js:229
 #: build/homepage-context/index.js:1
 #: build/homepage/index.js:1
 msgid "Subscribe"
@@ -9286,7 +9292,7 @@ msgstr ""
 
 #: views/forms/detail.php:329
 #: views/subscribers/user_edit.php:6
-#: build/form/index.js:218
+#: build/form/index.js:229
 #: build/homepage-context/index.js:1
 #: build/homepage/index.js:1
 msgid "Profile"
@@ -9407,7 +9413,7 @@ msgid "With Block Forms, you have the convenience of creating standard forms and
 msgstr ""
 
 #: views/forms/empty.php:11
-#: build/form/index.js:222
+#: build/form/index.js:233
 msgid "Create new form"
 msgstr ""
 
@@ -13258,209 +13264,209 @@ msgstr ""
 msgid "Copy Info to Clipboard"
 msgstr ""
 
-#: build/form/index.js:218
+#: build/form/index.js:229
 #: build/homepage-context/index.js:1
 #: build/homepage/index.js:1
 msgid "Signup Form"
 msgstr ""
 
-#: build/form/index.js:218
+#: build/form/index.js:229
 #: build/homepage-context/index.js:1
 #: build/homepage/index.js:1
 msgid "This is the homepage"
 msgstr ""
 
-#: build/form/index.js:218
+#: build/form/index.js:229
 #: build/homepage-context/index.js:1
 #: build/homepage/index.js:1
 msgid "This section is displayed if users visit the newsletter homepage. It's your regular signup form for the newsletter."
 msgstr ""
 
-#: build/form/index.js:218
+#: build/form/index.js:229
 #: build/homepage-context/index.js:1
 #: build/homepage/index.js:1
 msgid "This is the profile page"
 msgstr ""
 
-#: build/form/index.js:218
+#: build/form/index.js:229
 #: build/homepage-context/index.js:1
 #: build/homepage/index.js:1
 msgid "This section is displayed if users visits the profile page. People can update their subscription on this page."
 msgstr ""
 
-#: build/form/index.js:218
+#: build/form/index.js:229
 #: build/homepage-context/index.js:1
 #: build/homepage/index.js:1
 msgid "This is the unsubscribe page"
 msgstr ""
 
-#: build/form/index.js:218
+#: build/form/index.js:229
 #: build/homepage-context/index.js:1
 #: build/homepage/index.js:1
 msgid "This section is displayed on the unsubscribe page. If the user clicks an unsubscribe link in a newsletter, he will be redirected to this page."
 msgstr ""
 
-#: build/form/index.js:218
+#: build/form/index.js:229
 #: build/homepage-context/index.js:1
 #: build/homepage/index.js:1
 msgid "This is the Landing page"
 msgstr ""
 
-#: build/form/index.js:218
+#: build/form/index.js:229
 #: build/homepage-context/index.js:1
 #: build/homepage/index.js:1
 msgid "This section to displayed when people click on the link in the confirmation email."
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 #: build/homepage-context/index.js:5
 #: build/homepage/index.js:5
 msgid "You can edit the forms on the Newsletter Homepage."
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 #: build/homepage-context/index.js:5
 #: build/homepage/index.js:5
 msgid "[Section] %s"
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 #: build/homepage-context/index.js:5
 #: build/homepage/index.js:5
 msgid "Newsletter Homepage Sections"
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 #: build/homepage-context/index.js:5
 #: build/homepage/index.js:5
 msgid "Not defined yet!"
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 #: build/homepage-context/index.js:5
 #: build/homepage/index.js:5
 msgid "Show all sections"
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 #: build/homepage-context/index.js:5
 #: build/homepage/index.js:5
 msgid "Show all sections at once. This is only for preview purposes."
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 #: build/homepage-context/index.js:5
 #: build/homepage/index.js:5
 msgid "You have to define a form for each section. You can use the same form as well."
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 #: build/homepage-context/index.js:5
 #: build/homepage/index.js:5
 msgid "Change the text of the button on the Texts tab in the settings."
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 #: build/forms/form-wrapper/index.js:1
 msgid "Mailster Inline styles have been updated."
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 msgid "You currently have no forms. Please create a new form."
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 msgid "Choose a form"
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 msgid "Edit form"
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 msgid "Open a Newsletter popup if someone clicks the button."
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 msgid "Select a Form"
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 msgid "Select the form you like to open as a popup if someone clicks on the button."
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 #: build/forms/form-wrapper/index.js:1
 msgid "Form Width"
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 #: build/forms/form-wrapper/index.js:1
 msgid "Set the with of your form in %"
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 #: build/forms/form-wrapper/index.js:1
 msgid "Animation"
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 #: build/forms/form-wrapper/index.js:1
 msgid "Define how the popup should appear on the screen."
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 #: build/forms/form-wrapper/index.js:1
 msgid "None"
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 #: build/forms/form-wrapper/index.js:1
 msgid "FadeIn"
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 #: build/forms/form-wrapper/index.js:1
 msgid "Shake"
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 #: build/forms/form-wrapper/index.js:1
 msgid "Swing"
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 #: build/forms/form-wrapper/index.js:1
 msgid "Heart Beat"
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 #: build/forms/form-wrapper/index.js:1
 msgid "Tada"
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 #: build/forms/form-wrapper/index.js:1
 msgid "Wobble"
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 msgid "Reload Form"
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 msgid "Newsletter Homepage: %s"
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 msgid "Mailster Subscription Form"
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 msgid "Select a form you like to display on this page."
 msgstr ""
 
-#: build/form/index.js:222
+#: build/form/index.js:233
 msgid "Form Selector"
 msgstr ""
 
