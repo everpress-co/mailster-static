@@ -2,14 +2,14 @@
 # This file is distributed under the same license as the Mailster - Email Newsletter Plugin for WordPress plugin.
 msgid ""
 msgstr ""
-"Project-Id-Version: Mailster - Email Newsletter Plugin for WordPress 4.1.3\n"
+"Project-Id-Version: Mailster - Email Newsletter Plugin for WordPress 4.1.4\n"
 "Report-Msgid-Bugs-To: https://mailster.co/contact\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-09-16T09:31:46+00:00\n"
+"POT-Creation-Date: 2024-09-25T08:01:40+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: mailster\n"
@@ -6552,7 +6552,7 @@ msgstr ""
 msgid "Action failed with %1$s"
 msgstr ""
 
-#: classes/workflow.class.php:1082
+#: classes/workflow.class.php:1087
 msgid "This email was triggered by workflow %s"
 msgstr ""
 
@@ -7957,29 +7957,34 @@ msgstr ""
 msgid "Loading Help Scout's beacon for easy support access"
 msgstr ""
 
-#: includes/functions.php:484
+#: includes/functions.php:13
+msgctxt "Mailster"
+msgid "%s is not initialized yet"
+msgstr ""
+
+#: includes/functions.php:488
 msgid "Newsletters"
 msgstr ""
 
-#: includes/functions.php:1263
+#: includes/functions.php:1267
 msgid "Custom Mailster tags should be added by using the %s action. Please check the documentation."
 msgstr ""
 
-#: includes/functions.php:1305
+#: includes/functions.php:1309
 msgid "Custom Mailster tags should be removed by using the %s action. Please check the documentation."
 msgstr ""
 
-#: includes/functions.php:1334
-#: includes/functions.php:1358
+#: includes/functions.php:1338
+#: includes/functions.php:1362
 msgid "Custom Mailster styles should be added by using the %s action. Please check the documentation."
 msgstr ""
 
-#: includes/functions.php:1404
+#: includes/functions.php:1408
 msgctxt "[Mailster] has been updated to [version]"
 msgid "%1$s has been updated to %2$s."
 msgstr ""
 
-#: includes/functions.php:1404
+#: includes/functions.php:1408
 msgid "Changelog"
 msgstr ""
 
