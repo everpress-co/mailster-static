@@ -9,7 +9,7 @@ msgstr ""
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-11-06T12:33:20+00:00\n"
+"POT-Creation-Date: 2024-11-06T13:58:30+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: mailster\n"
@@ -3708,7 +3708,7 @@ msgid "Do you like to use on-page help and documentation?"
 msgstr ""
 
 #: classes/mailster.class.php:1192
-#: includes/freemius.php:133
+#: includes/freemius.php:135
 msgid "If you agree third-party scripts are loaded to provide you with help."
 msgstr ""
 
@@ -6294,7 +6294,7 @@ msgid "Full Name"
 msgstr ""
 
 #: classes/tinymce.class.php:74
-#: includes/freemius.php:114
+#: includes/freemius.php:116
 msgid "Email address"
 msgstr ""
 
@@ -7959,70 +7959,65 @@ msgstr ""
 msgid "The Secret is missing or wrong!"
 msgstr ""
 
-#: includes/freemius.php:104
+#: includes/freemius.php:106
 msgid "Envato Purchase Code"
 msgstr ""
 
-#: includes/freemius.php:113
+#: includes/freemius.php:115
 msgid "Please enter the email address for your %s"
 msgstr ""
 
-#: includes/freemius.php:113
+#: includes/freemius.php:115
 msgid "Freemius Account"
 msgstr ""
 
-#: includes/freemius.php:115
+#: includes/freemius.php:117
 msgid "will be used if no account is assigned to your license"
 msgstr ""
 
-#: includes/freemius.php:118
+#: includes/freemius.php:120
 msgid "Can't find your license key?"
 msgstr ""
 
-#: includes/freemius.php:120
+#: includes/freemius.php:122
 msgid "Back to Migration"
 msgstr ""
 
-#: includes/freemius.php:134
+#: includes/freemius.php:136
 msgid "optional"
 msgstr ""
 
-#: includes/freemius.php:135
+#: includes/freemius.php:137
 msgid "Loading Help Scout's beacon for easy support access"
 msgstr ""
 
-#: includes/freemius.php:253
+#: includes/freemius.php:255
 msgid "Buy License"
 msgstr ""
 
-#: includes/functions.php:13
-msgctxt "Mailster"
-msgid "%s is not initialized yet"
-msgstr ""
-
-#: includes/functions.php:488
+#: includes/functions.php:491
 msgid "Newsletters"
 msgstr ""
 
-#: includes/functions.php:1183
+#: includes/functions.php:1186
 msgid "Custom Mailster tags should be added by using the %s action. Please check the documentation."
 msgstr ""
 
-#: includes/functions.php:1225
+#: includes/functions.php:1228
 msgid "Custom Mailster tags should be removed by using the %s action. Please check the documentation."
 msgstr ""
 
-#: includes/functions.php:1254
-#: includes/functions.php:1278
+#: includes/functions.php:1257
+#: includes/functions.php:1281
 msgid "Custom Mailster styles should be added by using the %s action. Please check the documentation."
 msgstr ""
 
-#: includes/functions.php:1324
+#: includes/functions.php:1327
 msgctxt "[Mailster] has been updated to [version]"
 msgid "%1$s has been updated to %2$s."
 msgstr ""
 
-#: includes/functions.php:1324
+#: includes/functions.php:1327
 msgid "Changelog"
 msgstr ""
 
