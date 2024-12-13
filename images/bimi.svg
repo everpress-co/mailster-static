@@ -1,1 +1,5 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><path d="M641.4 178 500 350.8 358.6 178H107.3v644h219.9V460.7L500 696.3l172.8-235.6V822h219.9V178H641.4Z" style="fill:#2bb2e8"/></svg>
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.2" baseProfile="tiny-ps" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1000 1000" xml:space="preserve">
+	<title>Mailster Newsletter Plugin</title>
+	<path fill="#2bb2e8" d="M680,90L500,310L320,90H0v820h280V450l220,300l220-300V910h280V90H680z"/>
+</svg>
