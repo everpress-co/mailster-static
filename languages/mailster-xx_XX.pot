@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: 4.1.6\n"
+"Project-Id-Version: 4.1.7\n"
 "Report-Msgid-Bugs-To: https://mailster.co/contact\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-11-28T12:37:49+00:00\n"
+"POT-Creation-Date: 2024-12-17T09:48:30+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: mailster\n"
@@ -123,7 +123,7 @@ msgstr ""
 #: classes/templates.class.php:904
 #: includes/updates.php:666
 #: includes/updates.php:723
-#: includes/wp_mail.php:72
+#: includes/wp_mail.php:62
 #: views/conditions/conditions.php:38
 #: views/conditions/conditions.php:46
 #: views/conditions/render.php:18
@@ -8065,19 +8065,19 @@ msgstr ""
 msgid "Read the Changelog"
 msgstr ""
 
-#: includes/wp_mail.php:27
+#: includes/wp_mail.php:18
 msgid "The %s method already exists from a different plugin! Please disable it before using Mailster for system mails!"
 msgstr ""
 
-#: includes/wp_mail.php:69
+#: includes/wp_mail.php:59
 msgid "View file in editor"
 msgstr ""
 
-#: includes/wp_mail.php:71
+#: includes/wp_mail.php:61
 msgid "Plugin Name"
 msgstr ""
 
-#: includes/wp_mail.php:79
+#: includes/wp_mail.php:67
 msgid "File:"
 msgstr ""
 
