@@ -1,15 +1,15 @@
-# Copyright (C) 2024 EverPress
+# Copyright (C) 2025 EverPress
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: 4.1.7\n"
+"Project-Id-Version: 4.1.8\n"
 "Report-Msgid-Bugs-To: https://mailster.co/contact\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2024-12-17T09:48:30+00:00\n"
+"POT-Creation-Date: 2025-01-07T12:23:30+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: mailster\n"
@@ -450,48 +450,48 @@ msgstr ""
 msgid "reloading"
 msgstr ""
 
-#: classes/automation.class.php:74
+#: classes/automation.class.php:72
 #: blocks/workflows/action/inspector.js:117
 msgid "Update Custom Field"
 msgstr ""
 
-#: classes/automation.class.php:75
+#: classes/automation.class.php:73
 msgid "Update subscribers field with custom value."
 msgstr ""
 
-#: classes/automation.class.php:80
+#: classes/automation.class.php:78
 msgid "Add to List(s)"
 msgstr ""
 
-#: classes/automation.class.php:81
+#: classes/automation.class.php:79
 msgid "Adds subscribers to one or more lists."
 msgstr ""
 
-#: classes/automation.class.php:86
+#: classes/automation.class.php:84
 msgid "Remove from List(s)"
 msgstr ""
 
-#: classes/automation.class.php:87
+#: classes/automation.class.php:85
 msgid "Removes subscribers from one or more lists."
 msgstr ""
 
-#: classes/automation.class.php:92
+#: classes/automation.class.php:90
 msgid "Add Tag(s)"
 msgstr ""
 
-#: classes/automation.class.php:93
+#: classes/automation.class.php:91
 msgid "Adds one ore more tags to a subscriber."
 msgstr ""
 
-#: classes/automation.class.php:98
+#: classes/automation.class.php:96
 msgid "Remove Tag(s)"
 msgstr ""
 
-#: classes/automation.class.php:99
+#: classes/automation.class.php:97
 msgid "Removes one or more tags from a subscriber."
 msgstr ""
 
-#: classes/automation.class.php:104
+#: classes/automation.class.php:102
 #: classes/form.class.php:279
 #: classes/form.class.php:850
 #: classes/privacy.class.php:221
@@ -501,67 +501,67 @@ msgstr ""
 msgid "Unsubscribe"
 msgstr ""
 
-#: classes/automation.class.php:105
+#: classes/automation.class.php:103
 msgid "Unsubscribes a subscriber."
 msgstr ""
 
-#: classes/automation.class.php:110
+#: classes/automation.class.php:108
 msgid "Webhook"
 msgstr ""
 
-#: classes/automation.class.php:111
+#: classes/automation.class.php:109
 msgid "Triggers a webhook."
 msgstr ""
 
-#: classes/automation.class.php:126
+#: classes/automation.class.php:124
 msgid "Subscriber added to list"
 msgstr ""
 
-#: classes/automation.class.php:127
+#: classes/automation.class.php:125
 msgid "When a subscriber joins a list"
 msgstr ""
 
-#: classes/automation.class.php:132
+#: classes/automation.class.php:130
 msgid "Subscriber removed from a list"
 msgstr ""
 
-#: classes/automation.class.php:133
+#: classes/automation.class.php:131
 msgid "When a subscriber is removed from a list"
 msgstr ""
 
-#: classes/automation.class.php:138
+#: classes/automation.class.php:136
 msgid "Tag added"
 msgstr ""
 
-#: classes/automation.class.php:139
+#: classes/automation.class.php:137
 msgid "When a Tag is added to a subscriber"
 msgstr ""
 
-#: classes/automation.class.php:144
+#: classes/automation.class.php:142
 msgid "Tag removed"
 msgstr ""
 
-#: classes/automation.class.php:145
+#: classes/automation.class.php:143
 msgid "When a Tag is removed from a subscriber"
 msgstr ""
 
-#: classes/automation.class.php:150
+#: classes/automation.class.php:148
 msgid "Field updated"
 msgstr ""
 
-#: classes/automation.class.php:151
+#: classes/automation.class.php:149
 msgid "When a Field is added or updated by a subscriber"
 msgstr ""
 
-#: classes/automation.class.php:156
+#: classes/automation.class.php:154
 msgid "Form Conversion"
 msgstr ""
 
-#: classes/automation.class.php:157
+#: classes/automation.class.php:155
 msgid "When someone fills out and submits a form"
 msgstr ""
 
-#: classes/automation.class.php:162
+#: classes/automation.class.php:160
 #: blocks/workflows/delay/constants.js:47
 #: blocks/workflows/jumper/constants.js:47
 #: blocks/workflows/notification/constants.js:47
@@ -569,111 +569,111 @@ msgstr ""
 msgid "Specific date"
 msgstr ""
 
-#: classes/automation.class.php:163
+#: classes/automation.class.php:161
 msgid "On a specific date"
 msgstr ""
 
-#: classes/automation.class.php:168
+#: classes/automation.class.php:166
 msgid "Anniversary"
 msgstr ""
 
-#: classes/automation.class.php:169
+#: classes/automation.class.php:167
 msgid "On an anniversary of a date"
 msgstr ""
 
-#: classes/automation.class.php:174
+#: classes/automation.class.php:172
 msgid "Click a link"
 msgstr ""
 
-#: classes/automation.class.php:175
+#: classes/automation.class.php:173
 msgid "When a subscriber clicks a link"
 msgstr ""
 
-#: classes/automation.class.php:180
+#: classes/automation.class.php:178
 msgid "Visits a page"
 msgstr ""
 
-#: classes/automation.class.php:181
+#: classes/automation.class.php:179
 msgid "When a user visits a given page"
 msgstr ""
 
-#: classes/automation.class.php:186
+#: classes/automation.class.php:184
 msgid "Custom Hook"
 msgstr ""
 
-#: classes/automation.class.php:187
+#: classes/automation.class.php:185
 msgid "When a custom hook is called"
 msgstr ""
 
-#: classes/automation.class.php:192
+#: classes/automation.class.php:190
 msgid "Open a campaign"
 msgstr ""
 
-#: classes/automation.class.php:193
+#: classes/automation.class.php:191
 msgid "When a users opens a campaign"
 msgstr ""
 
-#: classes/automation.class.php:195
+#: classes/automation.class.php:193
 msgid "Comming soon!"
 msgstr ""
 
-#: classes/automation.class.php:259
+#: classes/automation.class.php:257
 msgid "Workflow limit reached!"
 msgstr ""
 
-#: classes/automation.class.php:260
+#: classes/automation.class.php:258
 msgid "You have reached the maximum number of %1$d active workflows! Please upgrade %2$s to enable more workflows."
 msgstr ""
 
-#: classes/automation.class.php:260
+#: classes/automation.class.php:258
 msgid "your plan"
 msgstr ""
 
-#: classes/automation.class.php:263
+#: classes/automation.class.php:261
 msgid "Exclusive deal for Envato Buyers: Get the first year for free when you upgrade to a %1$s or %2$s Plan"
 msgstr ""
 
-#: classes/automation.class.php:266
-#: classes/automation.class.php:267
-#: classes/automation.class.php:274
-#: classes/automation.class.php:275
-#: classes/automation.class.php:280
+#: classes/automation.class.php:264
+#: classes/automation.class.php:265
+#: classes/automation.class.php:272
+#: classes/automation.class.php:273
+#: classes/automation.class.php:278
 msgid "%s active Workflows"
 msgstr ""
 
-#: classes/automation.class.php:266
-#: classes/automation.class.php:267
-#: classes/automation.class.php:274
-#: classes/automation.class.php:275
-#: classes/automation.class.php:280
+#: classes/automation.class.php:264
+#: classes/automation.class.php:265
+#: classes/automation.class.php:272
+#: classes/automation.class.php:273
+#: classes/automation.class.php:278
 #: classes/convert.class.php:123
 #: classes/notices.class.php:411
 #: classes/notices.class.php:412
 msgid "Upgrade to %s"
 msgstr ""
 
-#: classes/automation.class.php:269
+#: classes/automation.class.php:267
 #: classes/notices.class.php:415
 msgid "Subscription fee will be charged 12 months after promo activation (cancel anytime before renewal date)"
 msgstr ""
 
-#: classes/automation.class.php:284
+#: classes/automation.class.php:282
 #: views/templates/sample.php:71
 msgid "Compare Plans"
 msgstr ""
 
-#: classes/automation.class.php:808
+#: classes/automation.class.php:806
 msgid "Inactive"
 msgstr ""
 
-#: classes/automation.class.php:810
+#: classes/automation.class.php:808
 #: classes/campaigns.class.php:390
 #: classes/campaigns.class.php:392
 #: views/addons/addon.php:62
 msgid "Active"
 msgstr ""
 
-#: classes/automation.class.php:834
+#: classes/automation.class.php:832
 #: classes/block-forms.class.php:241
 #: classes/widget.class.php:31
 #: classes/widget.class.php:261
@@ -681,7 +681,7 @@ msgstr ""
 msgid "Title"
 msgstr ""
 
-#: classes/automation.class.php:835
+#: classes/automation.class.php:833
 #: classes/campaigns.class.php:828
 #: classes/campaigns.class.php:4498
 #: classes/form.class.php:305
@@ -696,37 +696,37 @@ msgstr ""
 msgid "Status"
 msgstr ""
 
-#: classes/automation.class.php:836
+#: classes/automation.class.php:834
 #: classes/campaigns.class.php:829
 #: views/newsletter/template.php:39
 msgid "Total"
 msgstr ""
 
-#: classes/automation.class.php:837
+#: classes/automation.class.php:835
 #: classes/campaigns.class.php:830
 #: blocks/forms/form-inspector/EventsPanel.js:32
 msgid "Open"
 msgstr ""
 
-#: classes/automation.class.php:838
+#: classes/automation.class.php:836
 #: classes/campaigns.class.php:831
 #: views/newsletter/template.php:39
 msgid "Clicks"
 msgstr ""
 
-#: classes/automation.class.php:839
+#: classes/automation.class.php:837
 #: classes/campaigns.class.php:832
 #: classes/campaigns.class.php:4506
 msgid "Unsubscribes"
 msgstr ""
 
-#: classes/automation.class.php:840
+#: classes/automation.class.php:838
 #: classes/campaigns.class.php:833
 #: classes/campaigns.class.php:4507
 msgid "Bounces"
 msgstr ""
 
-#: classes/automation.class.php:841
+#: classes/automation.class.php:839
 #: classes/block-forms.class.php:247
 #: classes/campaigns.class.php:834
 #: classes/settings.class.php:409
@@ -738,7 +738,7 @@ msgstr ""
 msgid "Date"
 msgstr ""
 
-#: classes/automation.class.php:910
+#: classes/automation.class.php:908
 #: classes/campaigns.class.php:1050
 #: views/settings/delivery.php:52
 #: views/settings/frontend.php:195
@@ -746,13 +746,13 @@ msgstr ""
 msgid "active"
 msgstr ""
 
-#: classes/automation.class.php:911
+#: classes/automation.class.php:909
 #: views/settings/frontend.php:194
 #: blocks/workflows/inspector/index.js:207
 msgid "finished"
 msgstr ""
 
-#: classes/automation.class.php:912
+#: classes/automation.class.php:910
 #: views/manage/delete.php:19
 #: views/manage/delete.php:24
 #: views/manage/export.php:43
@@ -761,11 +761,11 @@ msgstr ""
 msgid "total"
 msgstr ""
 
-#: classes/automation.class.php:934
-#: classes/automation.class.php:950
-#: classes/automation.class.php:954
-#: classes/automation.class.php:972
-#: classes/automation.class.php:976
+#: classes/automation.class.php:932
+#: classes/automation.class.php:948
+#: classes/automation.class.php:952
+#: classes/automation.class.php:970
+#: classes/automation.class.php:974
 #: classes/campaigns.class.php:1277
 #: classes/campaigns.class.php:1302
 #: classes/campaigns.class.php:1309
@@ -774,16 +774,16 @@ msgstr ""
 msgid "%s of sent"
 msgstr ""
 
-#: classes/automation.class.php:992
+#: classes/automation.class.php:990
 #: classes/campaigns.class.php:1362
 msgid "%s of totals"
 msgstr ""
 
-#: classes/automation.class.php:1025
+#: classes/automation.class.php:1023
 msgid "Duplicate Workflow %s"
 msgstr ""
 
-#: classes/automation.class.php:1025
+#: classes/automation.class.php:1023
 #: classes/campaigns.class.php:1393
 #: classes/campaigns.class.php:1540
 #: classes/forms.table.class.php:129
@@ -791,149 +791,149 @@ msgstr ""
 msgid "Duplicate"
 msgstr ""
 
-#: classes/automation.class.php:1036
+#: classes/automation.class.php:1034
 msgid "Activate Workflow %s"
 msgstr ""
 
-#: classes/automation.class.php:1036
+#: classes/automation.class.php:1034
 #: classes/campaigns.class.php:1395
 #: views/addons/addon.php:68
 msgid "Activate"
 msgstr ""
 
-#: classes/automation.class.php:1047
+#: classes/automation.class.php:1045
 msgid "Deactivate Workflow %s"
 msgstr ""
 
-#: classes/automation.class.php:1047
+#: classes/automation.class.php:1045
 #: classes/campaigns.class.php:1396
 #: views/addons/addon.php:67
 msgid "Deactivate"
 msgstr ""
 
-#: classes/automation.class.php:1063
+#: classes/automation.class.php:1061
 msgid "You are not allowed to duplicate this workflow."
 msgstr ""
 
-#: classes/automation.class.php:1071
+#: classes/automation.class.php:1069
 msgid "You are not allowed to activate this workflow."
 msgstr ""
 
-#: classes/automation.class.php:1079
+#: classes/automation.class.php:1077
 msgid "You are not allowed to deactivate this workflow."
 msgstr ""
 
-#: classes/automation.class.php:1099
+#: classes/automation.class.php:1097
 msgctxt "Post Type General Name"
 msgid "Workflows"
 msgstr ""
 
-#: classes/automation.class.php:1100
+#: classes/automation.class.php:1098
 msgctxt "Post Type Singular Name"
 msgid "Workflow"
 msgstr ""
 
+#: classes/automation.class.php:1099
 #: classes/automation.class.php:1101
-#: classes/automation.class.php:1103
 #: views/dashboard/mb-quicklinks.php:29
 msgid "Automations"
 msgstr ""
 
-#: classes/automation.class.php:1102
+#: classes/automation.class.php:1100
 msgid "Workflow Attributes"
 msgstr ""
 
-#: classes/automation.class.php:1104
-#: classes/automation.class.php:1105
+#: classes/automation.class.php:1102
+#: classes/automation.class.php:1103
 msgid "Add New Workflow"
 msgstr ""
 
-#: classes/automation.class.php:1106
+#: classes/automation.class.php:1104
 msgid "New Workflow"
 msgstr ""
 
-#: classes/automation.class.php:1107
+#: classes/automation.class.php:1105
 msgid "Edit Workflow"
 msgstr ""
 
-#: classes/automation.class.php:1108
+#: classes/automation.class.php:1106
 msgid "Update Workflow"
 msgstr ""
 
-#: classes/automation.class.php:1109
+#: classes/automation.class.php:1107
 msgid "View Workflow"
 msgstr ""
 
-#: classes/automation.class.php:1110
+#: classes/automation.class.php:1108
 msgid "View Workflows"
 msgstr ""
 
-#: classes/automation.class.php:1111
+#: classes/automation.class.php:1109
 msgid "Search Workflow"
 msgstr ""
 
-#: classes/automation.class.php:1112
+#: classes/automation.class.php:1110
 #: classes/block-forms.class.php:609
 msgid "Not found"
 msgstr ""
 
-#: classes/automation.class.php:1113
+#: classes/automation.class.php:1111
 #: classes/block-forms.class.php:610
 msgid "Not found in Trash"
 msgstr ""
 
-#: classes/automation.class.php:1114
+#: classes/automation.class.php:1112
 msgid "Workflows list"
 msgstr ""
 
-#: classes/automation.class.php:1115
+#: classes/automation.class.php:1113
 msgid "Workflows list navigation"
 msgstr ""
 
-#: classes/automation.class.php:1116
+#: classes/automation.class.php:1114
 msgid "Filter workflow list"
 msgstr ""
 
-#: classes/automation.class.php:1117
+#: classes/automation.class.php:1115
 msgid "Workflow published"
 msgstr ""
 
-#: classes/automation.class.php:1118
+#: classes/automation.class.php:1116
 msgid "Workflow published privately."
 msgstr ""
 
-#: classes/automation.class.php:1119
+#: classes/automation.class.php:1117
 msgid "Workflow reverted to draft."
 msgstr ""
 
-#: classes/automation.class.php:1120
+#: classes/automation.class.php:1118
 msgid "Workflow scheduled."
 msgstr ""
 
-#: classes/automation.class.php:1121
+#: classes/automation.class.php:1119
 msgid "Workflow updated."
 msgstr ""
 
-#: classes/automation.class.php:1126
+#: classes/automation.class.php:1124
 #: views/manage/delete.php:50
 msgid "Automation"
 msgstr ""
 
-#: classes/automation.class.php:1127
+#: classes/automation.class.php:1125
 msgid "Newsletter Automation"
 msgstr ""
 
-#: classes/automation.class.php:1344
+#: classes/automation.class.php:1342
 msgid "Workflow Steps"
 msgstr ""
 
-#: classes/automation.class.php:1415
+#: classes/automation.class.php:1413
 msgid "Mailster Automations"
 msgstr ""
 
-#: classes/automation.class.php:1474
-#: classes/automation.class.php:1484
-#: classes/automation.class.php:1504
+#: classes/automation.class.php:1467
+#: classes/automation.class.php:1477
+#: classes/automation.class.php:1497
 msgid "This workflow doesn't exists."
 msgstr ""
 
