@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: 4.1.10\n"
+"Project-Id-Version: 4.1.11\n"
 "Report-Msgid-Bugs-To: https://mailster.co/contact\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-03-10T09:20:24+00:00\n"
+"POT-Creation-Date: 2025-05-01T08:45:28+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.11.0\n"
 "X-Domain: mailster\n"
@@ -233,7 +233,7 @@ msgstr ""
 #: classes/ajax.class.php:1195
 #: classes/campaigns.class.php:5178
 #: classes/forms.table.class.php:180
-#: classes/notification.class.php:595
+#: classes/notification.class.php:613
 #: classes/subscribers.table.class.php:280
 #: views/newsletter/details.php:169
 #: views/subscribers/detail.php:54
@@ -688,7 +688,7 @@ msgstr ""
 #: classes/campaigns.class.php:4490
 #: classes/form.class.php:305
 #: classes/manage.class.php:267
-#: classes/manage.class.php:1062
+#: classes/manage.class.php:1063
 #: classes/subscribers.class.php:143
 #: views/manage/delete.php:33
 #: views/manage/export.php:57
@@ -855,7 +855,7 @@ msgid "New Workflow"
 msgstr ""
 
 #: classes/automation.class.php:1105
-#: includes/capability.php:116
+#: includes/capability.php:122
 msgid "Edit Workflow"
 msgstr ""
 
@@ -864,7 +864,7 @@ msgid "Update Workflow"
 msgstr ""
 
 #: classes/automation.class.php:1107
-#: includes/capability.php:104
+#: includes/capability.php:110
 msgid "View Workflow"
 msgstr ""
 
@@ -1034,7 +1034,7 @@ msgid "New Form"
 msgstr ""
 
 #: classes/block-forms.class.php:604
-#: includes/capability.php:177
+#: includes/capability.php:183
 #: views/forms/detail.php:73
 #: blocks/form/edit.js:240
 msgid "Edit Form"
@@ -1045,7 +1045,7 @@ msgid "Update Form"
 msgstr ""
 
 #: classes/block-forms.class.php:606
-#: includes/capability.php:165
+#: includes/capability.php:171
 msgid "View Form"
 msgstr ""
 
@@ -2230,7 +2230,7 @@ msgstr ""
 
 #: classes/campaigns.class.php:4488
 #: classes/conditions.class.php:207
-#: classes/manage.class.php:1044
+#: classes/manage.class.php:1045
 #: views/manage/export.php:77
 msgid "ID"
 msgstr ""
@@ -2365,13 +2365,13 @@ msgid "Image files"
 msgstr ""
 
 #: classes/conditions.class.php:183
-#: classes/manage.class.php:1089
+#: classes/manage.class.php:1090
 #: views/manage/export.php:102
 msgid "Rating"
 msgstr ""
 
 #: classes/conditions.class.php:208
-#: classes/manage.class.php:1059
+#: classes/manage.class.php:1060
 #: views/manage/export.php:93
 msgid "Hash"
 msgstr ""
@@ -2406,7 +2406,7 @@ msgstr ""
 
 #: classes/conditions.class.php:211
 #: classes/lists.class.php:40
-#: classes/manage.class.php:1083
+#: classes/manage.class.php:1084
 #: classes/privacy.class.php:166
 #: views/manage/export.php:95
 #: blocks/workflows/inspector/QueueBadge.js:261
@@ -2415,7 +2415,7 @@ msgstr ""
 
 #: classes/conditions.class.php:212
 #: classes/lists.class.php:39
-#: classes/manage.class.php:1086
+#: classes/manage.class.php:1087
 #: views/manage/export.php:96
 msgid "Updated"
 msgstr ""
@@ -2940,8 +2940,8 @@ msgstr ""
 #: classes/lists.class.php:13
 #: classes/lists.table.class.php:14
 #: classes/manage.class.php:265
-#: classes/manage.class.php:1052
-#: classes/notification.class.php:787
+#: classes/manage.class.php:1053
+#: classes/notification.class.php:809
 #: classes/settings.class.php:267
 #: includes/updates.php:50
 #: views/dashboard/mb-quicklinks.php:47
@@ -3103,18 +3103,22 @@ msgid "updating form requires ID"
 msgstr ""
 
 #: classes/forms.class.php:678
+#: classes/notification.class.php:231
 msgid "Welcome to %s! Please Confirm Your Email"
 msgstr ""
 
 #: classes/forms.class.php:679
+#: classes/notification.class.php:267
 msgid "Please confirm your Email"
 msgstr ""
 
 #: classes/forms.class.php:680
+#: classes/notification.class.php:702
 msgid "By clicking on the following link, you are confirming your email address. %s"
 msgstr ""
 
 #: classes/forms.class.php:681
+#: classes/notification.class.php:276
 msgid "Confirm your email address"
 msgstr ""
 
@@ -3977,7 +3981,7 @@ msgid "Newsletter Homepage"
 msgstr ""
 
 #: classes/manage.class.php:75
-#: includes/capability.php:274
+#: includes/capability.php:280
 #: views/manage.php:16
 msgid "Manage Subscribers"
 msgstr ""
@@ -4027,13 +4031,13 @@ msgid "Your selection doesn't contain any subscriber"
 msgstr ""
 
 #: classes/manage.class.php:253
-#: classes/manage.class.php:1071
+#: classes/manage.class.php:1072
 #: views/manage/export.php:98
 msgid "Signup Date"
 msgstr ""
 
 #: classes/manage.class.php:254
-#: classes/manage.class.php:1077
+#: classes/manage.class.php:1078
 #: views/manage/export.php:100
 msgid "Confirm Date"
 msgstr ""
@@ -4043,7 +4047,7 @@ msgid "Signup + Confirm Date"
 msgstr ""
 
 #: classes/manage.class.php:258
-#: classes/manage.class.php:1068
+#: classes/manage.class.php:1069
 msgid "IP Address"
 msgstr ""
 
@@ -4069,7 +4073,7 @@ msgid "comma separated"
 msgstr ""
 
 #: classes/manage.class.php:266
-#: classes/manage.class.php:1056
+#: classes/manage.class.php:1057
 #: classes/subscribers.class.php:1965
 #: classes/tinymce.class.php:145
 #: views/settings.php:40
@@ -4247,101 +4251,101 @@ msgstr ""
 msgid "Email address is invalid."
 msgstr ""
 
-#: classes/manage.class.php:859
+#: classes/manage.class.php:860
 msgid "%1$s of %2$s contacts imported."
 msgstr ""
 
-#: classes/manage.class.php:861
+#: classes/manage.class.php:862
 msgid "%s contacts were skipped because you've canceled the import."
 msgstr ""
 
-#: classes/manage.class.php:867
+#: classes/manage.class.php:868
 msgid "Following %s contacts were not imported"
 msgstr ""
 
-#: classes/manage.class.php:871
+#: classes/manage.class.php:872
 msgid "Reason"
 msgstr ""
 
-#: classes/manage.class.php:881
+#: classes/manage.class.php:882
 msgid "Import more Contacts"
 msgstr ""
 
-#: classes/manage.class.php:882
+#: classes/manage.class.php:883
 msgid "View your Subscribers"
 msgstr ""
 
-#: classes/manage.class.php:908
-#: classes/manage.class.php:995
+#: classes/manage.class.php:909
+#: classes/manage.class.php:996
 msgid "You are not allowed to export subscribers!"
 msgstr ""
 
-#: classes/manage.class.php:971
+#: classes/manage.class.php:972
 msgid "Not able to create file in %s. Please make sure WordPress can write files to your filesystem!"
 msgstr ""
 
-#: classes/manage.class.php:983
+#: classes/manage.class.php:984
 msgid "No Subscribers found!"
 msgstr ""
 
-#: classes/manage.class.php:1003
+#: classes/manage.class.php:1004
 msgid "Not able to write export file"
 msgstr ""
 
-#: classes/manage.class.php:1065
+#: classes/manage.class.php:1066
 #: views/manage/export.php:87
 msgid "Statuscode"
 msgstr ""
 
-#: classes/manage.class.php:1074
+#: classes/manage.class.php:1075
 #: views/manage/export.php:99
 msgid "Signup IP"
 msgstr ""
 
-#: classes/manage.class.php:1080
+#: classes/manage.class.php:1081
 #: views/manage/export.php:101
 msgid "Confirm IP"
 msgstr ""
 
-#: classes/manage.class.php:1363
+#: classes/manage.class.php:1364
 msgid "Mailster Subscribers"
 msgstr ""
 
-#: classes/manage.class.php:1414
+#: classes/manage.class.php:1415
 msgid "The same job has been scheduled already (%s)."
 msgstr ""
 
-#: classes/manage.class.php:1429
+#: classes/manage.class.php:1430
 msgid "Job scheduled."
 msgstr ""
 
-#: classes/manage.class.php:1435
+#: classes/manage.class.php:1436
 msgid "No Subscribers removed."
 msgstr ""
 
-#: classes/manage.class.php:1439
+#: classes/manage.class.php:1440
 msgid "%s Subscriber removed."
 msgid_plural "%s Subscribers removed."
 msgstr[0] ""
 msgstr[1] ""
 
-#: classes/manage.class.php:1462
+#: classes/manage.class.php:1463
 msgid "Job deleted."
 msgstr ""
 
-#: classes/manage.class.php:1581
+#: classes/manage.class.php:1582
 msgid "No Importer for %s found."
 msgstr ""
 
-#: classes/manage.class.php:1590
+#: classes/manage.class.php:1591
 msgid "To import subscribers from %s you need an additional addon."
 msgstr ""
 
-#: classes/manage.class.php:1594
+#: classes/manage.class.php:1595
 msgid "Activate Addon"
 msgstr ""
 
-#: classes/manage.class.php:1596
+#: classes/manage.class.php:1597
 msgid "Install Addon"
 msgstr ""
 
@@ -4449,135 +4453,135 @@ msgstr ""
 msgid "You are receiving this email because you have enabled notifications for unsubscriptions %s"
 msgstr ""
 
-#: classes/notification.class.php:278
+#: classes/notification.class.php:296
 msgid "If you received this email by mistake, simply delete it. You won't be subscribed if you don't click the confirmation link."
 msgstr ""
 
-#: classes/notification.class.php:312
-#: classes/notification.class.php:317
+#: classes/notification.class.php:330
+#: classes/notification.class.php:335
 msgctxt "Mailster"
 msgid "%s Test Email"
 msgstr ""
 
-#: classes/notification.class.php:315
+#: classes/notification.class.php:333
 msgid "This is a test mail sent from %s"
 msgstr ""
 
-#: classes/notification.class.php:315
+#: classes/notification.class.php:333
 msgid "from your settings page"
 msgstr ""
 
-#: classes/notification.class.php:696
+#: classes/notification.class.php:718
 msgid "Confirmation Message"
 msgstr ""
 
-#: classes/notification.class.php:710
+#: classes/notification.class.php:732
 msgid "This email is a test to ensure the integrity and functionality of your current delivery method. If you're receiving this message, it indicates that your email system is operating correctly."
 msgstr ""
 
-#: classes/notification.class.php:711
+#: classes/notification.class.php:733
 msgid "Consider this message as a confirmation of the effective operation of you email delivery system."
 msgstr ""
 
-#: classes/notification.class.php:712
+#: classes/notification.class.php:734
 msgid "You can also run %s to check your deliverbilty."
 msgstr ""
 
-#: classes/notification.class.php:712
+#: classes/notification.class.php:734
 msgid "an Email Health Check"
 msgstr ""
 
-#: classes/notification.class.php:713
+#: classes/notification.class.php:735
 msgid "There is no action required on your part; feel free to delete this email."
 msgstr ""
 
-#: classes/notification.class.php:720
+#: classes/notification.class.php:742
 msgid "This is a health check email from Mailster"
 msgstr ""
 
-#: classes/notification.class.php:755
+#: classes/notification.class.php:777
 msgid "%s has joined"
 msgstr ""
 
-#: classes/notification.class.php:769
+#: classes/notification.class.php:791
 #: views/subscribers/detail.php:230
 msgid "yes"
 msgstr ""
 
-#: classes/notification.class.php:769
+#: classes/notification.class.php:791
 #: views/subscribers/detail.php:230
 msgid "no"
 msgstr ""
 
-#: classes/notification.class.php:890
+#: classes/notification.class.php:912
 msgid "You have %1$s new subscribers since %2$s."
 msgstr ""
 
-#: classes/notification.class.php:891
-#: classes/notification.class.php:1280
+#: classes/notification.class.php:913
+#: classes/notification.class.php:1302
 msgid "You have now %s subscribers in total."
 msgstr ""
 
-#: classes/notification.class.php:962
-#: classes/notification.class.php:1351
+#: classes/notification.class.php:984
+#: classes/notification.class.php:1373
 msgid "%s other"
 msgid_plural "%s others"
 msgstr[0] ""
 msgstr[1] ""
 
-#: classes/notification.class.php:1001
+#: classes/notification.class.php:1023
 msgid "Subscribers are located in %s different countries"
 msgstr ""
 
-#: classes/notification.class.php:1024
+#: classes/notification.class.php:1046
 msgid "location of %d subscriber"
 msgid_plural "location of %d subscribers"
 msgstr[0] ""
 msgstr[1] ""
 
-#: classes/notification.class.php:1074
+#: classes/notification.class.php:1096
 msgid "from other countries"
 msgstr ""
 
-#: classes/notification.class.php:1113
+#: classes/notification.class.php:1135
 msgid "%s Subscriber was marked for deletion"
 msgid_plural "%s Subscribers were marked for deletion"
 msgstr[0] ""
 msgstr[1] ""
 
-#: classes/notification.class.php:1114
+#: classes/notification.class.php:1136
 msgid "You can update these jobs on the %s."
 msgstr ""
 
-#: classes/notification.class.php:1114
+#: classes/notification.class.php:1136
 msgid "Delete Subscribers page"
 msgstr ""
 
-#: classes/notification.class.php:1121
+#: classes/notification.class.php:1143
 msgid "%1$s removed %2$s Subscriber."
 msgid_plural "%1$s removed %2$s Subscribers."
 msgstr[0] ""
 msgstr[1] ""
 
-#: classes/notification.class.php:1133
+#: classes/notification.class.php:1155
 msgid "You can find these subscribers on the %s."
 msgstr ""
 
-#: classes/notification.class.php:1133
+#: classes/notification.class.php:1155
 msgid "Deleted Subscribers page"
 msgstr ""
 
-#: classes/notification.class.php:1184
+#: classes/notification.class.php:1206
 msgid "%s other hidden"
 msgid_plural "%s others hidden"
 msgstr[0] ""
 msgstr[1] ""
 
-#: classes/notification.class.php:1224
+#: classes/notification.class.php:1246
 msgid "%s has canceled"
 msgstr ""
 
-#: classes/notification.class.php:1279
+#: classes/notification.class.php:1301
 msgid "You have %1$s cancellations since %2$s."
 msgstr ""
 
@@ -6668,478 +6672,486 @@ msgid "Allows viewing of private/draft campaigns"
 msgstr ""
 
 #: includes/capability.php:54
+msgid "Delete Campaign"
+msgstr ""
+
+#: includes/capability.php:56
+msgid "Allows deletion of a campaign"
+msgstr ""
+
+#: includes/capability.php:60
 #: views/dialogs/deactivation.php:47
 msgid "Delete Campaigns"
 msgstr ""
 
-#: includes/capability.php:56
+#: includes/capability.php:62
 msgid "Allows deletion of campaigns"
 msgstr ""
 
-#: includes/capability.php:60
+#: includes/capability.php:66
 msgid "Delete Private Campaigns"
 msgstr ""
 
-#: includes/capability.php:62
+#: includes/capability.php:68
 msgid "Allows deletion of private/draft campaigns"
 msgstr ""
 
-#: includes/capability.php:66
+#: includes/capability.php:72
 msgid "Delete Published Campaigns"
 msgstr ""
 
-#: includes/capability.php:68
+#: includes/capability.php:74
 msgid "Allows deletion of published campaigns"
 msgstr ""
 
-#: includes/capability.php:72
+#: includes/capability.php:78
 msgid "Delete Others Campaigns"
 msgstr ""
 
-#: includes/capability.php:74
+#: includes/capability.php:80
 msgid "Allows deletion of campaigns created by other users"
 msgstr ""
 
-#: includes/capability.php:78
+#: includes/capability.php:84
 msgid "Duplicate Campaigns"
 msgstr ""
 
-#: includes/capability.php:80
+#: includes/capability.php:86
 msgid "Allows creating copies of existing campaigns"
 msgstr ""
 
-#: includes/capability.php:84
+#: includes/capability.php:90
 msgid "Duplicate Others Campaigns"
 msgstr ""
 
-#: includes/capability.php:86
+#: includes/capability.php:92
 msgid "Allows creating copies of campaigns created by other users"
 msgstr ""
 
-#: includes/capability.php:91
+#: includes/capability.php:97
 msgid "Edit Autoresponders"
 msgstr ""
 
-#: includes/capability.php:93
+#: includes/capability.php:99
 msgid "Allows creating and editing automated email sequences"
 msgstr ""
 
-#: includes/capability.php:97
+#: includes/capability.php:103
 msgid "Edit Others Autoresponders"
 msgstr ""
 
-#: includes/capability.php:99
+#: includes/capability.php:105
 msgid "Allows editing of autoresponders created by other users"
 msgstr ""
 
-#: includes/capability.php:106
+#: includes/capability.php:112
 msgid "Allows viewing of workflow configurations"
 msgstr ""
 
-#: includes/capability.php:110
+#: includes/capability.php:116
 msgid "Edit Workflows"
 msgstr ""
 
-#: includes/capability.php:112
+#: includes/capability.php:118
 msgid "Allows creating and editing workflow configurations"
 msgstr ""
 
-#: includes/capability.php:118
+#: includes/capability.php:124
 msgid "Allows editing of existing workflow configurations"
 msgstr ""
 
-#: includes/capability.php:122
+#: includes/capability.php:128
 msgid "Delete Workflows"
 msgstr ""
 
-#: includes/capability.php:124
+#: includes/capability.php:130
 msgid "Allows deletion of workflow configurations"
 msgstr ""
 
-#: includes/capability.php:128
+#: includes/capability.php:134
 msgid "Edit Others Workflows"
 msgstr ""
 
-#: includes/capability.php:130
+#: includes/capability.php:136
 msgid "Allows editing of workflows created by other users"
 msgstr ""
 
-#: includes/capability.php:134
+#: includes/capability.php:140
 msgid "Activate Workflows"
 msgstr ""
 
-#: includes/capability.php:136
+#: includes/capability.php:142
 msgid "Allows activating and deactivating workflow configurations"
 msgstr ""
 
-#: includes/capability.php:140
+#: includes/capability.php:146
 msgid "View Inactive Workflows"
 msgstr ""
 
-#: includes/capability.php:142
+#: includes/capability.php:148
 msgid "Allows viewing of inactive workflow configurations"
 msgstr ""
 
-#: includes/capability.php:146
+#: includes/capability.php:152
 msgid "Delete Others Workflows"
 msgstr ""
 
-#: includes/capability.php:148
+#: includes/capability.php:154
 msgid "Allows deletion of workflows created by other users"
 msgstr ""
 
-#: includes/capability.php:152
+#: includes/capability.php:158
 msgid "Duplicate Workflows"
 msgstr ""
 
-#: includes/capability.php:154
+#: includes/capability.php:160
 msgid "Allows creating copies of existing workflow configurations"
 msgstr ""
 
-#: includes/capability.php:158
+#: includes/capability.php:164
 msgid "Duplicate Others Workflows"
 msgstr ""
 
-#: includes/capability.php:160
+#: includes/capability.php:166
 msgid "Allows creating copies of workflows created by other users"
 msgstr ""
 
-#: includes/capability.php:167
+#: includes/capability.php:173
 msgid "Allows viewing of form configurations"
 msgstr ""
 
-#: includes/capability.php:171
-#: includes/capability.php:416
+#: includes/capability.php:177
+#: includes/capability.php:422
 msgid "Edit Forms"
 msgstr ""
 
-#: includes/capability.php:173
+#: includes/capability.php:179
 msgid "Allows creating and editing form configurations"
 msgstr ""
 
-#: includes/capability.php:179
+#: includes/capability.php:185
 msgid "Allows editing of existing form configurations"
 msgstr ""
 
-#: includes/capability.php:183
-#: includes/capability.php:428
+#: includes/capability.php:189
+#: includes/capability.php:434
 msgid "Delete Forms"
 msgstr ""
 
-#: includes/capability.php:185
+#: includes/capability.php:191
 msgid "Allows deletion of form configurations"
 msgstr ""
 
-#: includes/capability.php:189
+#: includes/capability.php:195
 msgid "Edit Others Forms"
 msgstr ""
 
-#: includes/capability.php:191
+#: includes/capability.php:197
 msgid "Allows editing of forms created by other users"
 msgstr ""
 
-#: includes/capability.php:195
+#: includes/capability.php:201
 msgid "Activate Forms"
 msgstr ""
 
-#: includes/capability.php:197
+#: includes/capability.php:203
 msgid "Allows activating and deactivating form configurations"
 msgstr ""
 
-#: includes/capability.php:201
+#: includes/capability.php:207
 msgid "View Private Forms"
 msgstr ""
 
-#: includes/capability.php:203
+#: includes/capability.php:209
 msgid "Allows viewing of private form configurations"
 msgstr ""
 
-#: includes/capability.php:207
+#: includes/capability.php:213
 msgid "Delete Others Forms"
 msgstr ""
 
-#: includes/capability.php:209
+#: includes/capability.php:215
 msgid "Allows deletion of forms created by other users"
 msgstr ""
 
-#: includes/capability.php:213
+#: includes/capability.php:219
 msgid "Duplicate Forms"
 msgstr ""
 
-#: includes/capability.php:215
+#: includes/capability.php:221
 msgid "Allows creating copies of existing form configurations"
 msgstr ""
 
-#: includes/capability.php:219
+#: includes/capability.php:225
 msgid "Duplicate Others Forms"
 msgstr ""
 
-#: includes/capability.php:221
+#: includes/capability.php:227
 msgid "Allows creating copies of forms created by other users"
 msgstr ""
 
-#: includes/capability.php:226
+#: includes/capability.php:232
 #: views/newsletter/optionbar.php:45
 msgid "Change Template"
 msgstr ""
 
-#: includes/capability.php:228
+#: includes/capability.php:234
 msgid "Allows changing email template designs"
 msgstr ""
 
-#: includes/capability.php:231
+#: includes/capability.php:237
 msgid "Save Template"
 msgstr ""
 
-#: includes/capability.php:233
+#: includes/capability.php:239
 msgid "Allows saving custom email template designs"
 msgstr ""
 
-#: includes/capability.php:237
+#: includes/capability.php:243
 msgid "See Codeview"
 msgstr ""
 
-#: includes/capability.php:239
+#: includes/capability.php:245
 msgid "Allows viewing and editing HTML code of email templates"
 msgstr ""
 
-#: includes/capability.php:243
+#: includes/capability.php:249
 msgid "Change Text Version"
 msgstr ""
 
-#: includes/capability.php:245
+#: includes/capability.php:251
 msgid "Allows modifying plain text versions of emails"
 msgstr ""
 
-#: includes/capability.php:250
+#: includes/capability.php:256
 msgid "Edit Subscribers"
 msgstr ""
 
-#: includes/capability.php:252
+#: includes/capability.php:258
 msgid "Allows editing subscriber information"
 msgstr ""
 
-#: includes/capability.php:256
+#: includes/capability.php:262
 msgid "Add Subscribers"
 msgstr ""
 
-#: includes/capability.php:258
+#: includes/capability.php:264
 msgid "Allows adding new subscribers to the system"
 msgstr ""
 
-#: includes/capability.php:262
+#: includes/capability.php:268
 #: views/manage.php:14
 msgid "Delete Subscribers"
 msgstr ""
 
-#: includes/capability.php:264
+#: includes/capability.php:270
 msgid "Allows removing subscribers from the system"
 msgstr ""
 
-#: includes/capability.php:268
+#: includes/capability.php:274
 msgid "Restore Subscribers"
 msgstr ""
 
-#: includes/capability.php:270
+#: includes/capability.php:276
 msgid "Allows restoring previously deleted subscribers"
 msgstr ""
 
-#: includes/capability.php:276
+#: includes/capability.php:282
 msgid "Allows comprehensive subscriber management"
 msgstr ""
 
-#: includes/capability.php:280
+#: includes/capability.php:286
 #: views/manage.php:10
 msgid "Import Subscribers"
 msgstr ""
 
-#: includes/capability.php:282
+#: includes/capability.php:288
 msgid "Allows importing subscribers from external sources"
 msgstr ""
 
-#: includes/capability.php:286
+#: includes/capability.php:292
 msgid "Import WordPress Users"
 msgstr ""
 
-#: includes/capability.php:288
+#: includes/capability.php:294
 msgid "Allows importing WordPress users as subscribers"
 msgstr ""
 
-#: includes/capability.php:292
+#: includes/capability.php:298
 #: views/manage.php:12
 #: views/manage/export.php:230
 msgid "Export Subscribers"
 msgstr ""
 
-#: includes/capability.php:294
+#: includes/capability.php:300
 msgid "Allows exporting subscriber data to external files"
 msgstr ""
 
-#: includes/capability.php:298
+#: includes/capability.php:304
 msgid "Bulk Delete Subscribers"
 msgstr ""
 
-#: includes/capability.php:300
+#: includes/capability.php:306
 msgid "Allows mass deletion of multiple subscribers"
 msgstr ""
 
-#: includes/capability.php:305
+#: includes/capability.php:311
 msgid "Manage Lists"
 msgstr ""
 
-#: includes/capability.php:307
+#: includes/capability.php:313
 msgid "Allows comprehensive subscriber list management"
 msgstr ""
 
-#: includes/capability.php:311
+#: includes/capability.php:317
 msgid "Add Lists"
 msgstr ""
 
-#: includes/capability.php:313
+#: includes/capability.php:319
 msgid "Allows creating new subscriber lists"
 msgstr ""
 
-#: includes/capability.php:317
+#: includes/capability.php:323
 msgid "Edit Lists"
 msgstr ""
 
-#: includes/capability.php:319
+#: includes/capability.php:325
 msgid "Allows modifying existing subscriber lists"
 msgstr ""
 
-#: includes/capability.php:323
+#: includes/capability.php:329
 msgid "Delete Lists"
 msgstr ""
 
-#: includes/capability.php:325
+#: includes/capability.php:331
 msgid "Allows removing subscriber lists"
 msgstr ""
 
-#: includes/capability.php:330
+#: includes/capability.php:336
 msgid "Add Tags"
 msgstr ""
 
-#: includes/capability.php:332
+#: includes/capability.php:338
 msgid "Allows creating new subscriber tags"
 msgstr ""
 
-#: includes/capability.php:336
+#: includes/capability.php:342
 msgid "Edit Tags"
 msgstr ""
 
-#: includes/capability.php:338
+#: includes/capability.php:344
 msgid "Allows modifying existing subscriber tags"
 msgstr ""
 
-#: includes/capability.php:342
+#: includes/capability.php:348
 msgid "Delete Tags"
 msgstr ""
 
-#: includes/capability.php:344
+#: includes/capability.php:350
 msgid "Allows removing subscriber tags"
 msgstr ""
 
-#: includes/capability.php:349
+#: includes/capability.php:355
 msgid "Manage Templates"
 msgstr ""
 
-#: includes/capability.php:351
+#: includes/capability.php:357
 msgid "Allows comprehensive email template management"
 msgstr ""
 
-#: includes/capability.php:355
+#: includes/capability.php:361
 msgid "Edit Templates"
 msgstr ""
 
-#: includes/capability.php:357
+#: includes/capability.php:363
 msgid "Allows modifying email template designs"
 msgstr ""
 
-#: includes/capability.php:361
+#: includes/capability.php:367
 msgid "Delete Templates"
 msgstr ""
 
-#: includes/capability.php:363
+#: includes/capability.php:369
 msgid "Allows removing email templates"
 msgstr ""
 
-#: includes/capability.php:367
+#: includes/capability.php:373
 msgid "Upload Templates"
 msgstr ""
 
-#: includes/capability.php:369
+#: includes/capability.php:375
 msgid "Allows uploading new email templates"
 msgstr ""
 
-#: includes/capability.php:373
+#: includes/capability.php:379
 msgid "Update Templates"
 msgstr ""
 
-#: includes/capability.php:375
+#: includes/capability.php:381
 msgid "Allows updating email templates to newer versions"
 msgstr ""
 
-#: includes/capability.php:379
+#: includes/capability.php:385
 msgid "Manage Addons"
 msgstr ""
 
-#: includes/capability.php:381
+#: includes/capability.php:387
 msgid "Allows managing Mailster addon installations"
 msgstr ""
 
-#: includes/capability.php:385
+#: includes/capability.php:391
 msgid "View Logs"
 msgstr ""
 
-#: includes/capability.php:387
+#: includes/capability.php:393
 msgid "Allows viewing system logs and error reports"
 msgstr ""
 
-#: includes/capability.php:391
+#: includes/capability.php:397
 msgid "Access Dashboard"
 msgstr ""
 
-#: includes/capability.php:393
+#: includes/capability.php:399
 msgid "Allows accessing the Mailster dashboard"
 msgstr ""
 
-#: includes/capability.php:397
+#: includes/capability.php:403
 msgid "See Dashboard Widget"
 msgstr ""
 
-#: includes/capability.php:399
+#: includes/capability.php:405
 msgid "Allows viewing Mailster widgets in the WordPress dashboard"
 msgstr ""
 
-#: includes/capability.php:403
+#: includes/capability.php:409
 msgid "Manage Capabilities"
 msgstr ""
 
-#: includes/capability.php:405
+#: includes/capability.php:411
 msgid "Allows managing user role capabilities and permissions"
 msgstr ""
 
-#: includes/capability.php:409
+#: includes/capability.php:415
 msgid "Manage Licenses"
 msgstr ""
 
-#: includes/capability.php:411
+#: includes/capability.php:417
 msgid "Allows managing Mailster and addon licenses"
 msgstr ""
 
-#: includes/capability.php:418
+#: includes/capability.php:424
 msgid "Allows editing of legacy form configurations"
 msgstr ""
 
-#: includes/capability.php:422
+#: includes/capability.php:428
 msgid "Add Forms"
 msgstr ""
 
-#: includes/capability.php:424
+#: includes/capability.php:430
 msgid "Allows creating new legacy form configurations"
 msgstr ""
 
-#: includes/capability.php:430
+#: includes/capability.php:436
 msgid "Allows removing legacy form configurations"
 msgstr ""
 
@@ -11312,8 +11324,8 @@ msgstr ""
 msgid "Manage Settings"
 msgstr ""
 
-#: views/settings.php:81
-#: views/settings.php:116
+#: views/settings.php:83
+#: views/settings.php:118
 msgid "Save Changes"
 msgstr ""
 
