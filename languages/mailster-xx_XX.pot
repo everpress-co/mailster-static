@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: 4.1.13\n"
+"Project-Id-Version: 4.1.14\n"
 "Report-Msgid-Bugs-To: https://mailster.co/contact\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-10-06T10:16:06+00:00\n"
+"POT-Creation-Date: 2025-10-21T14:05:12+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: mailster\n"
@@ -239,7 +239,7 @@ msgstr ""
 #: classes/campaigns.class.php:5178
 #: classes/forms.table.class.php:180
 #: classes/notification.class.php:613
-#: classes/subscribers.table.class.php:280
+#: classes/subscribers.table.class.php:281
 #: views/newsletter/details.php:169
 #: views/subscribers/detail.php:54
 #: views/subscribers/detail.php:163
@@ -713,7 +713,7 @@ msgstr ""
 #: views/manage/delete.php:33
 #: views/manage/export.php:57
 #: views/manage/export.php:94
-#: views/settings/delivery.php:52
+#: views/settings/delivery.php:53
 #: views/subscribers/detail.php:137
 msgid "Status"
 msgstr ""
@@ -762,7 +762,7 @@ msgstr ""
 
 #: classes/automation.class.php:908
 #: classes/campaigns.class.php:1042
-#: views/settings/delivery.php:52
+#: views/settings/delivery.php:53
 #: views/settings/frontend.php:195
 #: blocks/workflows/inspector/index.js:202
 msgid "active"
@@ -902,12 +902,12 @@ msgid "Search Workflow"
 msgstr ""
 
 #: classes/automation.class.php:1110
-#: classes/block-forms.class.php:609
+#: classes/block-forms.class.php:626
 msgid "Not found"
 msgstr ""
 
 #: classes/automation.class.php:1111
-#: classes/block-forms.class.php:610
+#: classes/block-forms.class.php:627
 msgid "Not found in Trash"
 msgstr ""
 
@@ -1020,33 +1020,33 @@ msgstr ""
 msgid "Lists: %s"
 msgstr ""
 
-#: classes/block-forms.class.php:593
+#: classes/block-forms.class.php:610
 msgctxt "Post Type General Name"
 msgid "Block Forms"
 msgstr ""
 
-#: classes/block-forms.class.php:593
+#: classes/block-forms.class.php:610
 msgctxt "Post Type General Name"
 msgid "Forms"
 msgstr ""
 
-#: classes/block-forms.class.php:597
+#: classes/block-forms.class.php:614
 msgctxt "Post Type Singular Name"
 msgid "Form"
 msgstr ""
 
-#: classes/block-forms.class.php:599
+#: classes/block-forms.class.php:616
 msgid "Form Attributes"
 msgstr ""
 
-#: classes/block-forms.class.php:601
+#: classes/block-forms.class.php:618
 msgid "Add New Form"
 msgstr ""
 
-#: classes/block-forms.class.php:602
+#: classes/block-forms.class.php:619
 #: classes/forms.table.class.php:48
 #: classes/lists.table.class.php:44
-#: classes/subscribers.table.class.php:100
+#: classes/subscribers.table.class.php:101
 #: views/forms/detail.php:77
 #: views/forms/overview.php:5
 #: views/lists/detail.php:51
@@ -1056,71 +1056,71 @@ msgstr ""
 msgid "Add New"
 msgstr ""
 
-#: classes/block-forms.class.php:603
+#: classes/block-forms.class.php:620
 msgid "New Form"
 msgstr ""
 
-#: classes/block-forms.class.php:604
+#: classes/block-forms.class.php:621
 #: includes/capability.php:183
 #: views/forms/detail.php:73
-#: blocks/form/edit.js:240
+#: blocks/form/edit.js:239
 msgid "Edit Form"
 msgstr ""
 
-#: classes/block-forms.class.php:605
+#: classes/block-forms.class.php:622
 msgid "Update Form"
 msgstr ""
 
-#: classes/block-forms.class.php:606
+#: classes/block-forms.class.php:623
 #: includes/capability.php:171
 msgid "View Form"
 msgstr ""
 
-#: classes/block-forms.class.php:607
+#: classes/block-forms.class.php:624
 msgid "View Forms"
 msgstr ""
 
-#: classes/block-forms.class.php:608
+#: classes/block-forms.class.php:625
 msgid "Search Form"
 msgstr ""
 
-#: classes/block-forms.class.php:611
+#: classes/block-forms.class.php:628
 msgid "Uploaded to this form"
 msgstr ""
 
-#: classes/block-forms.class.php:612
+#: classes/block-forms.class.php:629
 msgid "Forms list"
 msgstr ""
 
-#: classes/block-forms.class.php:613
+#: classes/block-forms.class.php:630
 msgid "Forms list navigation"
 msgstr ""
 
-#: classes/block-forms.class.php:614
+#: classes/block-forms.class.php:631
 msgid "Filter forms list"
 msgstr ""
 
-#: classes/block-forms.class.php:615
+#: classes/block-forms.class.php:632
 msgid "Form published"
 msgstr ""
 
-#: classes/block-forms.class.php:616
+#: classes/block-forms.class.php:633
 msgid "Form published privately."
 msgstr ""
 
-#: classes/block-forms.class.php:617
+#: classes/block-forms.class.php:634
 msgid "Form reverted to draft."
 msgstr ""
 
-#: classes/block-forms.class.php:618
+#: classes/block-forms.class.php:635
 msgid "Form scheduled."
 msgstr ""
 
-#: classes/block-forms.class.php:619
+#: classes/block-forms.class.php:636
 msgid "Form updated."
 msgstr ""
 
-#: classes/block-forms.class.php:623
+#: classes/block-forms.class.php:640
 #: classes/conditions.class.php:237
 #: classes/elementor.class.php:33
 #: classes/elementor.class.php:49
@@ -1135,38 +1135,38 @@ msgstr ""
 msgid "Form"
 msgstr ""
 
-#: classes/block-forms.class.php:624
+#: classes/block-forms.class.php:641
 msgid "Newsletter Form"
 msgstr ""
 
-#: classes/block-forms.class.php:759
+#: classes/block-forms.class.php:776
 msgid "Welcome to {company}!"
 msgstr ""
 
-#: classes/block-forms.class.php:769
+#: classes/block-forms.class.php:786
 msgid "Please confirm your email"
 msgstr ""
 
-#: classes/block-forms.class.php:780
+#: classes/block-forms.class.php:797
 #, php-format
 msgid "You have to confirm your email address to subscribe. Please click the link below to confirm. %s"
 msgstr ""
 
-#: classes/block-forms.class.php:791
+#: classes/block-forms.class.php:808
 msgid "Click here to confirm"
 msgstr ""
 
-#: classes/block-forms.class.php:929
+#: classes/block-forms.class.php:946
 #: blocks/homepage/inspector.js:164
 #, php-format,js-format
 msgid "Preview %s"
 msgstr ""
 
-#: classes/block-forms.class.php:929
+#: classes/block-forms.class.php:946
 msgid "Preview this form"
 msgstr ""
 
-#: classes/block-forms.class.php:929
+#: classes/block-forms.class.php:946
 #: classes/campaigns.class.php:1756
 #: classes/forms.table.class.php:190
 #: classes/widget.class.php:394
@@ -1176,42 +1176,42 @@ msgstr ""
 msgid "Preview"
 msgstr ""
 
-#: classes/block-forms.class.php:1104
+#: classes/block-forms.class.php:1121
 #: views/forms/detail.php:288
 #: views/settings/texts.php:30
 #: blocks/forms/form-inspector/CssPanel.js:108
 msgid "Submit Button"
 msgstr ""
 
-#: classes/block-forms.class.php:1196
+#: classes/block-forms.class.php:1213
 msgid "Newsletter Form Fields"
 msgstr ""
 
-#: classes/block-forms.class.php:1205
+#: classes/block-forms.class.php:1222
 msgid "Mailster Forms"
 msgstr ""
 
-#: classes/block-forms.class.php:1657
+#: classes/block-forms.class.php:1659
 #: classes/widget.class.php:8
 msgid "Newsletter Signup Form"
 msgstr ""
 
-#: classes/block-forms.class.php:1709
+#: classes/block-forms.class.php:1696
 msgid "close"
 msgstr ""
 
-#: classes/block-forms.class.php:1775
+#: classes/block-forms.class.php:1762
 #: classes/subscribers.class.php:144
 #: classes/subscribers.class.php:4154
 msgid "Subscribed"
 msgstr ""
 
-#: classes/block-forms.class.php:1775
+#: classes/block-forms.class.php:1762
 #: classes/subscribers.class.php:4155
 msgid "Unsubscribed"
 msgstr ""
 
-#: classes/block-forms.class.php:1982
+#: classes/block-forms.class.php:1969
 msgid "Default Form"
 msgstr ""
 
@@ -2340,8 +2340,8 @@ msgid "Click Count"
 msgstr ""
 
 #: classes/campaigns.class.php:4538
-#: classes/subscribers.table.class.php:158
-#: classes/subscribers.table.class.php:169
+#: classes/subscribers.table.class.php:159
+#: classes/subscribers.table.class.php:170
 msgid "Filter"
 msgstr ""
 
@@ -2783,7 +2783,7 @@ msgstr ""
 #: classes/helper.class.php:623
 #: views/conditions/conditions.php:37
 #: views/conditions/render.php:6
-#: views/settings/delivery.php:61
+#: views/settings/delivery.php:62
 #: views/settings/general.php:48
 msgid "and"
 msgstr ""
@@ -2894,28 +2894,28 @@ msgstr ""
 msgid "Number of mails sent"
 msgstr ""
 
-#: classes/cron.class.php:239
+#: classes/cron.class.php:240
 #, php-format
 msgid "Your Cron page hasn't get triggered recently. This is required to send campaigns. Please check the %s"
 msgstr ""
 
-#: classes/cron.class.php:239
-#: classes/cron.class.php:242
-#: classes/queue.class.php:1211
+#: classes/cron.class.php:240
+#: classes/cron.class.php:243
+#: classes/queue.class.php:1214
 msgid "settings page"
 msgstr ""
 
-#: classes/cron.class.php:242
+#: classes/cron.class.php:243
 #, php-format
 msgid "The Cron Process is not setup correctly. This is required to send campaigns. Please check the %s"
 msgstr ""
 
-#: classes/cron.class.php:254
+#: classes/cron.class.php:255
 #, php-format
 msgid "Are your campaigns not sending? You may have to check your %1$s"
 msgstr ""
 
-#: classes/cron.class.php:254
+#: classes/cron.class.php:255
 msgid "cron settings"
 msgstr ""
 
@@ -3382,7 +3382,7 @@ msgstr ""
 
 #: classes/forms.table.class.php:33
 #: classes/lists.table.class.php:33
-#: classes/subscribers.table.class.php:78
+#: classes/subscribers.table.class.php:79
 msgid "All"
 msgstr ""
 
@@ -3450,7 +3450,7 @@ msgstr[1] ""
 
 #: classes/forms.table.class.php:220
 #: classes/lists.table.class.php:187
-#: classes/subscribers.table.class.php:334
+#: classes/subscribers.table.class.php:335
 #: views/manage.php:30
 #: views/templates.php:89
 msgid "Delete"
@@ -3752,7 +3752,7 @@ msgid "Merge selected Lists"
 msgstr ""
 
 #: classes/lists.table.class.php:192
-#: classes/subscribers.table.class.php:336
+#: classes/subscribers.table.class.php:337
 msgid "Send new Campaign"
 msgstr ""
 
@@ -5066,65 +5066,65 @@ msgstr[1] ""
 msgid "Cron Lock has been released!"
 msgstr ""
 
-#: classes/queue.class.php:1149
+#: classes/queue.class.php:1152
 msgid "Not in time frame!"
 msgstr ""
 
-#: classes/queue.class.php:1149
+#: classes/queue.class.php:1152
 #, php-format
 msgid "Please check the %s on the delivery tab."
 msgstr ""
 
-#: classes/queue.class.php:1149
+#: classes/queue.class.php:1152
 msgid "time frame settings"
 msgstr ""
 
-#: classes/queue.class.php:1200
+#: classes/queue.class.php:1203
 msgid "How long the processing took"
 msgstr ""
 
-#: classes/queue.class.php:1200
+#: classes/queue.class.php:1203
 msgid "How long the sending took"
 msgstr ""
 
-#: classes/queue.class.php:1200
+#: classes/queue.class.php:1203
 msgid "How long the whole process took"
 msgstr ""
 
-#: classes/queue.class.php:1209
+#: classes/queue.class.php:1212
 msgid "timeout reached"
 msgstr ""
 
-#: classes/queue.class.php:1211
+#: classes/queue.class.php:1214
 #, php-format
 msgid "Mailster is not able to send your campaign cause of a server timeout. Please increase the %1$s on the %2$s"
 msgstr ""
 
-#: classes/queue.class.php:1211
-#: views/settings/delivery.php:99
+#: classes/queue.class.php:1214
+#: views/settings/delivery.php:100
 msgid "Max. Execution Time"
 msgstr ""
 
-#: classes/queue.class.php:1226
+#: classes/queue.class.php:1229
 msgid "Prevent to send duplicate within one minute."
 msgstr ""
 
-#: classes/queue.class.php:1321
+#: classes/queue.class.php:1324
 #, php-format
 msgid "Notification %1$s has thrown an error: %2$s"
 msgstr ""
 
-#: classes/queue.class.php:1333
+#: classes/queue.class.php:1336
 #, php-format
 msgid "Autoresponder %1$s has caused sending error: %2$s"
 msgstr ""
 
-#: classes/queue.class.php:1338
+#: classes/queue.class.php:1341
 #, php-format
 msgid "Campaign %1$s has been paused cause of a sending error: %2$s"
 msgstr ""
 
-#: classes/queue.class.php:1341
+#: classes/queue.class.php:1344
 #, php-format
 msgid "Campaign %1$s has some delay cause of a sending error: %2$s"
 msgstr ""
@@ -5628,7 +5628,7 @@ msgid "Sending via your host is not recommended. Please consider using a dedicat
 msgstr ""
 
 #: classes/settings.class.php:1644
-#: views/settings/delivery.php:100
+#: views/settings/delivery.php:101
 #: views/settings/security.php:20
 msgid "seconds"
 msgstr ""
@@ -6055,20 +6055,20 @@ msgstr ""
 msgid "Subscriber"
 msgstr ""
 
-#: classes/subscribers.table.class.php:97
+#: classes/subscribers.table.class.php:98
 msgid "No subscribers found"
 msgstr ""
 
-#: classes/subscribers.table.class.php:117
+#: classes/subscribers.table.class.php:118
 #, php-format
 msgid "These subscribers are marked as \"deleted\" and will be removed automatically after %d days at the earliest."
 msgstr ""
 
-#: classes/subscribers.table.class.php:127
+#: classes/subscribers.table.class.php:128
 msgid "Clear Filters"
 msgstr ""
 
-#: classes/subscribers.table.class.php:128
+#: classes/subscribers.table.class.php:129
 #: views/dashboard/mb-campaigns.php:53
 #: views/dashboard/mb-quicklinks.php:24
 #: views/templates.php:86
@@ -6076,94 +6076,94 @@ msgstr ""
 msgid "Create Campaign"
 msgstr ""
 
-#: classes/subscribers.table.class.php:170
+#: classes/subscribers.table.class.php:171
 #: views/newsletter/receivers.php:22
 #: views/newsletter/receivers.php:129
 #: blocks/forms/form-inspector/EventsPanel.js:33
 msgid "Close"
 msgstr ""
 
-#: classes/subscribers.table.class.php:266
+#: classes/subscribers.table.class.php:267
 #, php-format
 msgid "confirmed %s ago"
 msgstr ""
 
-#: classes/subscribers.table.class.php:266
+#: classes/subscribers.table.class.php:267
 #: views/subscribers/detail.php:292
 msgid "not confirmed"
 msgstr ""
 
-#: classes/subscribers.table.class.php:332
+#: classes/subscribers.table.class.php:333
 msgid "Permanently Delete"
 msgstr ""
 
-#: classes/subscribers.table.class.php:333
+#: classes/subscribers.table.class.php:334
 msgid "Restore"
 msgstr ""
 
-#: classes/subscribers.table.class.php:335
+#: classes/subscribers.table.class.php:336
 msgid "Delete (with Activities)"
 msgstr ""
 
-#: classes/subscribers.table.class.php:337
+#: classes/subscribers.table.class.php:338
 #: views/forms/detail.php:411
 #: views/subscribers/detail.php:69
 msgid "Resend Confirmation"
 msgstr ""
 
-#: classes/subscribers.table.class.php:338
+#: classes/subscribers.table.class.php:339
 msgid "Verify"
 msgstr ""
 
-#: classes/subscribers.table.class.php:366
+#: classes/subscribers.table.class.php:367
 msgid "pending"
 msgstr ""
 
-#: classes/subscribers.table.class.php:367
+#: classes/subscribers.table.class.php:368
 msgid "subscribed"
 msgstr ""
 
-#: classes/subscribers.table.class.php:368
+#: classes/subscribers.table.class.php:369
 msgid "unsubscribed"
 msgstr ""
 
-#: classes/subscribers.table.class.php:370
+#: classes/subscribers.table.class.php:371
 msgid "change status"
 msgstr ""
 
-#: classes/subscribers.table.class.php:379
+#: classes/subscribers.table.class.php:380
 msgid "add to all"
 msgstr ""
 
-#: classes/subscribers.table.class.php:380
+#: classes/subscribers.table.class.php:381
 msgid "remove from all"
 msgstr ""
 
-#: classes/subscribers.table.class.php:381
+#: classes/subscribers.table.class.php:382
 msgid "confirm all"
 msgstr ""
 
-#: classes/subscribers.table.class.php:382
+#: classes/subscribers.table.class.php:383
 msgid "unconfirm all"
 msgstr ""
 
-#: classes/subscribers.table.class.php:390
+#: classes/subscribers.table.class.php:391
 msgid "add to list"
 msgstr ""
 
-#: classes/subscribers.table.class.php:390
+#: classes/subscribers.table.class.php:391
 msgid "remove from list"
 msgstr ""
 
-#: classes/subscribers.table.class.php:390
+#: classes/subscribers.table.class.php:391
 msgid "confirm list"
 msgstr ""
 
-#: classes/subscribers.table.class.php:390
+#: classes/subscribers.table.class.php:391
 msgid "unconfirm list"
 msgstr ""
 
-#: classes/subscribers.table.class.php:393
+#: classes/subscribers.table.class.php:394
 msgid "Permanently remove all deleted Subscribers"
 msgstr ""
 
@@ -9388,7 +9388,7 @@ msgid "bounces"
 msgstr ""
 
 #: views/dashboard/mb-campaigns.php:42
-msgid "Woha! Looks like you havn't sent any campaign yet!"
+msgid "Whoa! It seems you haven't sent out any campaigns yet!"
 msgstr ""
 
 #: views/dashboard/mb-campaigns.php:44
@@ -10136,7 +10136,7 @@ msgid "Search Forms"
 msgstr ""
 
 #: views/health.php:8
-#: views/settings/delivery.php:110
+#: views/settings/delivery.php:111
 msgid "Email Health Check"
 msgstr ""
 
@@ -11621,8 +11621,8 @@ msgstr ""
 #: views/newsletter/test.php:13
 #: views/settings/advanced.php:47
 #: views/settings/advanced.php:51
-#: views/settings/delivery.php:104
-#: views/settings/delivery.php:108
+#: views/settings/delivery.php:105
+#: views/settings/delivery.php:109
 #: views/setup/delivery.php:97
 msgid "Send Test"
 msgstr ""
@@ -12210,94 +12210,94 @@ msgstr ""
 msgid "no warmup"
 msgstr ""
 
-#: views/settings/delivery.php:41
+#: views/settings/delivery.php:42
 #, php-format
 msgid "%d day"
 msgid_plural "%d days"
 msgstr[0] ""
 msgstr[1] ""
 
-#: views/settings/delivery.php:46
+#: views/settings/delivery.php:47
 msgid "Mailster can \"warmup\" your current delivery method. It will gradually increase your sending volume over the defined time frame. This will help you getting started with a new domain or if you have recently switched your email provider."
 msgstr ""
 
-#: views/settings/delivery.php:50
+#: views/settings/delivery.php:51
 msgid "Time Frame"
 msgstr ""
 
-#: views/settings/delivery.php:51
+#: views/settings/delivery.php:52
 #, php-format
 msgid "It's %1$s, %2$s"
 msgstr ""
 
-#: views/settings/delivery.php:52
+#: views/settings/delivery.php:53
 #: views/settings/frontend.php:196
 msgid "paused"
 msgstr ""
 
-#: views/settings/delivery.php:54
+#: views/settings/delivery.php:55
 msgid "send mails only between"
 msgstr ""
 
-#: views/settings/delivery.php:69
+#: views/settings/delivery.php:70
 #: blocks/workflows/delay/inspector.js:249
 msgid "only on"
 msgstr ""
 
-#: views/settings/delivery.php:83
+#: views/settings/delivery.php:84
 msgid "Only affects Campaigns and Auto responders but not transactional emails."
 msgstr ""
 
-#: views/settings/delivery.php:86
+#: views/settings/delivery.php:87
 msgid "Split campaigns"
 msgstr ""
 
-#: views/settings/delivery.php:87
+#: views/settings/delivery.php:88
 msgid "send campaigns simultaneously instead of one after the other"
 msgstr ""
 
-#: views/settings/delivery.php:90
+#: views/settings/delivery.php:91
 msgid "Pause campaigns"
 msgstr ""
 
-#: views/settings/delivery.php:91
+#: views/settings/delivery.php:92
 msgid "pause campaigns if an error occurs"
 msgstr ""
 
-#: views/settings/delivery.php:91
+#: views/settings/delivery.php:92
 msgid "Mailster will change the status to \"pause\" if an error occur otherwise it tries to finish the campaign"
 msgstr ""
 
-#: views/settings/delivery.php:94
+#: views/settings/delivery.php:95
 msgid "Time between mails"
 msgstr ""
 
-#: views/settings/delivery.php:95
+#: views/settings/delivery.php:96
 msgid "milliseconds"
 msgstr ""
 
-#: views/settings/delivery.php:95
+#: views/settings/delivery.php:96
 msgid "define a delay between mails in milliseconds if you have problems with sending two many mails at once"
 msgstr ""
 
-#: views/settings/delivery.php:100
+#: views/settings/delivery.php:101
 msgid "define a maximum execution time to prevent server timeouts. If set to zero, no time limit is imposed."
 msgstr ""
 
-#: views/settings/delivery.php:119
+#: views/settings/delivery.php:120
 msgid "Simple"
 msgstr ""
 
-#: views/settings/delivery.php:128
+#: views/settings/delivery.php:129
 msgid "Delivery Method"
 msgstr ""
 
-#: views/settings/delivery.php:129
+#: views/settings/delivery.php:130
 #, php-format
 msgid "You are currently sending with the %s delivery method"
 msgstr ""
 
-#: views/settings/delivery.php:143
+#: views/settings/delivery.php:144
 msgid "More Delivery Methods"
 msgstr ""
 
@@ -14173,31 +14173,31 @@ msgstr ""
 msgid "Wobble"
 msgstr ""
 
-#: blocks/form/edit.js:171
+#: blocks/form/edit.js:170
 #, js-format
 msgid "Newsletter Homepage: %s"
 msgstr ""
 
-#: blocks/form/edit.js:176
+#: blocks/form/edit.js:175
 msgid "Mailster Subscription Form"
 msgstr ""
 
-#: blocks/form/edit.js:183
-#: blocks/form/edit.js:262
+#: blocks/form/edit.js:182
+#: blocks/form/edit.js:261
 msgid "Select a form you like to display on this page."
 msgstr ""
 
-#: blocks/form/edit.js:209
+#: blocks/form/edit.js:208
 #: blocks/form/FormSelector.js:95
 msgid "Edit form"
 msgstr ""
 
-#: blocks/form/edit.js:215
-#: blocks/form/edit.js:246
+#: blocks/form/edit.js:214
+#: blocks/form/edit.js:245
 msgid "Reload Form"
 msgstr ""
 
-#: blocks/form/edit.js:257
+#: blocks/form/edit.js:256
 msgid "Form Selector"
 msgstr ""
 
