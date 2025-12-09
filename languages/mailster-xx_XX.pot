@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: 4.1.14\n"
+"Project-Id-Version: 4.1.15\n"
 "Report-Msgid-Bugs-To: https://mailster.co/contact\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-10-21T14:05:12+00:00\n"
+"POT-Creation-Date: 2025-12-09T10:06:41+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: mailster\n"
@@ -238,7 +238,7 @@ msgstr ""
 #: classes/ajax.class.php:1195
 #: classes/campaigns.class.php:5178
 #: classes/forms.table.class.php:180
-#: classes/notification.class.php:613
+#: classes/notification.class.php:555
 #: classes/subscribers.table.class.php:281
 #: views/newsletter/details.php:169
 #: views/subscribers/detail.php:54
@@ -1002,7 +1002,7 @@ msgid "Double-Opt-In"
 msgstr ""
 
 #: classes/block-forms.class.php:261
-#: blocks/forms/form-inspector/Options.js:71
+#: blocks/forms/form-inspector/Options.js:72
 msgid "GDPR compliant"
 msgstr ""
 
@@ -1573,7 +1573,7 @@ msgstr ""
 #: views/lists/detail.php:67
 #: views/newsletter/optionbar.php:81
 #: views/subscribers/detail.php:119
-#: blocks/workflows/email/inspector.js:50
+#: blocks/workflows/email/inspector.js:51
 msgid "Name"
 msgstr ""
 
@@ -2483,8 +2483,8 @@ msgstr ""
 #: views/newsletter/precheck.php:97
 #: views/settings/texts.php:26
 #: views/settings/wordpress-users.php:25
-#: blocks/workflows/email/EmailSelector.js:99
-#: blocks/workflows/notification/inspector.js:69
+#: blocks/workflows/email/EmailSelector.js:102
+#: blocks/workflows/notification/inspector.js:70
 msgid "Email"
 msgstr ""
 
@@ -2813,8 +2813,8 @@ msgstr ""
 #: classes/conditions.class.php:1049
 #: classes/conditions.class.php:1103
 #: views/settings/template.php:41
-#: blocks/workflows/trigger/LinkSelector.js:69
-#: blocks/workflows/trigger/PageSelector.js:70
+#: blocks/workflows/trigger/LinkSelector.js:70
+#: blocks/workflows/trigger/PageSelector.js:71
 msgid "remove"
 msgstr ""
 
@@ -3036,7 +3036,7 @@ msgstr ""
 #: classes/lists.table.class.php:14
 #: classes/manage.class.php:265
 #: classes/manage.class.php:1053
-#: classes/notification.class.php:809
+#: classes/notification.class.php:825
 #: classes/settings.class.php:267
 #: includes/updates.php:50
 #: views/dashboard/mb-quicklinks.php:47
@@ -3204,24 +3204,24 @@ msgid "updating form requires ID"
 msgstr ""
 
 #: classes/forms.class.php:678
-#: classes/notification.class.php:231
+#: classes/notification.class.php:220
 #, php-format
 msgid "Welcome to %s! Please Confirm Your Email"
 msgstr ""
 
 #: classes/forms.class.php:679
-#: classes/notification.class.php:267
+#: classes/notification.class.php:230
 msgid "Please confirm your Email"
 msgstr ""
 
 #: classes/forms.class.php:680
-#: classes/notification.class.php:702
+#: classes/notification.class.php:718
 #, php-format
 msgid "By clicking on the following link, you are confirming your email address. %s"
 msgstr ""
 
 #: classes/forms.class.php:681
-#: classes/notification.class.php:276
+#: classes/notification.class.php:235
 msgid "Confirm your email address"
 msgstr ""
 
@@ -3317,7 +3317,7 @@ msgstr ""
 #: views/forms/detail.php:114
 #: views/forms/detail.php:147
 #: views/forms/detail.php:232
-#: blocks/forms/input/inspector.js:134
+#: blocks/forms/input/inspector.js:135
 msgid "Label"
 msgstr ""
 
@@ -3457,25 +3457,29 @@ msgid "Delete"
 msgstr ""
 
 #: classes/frontpage.class.php:350
-#: classes/frontpage.class.php:394
 #, php-format
 msgid "%s is not a valid URL!"
 msgstr ""
 
-#: classes/frontpage.class.php:419
-#: classes/frontpage.class.php:420
+#: classes/frontpage.class.php:397
+#, php-format
+msgid "%s is not a valid URL!!!!"
+msgstr ""
+
+#: classes/frontpage.class.php:422
+#: classes/frontpage.class.php:423
 msgid "You are being redirected..."
 msgstr ""
 
-#: classes/frontpage.class.php:774
+#: classes/frontpage.class.php:777
 msgid "There is no content for this newsletter."
 msgstr ""
 
-#: classes/frontpage.class.php:774
+#: classes/frontpage.class.php:777
 msgid "Add content"
 msgstr ""
 
-#: classes/frontpage.class.php:1308
+#: classes/frontpage.class.php:1311
 #, php-format
 msgid "You should use the shortcode %s only on the newsletter homepage!"
 msgstr ""
@@ -3771,9 +3775,9 @@ msgstr ""
 #: views/newsletter/details.php:78
 #: views/newsletter/precheck.php:33
 #: views/newsletter/precheck.php:93
-#: blocks/forms/form-inspector/Doubleoptin.js:54
-#: blocks/workflows/email/inspector.js:60
-#: blocks/workflows/notification/inspector.js:83
+#: blocks/forms/form-inspector/Doubleoptin.js:55
+#: blocks/workflows/email/inspector.js:62
+#: blocks/workflows/notification/inspector.js:85
 msgid "Subject"
 msgstr ""
 
@@ -3851,9 +3855,9 @@ msgid "Check the JS console for more info!"
 msgstr ""
 
 #: classes/mailster.class.php:1356
-#: blocks/workflows/trigger/HookSelector.js:100
-#: blocks/workflows/trigger/HookSelector.js:122
-#: blocks/workflows/trigger/HookSelector.js:143
+#: blocks/workflows/trigger/HookSelector.js:101
+#: blocks/workflows/trigger/HookSelector.js:123
+#: blocks/workflows/trigger/HookSelector.js:144
 msgid "Copied!"
 msgstr ""
 
@@ -4614,150 +4618,154 @@ msgstr ""
 msgid "You are receiving this email because you have enabled notifications for unsubscriptions %s"
 msgstr ""
 
-#: classes/notification.class.php:296
+#: classes/notification.class.php:243
 msgid "If you received this email by mistake, simply delete it. You won't be subscribed if you don't click the confirmation link."
 msgstr ""
 
-#: classes/notification.class.php:330
-#: classes/notification.class.php:335
+#: classes/notification.class.php:272
+#: classes/notification.class.php:277
 #, php-format
 msgctxt "Mailster"
 msgid "%s Test Email"
 msgstr ""
 
-#: classes/notification.class.php:333
+#: classes/notification.class.php:275
 #, php-format
 msgid "This is a test mail sent from %s"
 msgstr ""
 
-#: classes/notification.class.php:333
+#: classes/notification.class.php:275
 msgid "from your settings page"
 msgstr ""
 
-#: classes/notification.class.php:718
-msgid "Confirmation Message"
-msgstr ""
-
-#: classes/notification.class.php:732
-msgid "This email is a test to ensure the integrity and functionality of your current delivery method. If you're receiving this message, it indicates that your email system is operating correctly."
-msgstr ""
-
-#: classes/notification.class.php:733
-msgid "Consider this message as a confirmation of the effective operation of you email delivery system."
+#: classes/notification.class.php:729
+msgid "Confirm Subscription"
 msgstr ""
 
 #: classes/notification.class.php:734
+msgid "Confirmation Subscription"
+msgstr ""
+
+#: classes/notification.class.php:748
+msgid "This email is a test to ensure the integrity and functionality of your current delivery method. If you're receiving this message, it indicates that your email system is operating correctly."
+msgstr ""
+
+#: classes/notification.class.php:749
+msgid "Consider this message as a confirmation of the effective operation of you email delivery system."
+msgstr ""
+
+#: classes/notification.class.php:750
 #, php-format
 msgid "You can also run %s to check your deliverbilty."
 msgstr ""
 
-#: classes/notification.class.php:734
+#: classes/notification.class.php:750
 msgid "an Email Health Check"
 msgstr ""
 
-#: classes/notification.class.php:735
+#: classes/notification.class.php:751
 msgid "There is no action required on your part; feel free to delete this email."
 msgstr ""
 
-#: classes/notification.class.php:742
+#: classes/notification.class.php:758
 msgid "This is a health check email from Mailster"
 msgstr ""
 
-#: classes/notification.class.php:777
+#: classes/notification.class.php:793
 #, php-format
 msgid "%s has joined"
 msgstr ""
 
-#: classes/notification.class.php:791
+#: classes/notification.class.php:807
 #: views/subscribers/detail.php:230
 msgid "yes"
 msgstr ""
 
-#: classes/notification.class.php:791
+#: classes/notification.class.php:807
 #: views/subscribers/detail.php:230
 msgid "no"
 msgstr ""
 
-#: classes/notification.class.php:912
+#: classes/notification.class.php:928
 #, php-format
 msgid "You have %1$s new subscribers since %2$s."
 msgstr ""
 
-#: classes/notification.class.php:913
-#: classes/notification.class.php:1302
+#: classes/notification.class.php:929
+#: classes/notification.class.php:1318
 #, php-format
 msgid "You have now %s subscribers in total."
 msgstr ""
 
-#: classes/notification.class.php:984
-#: classes/notification.class.php:1373
+#: classes/notification.class.php:1000
+#: classes/notification.class.php:1389
 #, php-format
 msgid "%s other"
 msgid_plural "%s others"
 msgstr[0] ""
 msgstr[1] ""
 
-#: classes/notification.class.php:1023
+#: classes/notification.class.php:1039
 #, php-format
 msgid "Subscribers are located in %s different countries"
 msgstr ""
 
-#: classes/notification.class.php:1046
+#: classes/notification.class.php:1062
 #, php-format
 msgid "location of %d subscriber"
 msgid_plural "location of %d subscribers"
 msgstr[0] ""
 msgstr[1] ""
 
-#: classes/notification.class.php:1096
+#: classes/notification.class.php:1112
 msgid "from other countries"
 msgstr ""
 
-#: classes/notification.class.php:1135
+#: classes/notification.class.php:1151
 #, php-format
 msgid "%s Subscriber was marked for deletion"
 msgid_plural "%s Subscribers were marked for deletion"
 msgstr[0] ""
 msgstr[1] ""
 
-#: classes/notification.class.php:1136
+#: classes/notification.class.php:1152
 #, php-format
 msgid "You can update these jobs on the %s."
 msgstr ""
 
-#: classes/notification.class.php:1136
+#: classes/notification.class.php:1152
 msgid "Delete Subscribers page"
 msgstr ""
 
-#: classes/notification.class.php:1143
+#: classes/notification.class.php:1159
 #, php-format
 msgid "%1$s removed %2$s Subscriber."
 msgid_plural "%1$s removed %2$s Subscribers."
 msgstr[0] ""
 msgstr[1] ""
 
-#: classes/notification.class.php:1155
+#: classes/notification.class.php:1171
 #, php-format
 msgid "You can find these subscribers on the %s."
 msgstr ""
 
-#: classes/notification.class.php:1155
+#: classes/notification.class.php:1171
 msgid "Deleted Subscribers page"
 msgstr ""
 
-#: classes/notification.class.php:1206
+#: classes/notification.class.php:1222
 #, php-format
 msgid "%s other hidden"
 msgid_plural "%s others hidden"
 msgstr[0] ""
 msgstr[1] ""
 
-#: classes/notification.class.php:1246
+#: classes/notification.class.php:1262
 #, php-format
 msgid "%s has canceled"
 msgstr ""
 
-#: classes/notification.class.php:1301
+#: classes/notification.class.php:1317
 #, php-format
 msgid "You have %1$s cancellations since %2$s."
 msgstr ""
@@ -4856,7 +4864,7 @@ msgid "Attachments"
 msgstr ""
 
 #: classes/precheck.class.php:198
-#: blocks/forms/form-inspector/FormStylesPanel.js:112
+#: blocks/forms/form-inspector/FormStylesPanel.js:113
 msgid "Size"
 msgstr ""
 
@@ -5459,14 +5467,14 @@ msgstr ""
 #: classes/settings.class.php:418
 #: views/settings/subscribers.php:87
 #: blocks/forms/form-inspector/ListsPanel.js:90
-#: blocks/forms/input/Values.js:109
+#: blocks/forms/input/Values.js:110
 msgid "move up"
 msgstr ""
 
 #: classes/settings.class.php:419
 #: views/settings/subscribers.php:88
 #: blocks/forms/form-inspector/ListsPanel.js:99
-#: blocks/forms/input/Values.js:118
+#: blocks/forms/input/Values.js:119
 msgid "move down"
 msgstr ""
 
@@ -5863,8 +5871,8 @@ msgid "%1$s on %2$s"
 msgstr ""
 
 #: classes/subscribers.class.php:886
-#: blocks/workflows/comment/inspector.js:33
-#: blocks/workflows/inspector/Comment.js:40
+#: blocks/workflows/comment/inspector.js:35
+#: blocks/workflows/inspector/Comment.js:41
 msgid "Comment"
 msgstr ""
 
@@ -6598,7 +6606,7 @@ msgstr ""
 #: views/newsletter/details.php:30
 #: views/newsletter/details.php:33
 #: views/newsletter/details.php:90
-#: blocks/workflows/email/inspector.js:70
+#: blocks/workflows/email/inspector.js:73
 msgid "Preheader"
 msgstr ""
 
@@ -6838,7 +6846,7 @@ msgid "Minimal"
 msgstr ""
 
 #: classes/widget.class.php:557
-#: blocks/forms/input/inspector.js:204
+#: blocks/forms/input/inspector.js:206
 msgid "Width"
 msgstr ""
 
@@ -8516,7 +8524,7 @@ msgid "Invalid Cron Worker!"
 msgstr ""
 
 #: includes/cron.php:109
-#: blocks/forms/form-inspector/preview-modal/index.js:261
+#: blocks/forms/form-inspector/preview-modal/index.js:262
 msgid "reload"
 msgstr ""
 
@@ -9786,7 +9794,7 @@ msgstr ""
 
 #: views/forms/detail.php:122
 #: views/forms/detail.php:155
-#: blocks/forms/input/inspector.js:251
+#: blocks/forms/input/inspector.js:256
 msgid "Error Message (optional)"
 msgstr ""
 
@@ -9984,7 +9992,7 @@ msgid "Fill fields with known data if user is logged in"
 msgstr ""
 
 #: views/forms/detail.php:319
-#: blocks/forms/form-inspector/Options.js:107
+#: blocks/forms/form-inspector/Options.js:109
 msgid "Redirect after submit"
 msgstr ""
 
@@ -10060,12 +10068,12 @@ msgid "Confirmation Settings"
 msgstr ""
 
 #: views/forms/detail.php:394
-#: blocks/forms/form-inspector/Doubleoptin.js:61
+#: blocks/forms/form-inspector/Doubleoptin.js:63
 msgid "Headline"
 msgstr ""
 
 #: views/forms/detail.php:398
-#: blocks/forms/form-inspector/Doubleoptin.js:81
+#: blocks/forms/form-inspector/Doubleoptin.js:84
 msgid "Linktext"
 msgstr ""
 
@@ -10084,7 +10092,7 @@ msgid "Resend confirmation %1$s times with a delay of %2$s hours if user hasn't 
 msgstr ""
 
 #: views/forms/detail.php:415
-#: blocks/forms/form-inspector/Doubleoptin.js:91
+#: blocks/forms/form-inspector/Doubleoptin.js:95
 msgid "Redirect after confirm"
 msgstr ""
 
@@ -10115,7 +10123,7 @@ msgstr ""
 
 #: views/forms/empty.php:11
 #: blocks/form/FormSelector.js:68
-#: blocks/form/FormSelector.js:101
+#: blocks/form/FormSelector.js:102
 msgid "Create new form"
 msgstr ""
 
@@ -10308,8 +10316,8 @@ msgid "Message ID"
 msgstr ""
 
 #: views/logging/detail.php:35
-#: blocks/forms/form-inspector/Doubleoptin.js:70
-#: blocks/forms/gdpr/inspector.js:39
+#: blocks/forms/form-inspector/Doubleoptin.js:72
+#: blocks/forms/gdpr/inspector.js:40
 msgid "Content"
 msgstr ""
 
@@ -10819,7 +10827,7 @@ msgstr ""
 
 #: views/newsletter/delivery.php:478
 #: views/settings/frontend.php:20
-#: blocks/workflows/trigger/FieldSelector.js:56
+#: blocks/workflows/trigger/FieldSelector.js:57
 msgid "Choose"
 msgstr ""
 
@@ -10887,7 +10895,7 @@ msgstr ""
 #: views/newsletter/details.php:42
 #: views/settings/general.php:3
 #: views/setup/sending.php:11
-#: blocks/workflows/email/inspector.js:91
+#: blocks/workflows/email/inspector.js:96
 msgid "From Name"
 msgstr ""
 
@@ -11454,7 +11462,7 @@ msgid "Go to Dashboard"
 msgstr ""
 
 #: views/newsletter/precheck.php:90
-#: blocks/workflows/notification/inspector.js:93
+#: blocks/workflows/notification/inspector.js:95
 msgid "Message"
 msgstr ""
 
@@ -12157,7 +12165,7 @@ msgid "Max Execution Time"
 msgstr ""
 
 #: views/settings/cron.php:106
-#: blocks/workflows/trigger/DateSelector.js:308
+#: blocks/workflows/trigger/DateSelector.js:311
 msgid "Reset"
 msgstr ""
 
@@ -12240,7 +12248,7 @@ msgid "send mails only between"
 msgstr ""
 
 #: views/settings/delivery.php:70
-#: blocks/workflows/delay/inspector.js:249
+#: blocks/workflows/delay/inspector.js:251
 msgid "only on"
 msgstr ""
 
@@ -14118,58 +14126,58 @@ msgstr ""
 msgid "Select the form you like to open as a popup if someone clicks on the button."
 msgstr ""
 
-#: blocks/form/ButtonExtension.js:85
-#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:37
+#: blocks/form/ButtonExtension.js:86
+#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:38
 msgid "Form Width"
 msgstr ""
 
-#: blocks/form/ButtonExtension.js:86
-#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:38
+#: blocks/form/ButtonExtension.js:87
+#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:39
 msgid "Set the with of your form in %"
 msgstr ""
 
-#: blocks/form/ButtonExtension.js:113
-#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:83
+#: blocks/form/ButtonExtension.js:115
+#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:86
 msgid "Animation"
 msgstr ""
 
-#: blocks/form/ButtonExtension.js:115
-#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:85
+#: blocks/form/ButtonExtension.js:117
+#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:88
 msgid "Define how the popup should appear on the screen."
 msgstr ""
 
-#: blocks/form/ButtonExtension.js:121
-#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:91
+#: blocks/form/ButtonExtension.js:123
+#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:94
 msgid "None"
 msgstr ""
 
-#: blocks/form/ButtonExtension.js:122
-#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:92
-msgid "FadeIn"
-msgstr ""
-
-#: blocks/form/ButtonExtension.js:123
-#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:93
-msgid "Shake"
-msgstr ""
-
 #: blocks/form/ButtonExtension.js:124
-#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:94
-msgid "Swing"
+#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:95
+msgid "FadeIn"
 msgstr ""
 
 #: blocks/form/ButtonExtension.js:125
 #: blocks/forms/form-inspector/preview-modal/components/Appearance.js:96
-msgid "Heart Beat"
+msgid "Shake"
 msgstr ""
 
 #: blocks/form/ButtonExtension.js:126
-#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:98
-msgid "Tada"
+#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:97
+msgid "Swing"
 msgstr ""
 
 #: blocks/form/ButtonExtension.js:127
 #: blocks/forms/form-inspector/preview-modal/components/Appearance.js:99
+msgid "Heart Beat"
+msgstr ""
+
+#: blocks/form/ButtonExtension.js:128
+#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:101
+msgid "Tada"
+msgstr ""
+
+#: blocks/form/ButtonExtension.js:129
+#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:102
 msgid "Wobble"
 msgstr ""
 
@@ -14188,7 +14196,7 @@ msgid "Select a form you like to display on this page."
 msgstr ""
 
 #: blocks/form/edit.js:208
-#: blocks/form/FormSelector.js:95
+#: blocks/form/FormSelector.js:96
 msgid "Edit form"
 msgstr ""
 
@@ -14205,7 +14213,7 @@ msgstr ""
 msgid "You currently have no forms. Please create a new form."
 msgstr ""
 
-#: blocks/form/FormSelector.js:82
+#: blocks/form/FormSelector.js:83
 msgid "Choose a form"
 msgstr ""
 
@@ -14294,25 +14302,25 @@ msgstr ""
 msgid "This option is useful if your theme doesn't add styling to input fields"
 msgstr ""
 
-#: blocks/forms/form-inspector/CssPanel.js:242
+#: blocks/forms/form-inspector/CssPanel.js:243
 msgid "Selectors"
 msgstr ""
 
-#: blocks/forms/form-inspector/CssPanel.js:243
+#: blocks/forms/form-inspector/CssPanel.js:244
 msgid "Helps you find the right selector for form elements"
 msgstr ""
 
-#: blocks/forms/form-inspector/CssPanel.js:249
+#: blocks/forms/form-inspector/CssPanel.js:250
 msgid "Choose Selector"
 msgstr ""
 
-#: blocks/forms/form-inspector/CssPanel.js:311
+#: blocks/forms/form-inspector/CssPanel.js:312
 msgid "Enter your custom CSS here. Every declaration will get prefixed to work only for this specific form."
 msgstr ""
 
 #: blocks/forms/form-inspector/DimensionsPanel.js:38
 #: blocks/forms/form-inspector/DimensionsPanel.js:62
-#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:50
+#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:51
 msgid "Form Padding"
 msgstr ""
 
@@ -14326,23 +14334,23 @@ msgid "Single Opt In"
 msgstr ""
 
 #: blocks/forms/form-inspector/Doubleoptin.js:46
-#: blocks/forms/form-inspector/Options.js:59
+#: blocks/forms/form-inspector/Options.js:60
 msgid "Enable double opt in"
 msgstr ""
 
-#: blocks/forms/form-inspector/Doubleoptin.js:56
+#: blocks/forms/form-inspector/Doubleoptin.js:57
 msgid "Subject for the confirmation message."
 msgstr ""
 
-#: blocks/forms/form-inspector/Doubleoptin.js:63
+#: blocks/forms/form-inspector/Doubleoptin.js:65
 msgid "The headline is part of the confirmation message. If empty the subject line will be used."
 msgstr ""
 
-#: blocks/forms/form-inspector/Doubleoptin.js:83
+#: blocks/forms/form-inspector/Doubleoptin.js:86
 msgid "This is the text of the link subscribers have to click to confirm their email address."
 msgstr ""
 
-#: blocks/forms/form-inspector/Doubleoptin.js:92
+#: blocks/forms/form-inspector/Doubleoptin.js:96
 msgid "Redirect subscribers after they clicked the link."
 msgstr ""
 
@@ -14386,26 +14394,26 @@ msgstr ""
 msgid "Learn more about Events"
 msgstr ""
 
-#: blocks/forms/form-inspector/FormModal.js:57
-#: blocks/forms/form-inspector/Options.js:49
+#: blocks/forms/form-inspector/FormModal.js:58
+#: blocks/forms/form-inspector/Options.js:50
 msgid "Form Name"
-msgstr ""
-
-#: blocks/forms/form-inspector/FormModal.js:61
-#: blocks/forms/form-inspector/Options.js:52
-msgid "Define a name for your form."
 msgstr ""
 
 #: blocks/forms/form-inspector/FormModal.js:62
 #: blocks/forms/form-inspector/Options.js:53
+msgid "Define a name for your form."
+msgstr ""
+
+#: blocks/forms/form-inspector/FormModal.js:63
+#: blocks/forms/form-inspector/Options.js:54
 msgid "Add title"
 msgstr ""
 
-#: blocks/forms/form-inspector/FormModal.js:222
+#: blocks/forms/form-inspector/FormModal.js:228
 msgid "Select Template"
 msgstr ""
 
-#: blocks/forms/form-inspector/FormModal.js:227
+#: blocks/forms/form-inspector/FormModal.js:233
 msgid "Select a template to get started"
 msgstr ""
 
@@ -14417,40 +14425,40 @@ msgstr ""
 msgid "Color"
 msgstr ""
 
-#: blocks/forms/form-inspector/FormStylesPanel.js:124
+#: blocks/forms/form-inspector/FormStylesPanel.js:125
 msgid "Auto"
 msgstr ""
 
-#: blocks/forms/form-inspector/FormStylesPanel.js:125
+#: blocks/forms/form-inspector/FormStylesPanel.js:126
 msgid "Contain"
 msgstr ""
 
-#: blocks/forms/form-inspector/FormStylesPanel.js:126
+#: blocks/forms/form-inspector/FormStylesPanel.js:127
 msgid "Cover"
 msgstr ""
 
-#: blocks/forms/form-inspector/FormStylesPanel.js:148
+#: blocks/forms/form-inspector/FormStylesPanel.js:150
 msgid "Fixed background"
 msgstr ""
 
-#: blocks/forms/form-inspector/FormStylesPanel.js:158
+#: blocks/forms/form-inspector/FormStylesPanel.js:160
 msgid "Fullscreen Background"
 msgstr ""
 
-#: blocks/forms/form-inspector/FormStylesPanel.js:168
+#: blocks/forms/form-inspector/FormStylesPanel.js:170
 msgid "Repeated Background"
 msgstr ""
 
-#: blocks/forms/form-inspector/FormStylesPanel.js:187
+#: blocks/forms/form-inspector/FormStylesPanel.js:190
 msgid "Opacity"
 msgstr ""
 
-#: blocks/forms/form-inspector/FormStylesPanel.js:206
+#: blocks/forms/form-inspector/FormStylesPanel.js:209
 msgid "Clear Media"
 msgstr ""
 
-#: blocks/forms/form-inspector/FormStylesPanel.js:234
-#: blocks/forms/form-inspector/InputStylesPanel.js:91
+#: blocks/forms/form-inspector/FormStylesPanel.js:238
+#: blocks/forms/form-inspector/InputStylesPanel.js:93
 msgid "Border Radius"
 msgstr ""
 
@@ -14466,7 +14474,7 @@ msgstr ""
 msgid "Input Border Color"
 msgstr ""
 
-#: blocks/forms/form-inspector/InputStylesPanel.js:72
+#: blocks/forms/form-inspector/InputStylesPanel.js:73
 msgid "Border Width"
 msgstr ""
 
@@ -14482,43 +14490,43 @@ msgstr ""
 msgid "Show Label"
 msgstr ""
 
-#: blocks/forms/form-inspector/ListsPanel.js:198
+#: blocks/forms/form-inspector/ListsPanel.js:199
 msgid "If the label is hidden it will be used for screen readers."
 msgstr ""
 
-#: blocks/forms/form-inspector/ListsPanel.js:209
+#: blocks/forms/form-inspector/ListsPanel.js:210
 msgid "You can update the list names and the precheck status in the editor."
 msgstr ""
 
-#: blocks/forms/form-inspector/Options.js:62
+#: blocks/forms/form-inspector/Options.js:63
 msgid "New subscribers must confirm their subscription."
 msgstr ""
 
-#: blocks/forms/form-inspector/Options.js:72
+#: blocks/forms/form-inspector/Options.js:73
 msgid "Users must check a checkbox to submit the form"
 msgstr ""
 
-#: blocks/forms/form-inspector/Options.js:83
+#: blocks/forms/form-inspector/Options.js:84
 msgid "Merge Data"
 msgstr ""
 
-#: blocks/forms/form-inspector/Options.js:84
+#: blocks/forms/form-inspector/Options.js:85
 msgid "Allow users to update their data with this form. Data like tags and lists will get merged together."
 msgstr ""
 
-#: blocks/forms/form-inspector/Options.js:95
+#: blocks/forms/form-inspector/Options.js:96
 msgid "Allow Prefills"
 msgstr ""
 
-#: blocks/forms/form-inspector/Options.js:96
+#: blocks/forms/form-inspector/Options.js:97
 msgid "Allow to prefill this form with GET variables. Use the field name as key and the value as value."
 msgstr ""
 
-#: blocks/forms/form-inspector/Options.js:108
+#: blocks/forms/form-inspector/Options.js:110
 msgid "Redirect subscribers after they submit the form. Keep empty to stay on the same page and show a success message."
 msgstr ""
 
-#: blocks/forms/form-inspector/Options.js:120
+#: blocks/forms/form-inspector/Options.js:122
 msgid "Edit Error/Success Messages"
 msgstr ""
 
@@ -14534,39 +14542,39 @@ msgstr ""
 msgid "Appearance"
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:62
+#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:64
 msgid "Show form"
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:64
+#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:66
 msgid "Mailster will show this popup again when it has been explicitly closed. If there is a conversation the popup will not show up again."
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:70
+#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:72
 msgid "Always"
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:71
+#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:73
 msgid "every 1 hour"
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:72
+#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:74
 msgid "every 12 hours"
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:73
+#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:75
 msgid "every 24 hours"
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:74
+#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:76
 msgid "every 1 week"
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:75
+#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:77
 msgid "every 1 month"
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:103
+#: blocks/forms/form-inspector/preview-modal/components/Appearance.js:106
 msgid "You have enabled a setting on your device to minimize the amount of non-essential motion. Animations may not work properly."
 msgstr ""
 
@@ -14590,7 +14598,7 @@ msgstr ""
 msgid "Display form after:"
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/components/DisplayOptionsExtra.js:101
+#: blocks/forms/form-inspector/preview-modal/components/DisplayOptionsExtra.js:103
 msgid "Form will be displayed at the very bottom if no matching elements were found."
 msgstr ""
 
@@ -14638,15 +14646,14 @@ msgid "Remove Entry"
 msgstr ""
 
 #: blocks/forms/form-inspector/preview-modal/components/Schedule.js:166
-#: blocks/forms/form-inspector/preview-modal/components/Schedule.js:176
 msgid "Schedule"
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/components/Schedule.js:182
+#: blocks/forms/form-inspector/preview-modal/components/Schedule.js:178
 msgid "Show the form if at least one schedule applies."
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/components/Schedule.js:202
+#: blocks/forms/form-inspector/preview-modal/components/Schedule.js:198
 msgid "Add Schedule"
 msgstr ""
 
@@ -14662,67 +14669,67 @@ msgstr ""
 msgid "Mailster will show this popup after a give time. The preview will always trigger after 2 seconds."
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/components/Triggers.js:85
+#: blocks/forms/form-inspector/preview-modal/components/Triggers.js:86
 msgid "Delay in Seconds"
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/components/Triggers.js:93
+#: blocks/forms/form-inspector/preview-modal/components/Triggers.js:94
 msgid "Trigger after inactive"
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/components/Triggers.js:98
+#: blocks/forms/form-inspector/preview-modal/components/Triggers.js:99
 msgid "Mailster will show this popup when the user doesn't do any interaction with the website. The preview will always trigger after 4 seconds."
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/components/Triggers.js:116
+#: blocks/forms/form-inspector/preview-modal/components/Triggers.js:118
 msgid "Inactive for x Seconds"
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/components/Triggers.js:124
+#: blocks/forms/form-inspector/preview-modal/components/Triggers.js:126
 msgid "Trigger after scroll"
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/components/Triggers.js:129
+#: blocks/forms/form-inspector/preview-modal/components/Triggers.js:131
 msgid "Mailster will show this popup once the user scrolls to a certain position on your website."
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/components/Triggers.js:148
+#: blocks/forms/form-inspector/preview-modal/components/Triggers.js:151
 msgid "Scroll Position in %"
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/components/Triggers.js:156
+#: blocks/forms/form-inspector/preview-modal/components/Triggers.js:159
 msgid "Trigger after click"
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/components/Triggers.js:161
+#: blocks/forms/form-inspector/preview-modal/components/Triggers.js:164
 msgid "Show the form once the user clicks on specific element on the website."
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/components/Triggers.js:176
+#: blocks/forms/form-inspector/preview-modal/components/Triggers.js:180
 msgid "Selector"
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/components/Triggers.js:183
+#: blocks/forms/form-inspector/preview-modal/components/Triggers.js:187
 msgid "Trigger after exit intent"
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/components/Triggers.js:188
+#: blocks/forms/form-inspector/preview-modal/components/Triggers.js:192
 msgid "Mailster will show this popup once the user tries to move away from the site. This doens't work on mobile."
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/index.js:250
+#: blocks/forms/form-inspector/preview-modal/index.js:251
 msgid "Show the preview as currently logged in user."
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/index.js:285
+#: blocks/forms/form-inspector/preview-modal/index.js:286
 msgid "Please enable a Placement option on the right"
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/index.js:289
+#: blocks/forms/form-inspector/preview-modal/index.js:290
 msgid "This form is currently not displayed anywhere."
 msgstr ""
 
-#: blocks/forms/form-inspector/preview-modal/index.js:338
+#: blocks/forms/form-inspector/preview-modal/index.js:339
 msgid "Define your placement options"
 msgstr ""
 
@@ -14873,63 +14880,63 @@ msgstr ""
 msgid "Apply styles"
 msgstr ""
 
-#: blocks/forms/input/inspector.js:135
+#: blocks/forms/input/inspector.js:136
 msgid "Define a label for your field"
 msgstr ""
 
-#: blocks/forms/input/inspector.js:147
+#: blocks/forms/input/inspector.js:148
 msgid "Inline Labels"
 msgstr ""
 
-#: blocks/forms/input/inspector.js:148
+#: blocks/forms/input/inspector.js:149
 msgid "Place the label inside the input field to save some space."
 msgstr ""
 
-#: blocks/forms/input/inspector.js:161
+#: blocks/forms/input/inspector.js:162
 msgid "Required Field"
 msgstr ""
 
-#: blocks/forms/input/inspector.js:162
+#: blocks/forms/input/inspector.js:163
 msgid "Make this field mandatory so people cannot submit the form without entering data."
 msgstr ""
 
-#: blocks/forms/input/inspector.js:176
+#: blocks/forms/input/inspector.js:177
 msgid "Show asterisk"
 msgstr ""
 
-#: blocks/forms/input/inspector.js:177
+#: blocks/forms/input/inspector.js:178
 msgid "Enable an asterisk (*) after the label on required fields."
 msgstr ""
 
-#: blocks/forms/input/inspector.js:190
+#: blocks/forms/input/inspector.js:191
 msgid "Use native form element"
 msgstr ""
 
-#: blocks/forms/input/inspector.js:191
+#: blocks/forms/input/inspector.js:192
 msgid "Native form elements provide a better user experience but often miss some styling."
 msgstr ""
 
-#: blocks/forms/input/inspector.js:210
+#: blocks/forms/input/inspector.js:212
 msgid "Set the width of the input field."
 msgstr ""
 
-#: blocks/forms/input/inspector.js:220
+#: blocks/forms/input/inspector.js:223
 msgid "Height"
 msgstr ""
 
-#: blocks/forms/input/inspector.js:226
+#: blocks/forms/input/inspector.js:229
 msgid "Set the height of the textarea."
 msgstr ""
 
-#: blocks/forms/input/inspector.js:236
+#: blocks/forms/input/inspector.js:240
 msgid "Autocomplete Attribute"
 msgstr ""
 
-#: blocks/forms/input/inspector.js:237
+#: blocks/forms/input/inspector.js:241
 msgid "Define which autocomplete value will be used on this field."
 msgstr ""
 
-#: blocks/forms/input/inspector.js:252
+#: blocks/forms/input/inspector.js:257
 msgid "Define the text for this field if an error occurs."
 msgstr ""
 
@@ -14950,11 +14957,11 @@ msgstr ""
 msgid "set as default"
 msgstr ""
 
-#: blocks/forms/input/Values.js:126
+#: blocks/forms/input/Values.js:127
 msgid "Trash"
 msgstr ""
 
-#: blocks/forms/input/Values.js:141
+#: blocks/forms/input/Values.js:142
 msgid "Add new Value"
 msgstr ""
 
@@ -15093,12 +15100,12 @@ msgstr ""
 msgid "Format the number with thousand separators."
 msgstr ""
 
-#: blocks/subscriber-count/index.js:143
+#: blocks/subscriber-count/index.js:144
 msgid "Do not round"
 msgstr ""
 
-#: blocks/subscriber-count/index.js:157
-#: blocks/subscriber-count/index.js:189
+#: blocks/subscriber-count/index.js:158
+#: blocks/subscriber-count/index.js:190
 msgid "Insert Newsletter Subscribers Count"
 msgstr ""
 
@@ -15258,7 +15265,7 @@ msgstr ""
 msgid "Enter Comment"
 msgstr ""
 
-#: blocks/workflows/comment/inspector.js:34
+#: blocks/workflows/comment/inspector.js:36
 msgid "Add a comment to help you understand your workflow"
 msgstr ""
 
@@ -15297,7 +15304,7 @@ msgstr ""
 #: blocks/workflows/jumper/constants.js:21
 #: blocks/workflows/notification/constants.js:21
 #: blocks/workflows/trigger/constants.js:21
-#: blocks/workflows/trigger/DateSelector.js:294
+#: blocks/workflows/trigger/DateSelector.js:297
 msgid "Minutes"
 msgstr ""
 
@@ -15312,7 +15319,7 @@ msgstr ""
 #: blocks/workflows/jumper/constants.js:26
 #: blocks/workflows/notification/constants.js:26
 #: blocks/workflows/trigger/constants.js:26
-#: blocks/workflows/trigger/DateSelector.js:295
+#: blocks/workflows/trigger/DateSelector.js:298
 msgid "Hours"
 msgstr ""
 
@@ -15327,7 +15334,7 @@ msgstr ""
 #: blocks/workflows/jumper/constants.js:31
 #: blocks/workflows/notification/constants.js:31
 #: blocks/workflows/trigger/constants.js:31
-#: blocks/workflows/trigger/DateSelector.js:296
+#: blocks/workflows/trigger/DateSelector.js:299
 msgid "Days"
 msgstr ""
 
@@ -15342,7 +15349,7 @@ msgstr ""
 #: blocks/workflows/jumper/constants.js:36
 #: blocks/workflows/notification/constants.js:36
 #: blocks/workflows/trigger/constants.js:36
-#: blocks/workflows/trigger/DateSelector.js:297
+#: blocks/workflows/trigger/DateSelector.js:300
 msgid "Weeks"
 msgstr ""
 
@@ -15733,51 +15740,51 @@ msgstr ""
 msgid "for"
 msgstr ""
 
-#: blocks/workflows/delay/inspector.js:184
-#: blocks/workflows/delay/inspector.js:223
-#: blocks/workflows/delay/inspector.js:282
+#: blocks/workflows/delay/inspector.js:186
+#: blocks/workflows/delay/inspector.js:225
+#: blocks/workflows/delay/inspector.js:284
 msgid "Wait until current time of the day is"
 msgstr ""
 
-#: blocks/workflows/delay/inspector.js:188
+#: blocks/workflows/delay/inspector.js:190
 msgid "If the current time is later the workflow will be delayed by one day."
 msgstr ""
 
-#: blocks/workflows/delay/inspector.js:250
+#: blocks/workflows/delay/inspector.js:252
 msgid "If the current time is later the workflow will be delayed by next selected weekday."
 msgstr ""
 
-#: blocks/workflows/delay/inspector.js:308
+#: blocks/workflows/delay/inspector.js:310
 msgid "and it is the"
 msgstr ""
 
-#: blocks/workflows/delay/inspector.js:309
+#: blocks/workflows/delay/inspector.js:311
 msgid "If the current time is later the workflow will be delayed by next selected day in the next month."
 msgstr ""
 
-#: blocks/workflows/delay/inspector.js:330
+#: blocks/workflows/delay/inspector.js:333
 #, js-format
 msgid "The month will be skipped if it doesn't have %d days."
 msgstr ""
 
-#: blocks/workflows/delay/inspector.js:346
+#: blocks/workflows/delay/inspector.js:349
 msgid "Continue Workflow on the"
 msgstr ""
 
-#: blocks/workflows/delay/inspector.js:379
-#: blocks/workflows/trigger/DateSelector.js:322
+#: blocks/workflows/delay/inspector.js:382
+#: blocks/workflows/trigger/DateSelector.js:325
 msgid "Date is in the past!"
 msgstr ""
 
-#: blocks/workflows/delay/inspector.js:388
+#: blocks/workflows/delay/inspector.js:391
 msgid "Allow journey continuation"
 msgstr ""
 
-#: blocks/workflows/delay/inspector.js:391
+#: blocks/workflows/delay/inspector.js:394
 msgid "If the date is in the past, the workflow will continue to run."
 msgstr ""
 
-#: blocks/workflows/delay/inspector.js:395
+#: blocks/workflows/delay/inspector.js:398
 msgid "If the date is in the past, the workflow will not continue to run."
 msgstr ""
 
@@ -15794,53 +15801,53 @@ msgstr ""
 msgid "Unsubs"
 msgstr ""
 
-#: blocks/workflows/email/EmailSelector.js:86
-#: blocks/workflows/email/EmailSelector.js:120
+#: blocks/workflows/email/EmailSelector.js:87
+#: blocks/workflows/email/EmailSelector.js:127
 msgid "Edit Email"
 msgstr ""
 
-#: blocks/workflows/email/EmailSelector.js:91
-#: blocks/workflows/email/EmailSelector.js:123
+#: blocks/workflows/email/EmailSelector.js:92
+#: blocks/workflows/email/EmailSelector.js:130
 msgid "New Email"
 msgstr ""
 
-#: blocks/workflows/email/EmailSelector.js:100
+#: blocks/workflows/email/EmailSelector.js:103
 msgid "Select an email you like to send in this step"
 msgstr ""
 
-#: blocks/workflows/email/EmailSelector.js:101
+#: blocks/workflows/email/EmailSelector.js:107
 msgid "Select a email"
 msgstr ""
 
-#: blocks/workflows/email/EmailSelector.js:129
+#: blocks/workflows/email/EmailSelector.js:136
 msgid "Email for this step"
 msgstr ""
 
-#: blocks/workflows/email/inspector.js:51
+#: blocks/workflows/email/inspector.js:52
 msgid "Set a name of this email."
 msgstr ""
 
-#: blocks/workflows/email/inspector.js:61
+#: blocks/workflows/email/inspector.js:63
 msgid "Overwrite the subject line of this email."
 msgstr ""
 
-#: blocks/workflows/email/inspector.js:71
+#: blocks/workflows/email/inspector.js:74
 msgid "Overwrite the preheader of this email."
 msgstr ""
 
-#: blocks/workflows/email/inspector.js:80
+#: blocks/workflows/email/inspector.js:84
 msgid "From Email Address"
 msgstr ""
 
-#: blocks/workflows/email/inspector.js:81
+#: blocks/workflows/email/inspector.js:85
 msgid "Overwrite the email address of this email."
 msgstr ""
 
-#: blocks/workflows/email/inspector.js:92
+#: blocks/workflows/email/inspector.js:97
 msgid "Overwrite the from name of this email."
 msgstr ""
 
-#: blocks/workflows/email/inspector.js:107
+#: blocks/workflows/email/inspector.js:112
 msgid "Emails get queued in this step and sent by your current cron process."
 msgstr ""
 
@@ -15878,7 +15885,7 @@ msgstr ""
 msgid "Zoom In"
 msgstr ""
 
-#: blocks/workflows/inspector/Comment.js:41
+#: blocks/workflows/inspector/Comment.js:42
 msgid "Add a comment to help you understand your workflow."
 msgstr ""
 
@@ -15914,60 +15921,60 @@ msgstr ""
 msgid "Disable this trigger for the workflow."
 msgstr ""
 
-#: blocks/workflows/inspector/FieldSelector.js:83
-#: blocks/workflows/trigger/DateSelector.js:105
-#: blocks/workflows/trigger/FieldSelector.js:41
+#: blocks/workflows/inspector/FieldSelector.js:84
+#: blocks/workflows/trigger/DateSelector.js:106
+#: blocks/workflows/trigger/FieldSelector.js:42
 msgid "Select Custom Field"
 msgstr ""
 
-#: blocks/workflows/inspector/FieldSelector.js:105
-#: blocks/workflows/inspector/FieldSelector.js:174
-#: blocks/workflows/inspector/FieldSelector.js:188
-#: blocks/workflows/inspector/FieldSelector.js:209
-#: blocks/workflows/inspector/FieldSelector.js:221
+#: blocks/workflows/inspector/FieldSelector.js:106
+#: blocks/workflows/inspector/FieldSelector.js:179
+#: blocks/workflows/inspector/FieldSelector.js:193
+#: blocks/workflows/inspector/FieldSelector.js:214
+#: blocks/workflows/inspector/FieldSelector.js:227
 msgid "to"
 msgstr ""
 
-#: blocks/workflows/inspector/FieldSelector.js:110
-#: blocks/workflows/inspector/FieldSelector.js:176
+#: blocks/workflows/inspector/FieldSelector.js:112
+#: blocks/workflows/inspector/FieldSelector.js:181
 msgid "Remove this value"
 msgstr ""
 
-#: blocks/workflows/inspector/FieldSelector.js:113
+#: blocks/workflows/inspector/FieldSelector.js:115
 msgid "A specific date"
 msgstr ""
 
-#: blocks/workflows/inspector/FieldSelector.js:117
+#: blocks/workflows/inspector/FieldSelector.js:119
 msgid "To the current date"
 msgstr ""
 
-#: blocks/workflows/inspector/FieldSelector.js:121
+#: blocks/workflows/inspector/FieldSelector.js:123
 msgid "Increase by days"
 msgstr ""
 
-#: blocks/workflows/inspector/FieldSelector.js:125
+#: blocks/workflows/inspector/FieldSelector.js:127
 msgid "Decrease by days"
 msgstr ""
 
-#: blocks/workflows/inspector/FieldSelector.js:145
-#: blocks/workflows/inspector/FieldSelector.js:155
+#: blocks/workflows/inspector/FieldSelector.js:148
+#: blocks/workflows/inspector/FieldSelector.js:159
 msgid "Number of days"
 msgstr ""
 
-#: blocks/workflows/inspector/FieldSelector.js:197
+#: blocks/workflows/inspector/FieldSelector.js:202
 msgid "checked"
 msgstr ""
 
-#: blocks/workflows/inspector/FieldSelector.js:201
+#: blocks/workflows/inspector/FieldSelector.js:206
 msgid "unchecked"
 msgstr ""
 
-#: blocks/workflows/inspector/FieldSelector.js:235
+#: blocks/workflows/inspector/FieldSelector.js:241
 #, js-format
 msgid "Add new custom fields on the %s"
 msgstr ""
 
-#: blocks/workflows/inspector/FieldSelector.js:241
+#: blocks/workflows/inspector/FieldSelector.js:247
 msgid "settings page."
 msgstr ""
 
@@ -15975,15 +15982,15 @@ msgstr ""
 msgid "Invalid Steps"
 msgstr ""
 
-#: blocks/workflows/inspector/Options.js:39
+#: blocks/workflows/inspector/Options.js:40
 msgid "Workflow Name"
 msgstr ""
 
-#: blocks/workflows/inspector/Options.js:42
+#: blocks/workflows/inspector/Options.js:43
 msgid "Define a name for your workflow."
 msgstr ""
 
-#: blocks/workflows/inspector/Options.js:43
+#: blocks/workflows/inspector/Options.js:44
 msgid "Add Workflow name"
 msgstr ""
 
@@ -16088,11 +16095,11 @@ msgstr ""
 msgid "Mailster will send a POST request to this URL with the subscriber data as JSON."
 msgstr ""
 
-#: blocks/workflows/inspector/WebHookSelector.js:32
+#: blocks/workflows/inspector/WebHookSelector.js:33
 msgid "URL to be called"
 msgstr ""
 
-#: blocks/workflows/inspector/WebHookSelector.js:33
+#: blocks/workflows/inspector/WebHookSelector.js:34
 msgid "Define a URL which will be called with this action."
 msgstr ""
 
@@ -16153,31 +16160,31 @@ msgstr ""
 msgid "Step #%s has been reached!"
 msgstr ""
 
-#: blocks/workflows/notification/inspector.js:75
+#: blocks/workflows/notification/inspector.js:76
 msgid "Define an email address for the notification."
 msgstr ""
 
-#: blocks/workflows/notification/inspector.js:79
+#: blocks/workflows/notification/inspector.js:80
 msgid "Add email"
 msgstr ""
 
-#: blocks/workflows/notification/inspector.js:89
+#: blocks/workflows/notification/inspector.js:91
 msgid "Set a subject."
 msgstr ""
 
-#: blocks/workflows/notification/inspector.js:90
+#: blocks/workflows/notification/inspector.js:92
 msgid "Add subject"
 msgstr ""
 
-#: blocks/workflows/notification/inspector.js:100
+#: blocks/workflows/notification/inspector.js:102
 msgid "Set a message."
 msgstr ""
 
-#: blocks/workflows/notification/inspector.js:101
+#: blocks/workflows/notification/inspector.js:103
 msgid "Add message"
 msgstr ""
 
-#: blocks/workflows/notification/inspector.js:105
+#: blocks/workflows/notification/inspector.js:107
 #, js-format
 msgid "You can use placeholders like %s or %s to add subscriber data to your message."
 msgstr ""
@@ -16187,53 +16194,53 @@ msgstr ""
 msgid "Send Notification to %s"
 msgstr ""
 
-#: blocks/workflows/trigger/DateSelector.js:104
+#: blocks/workflows/trigger/DateSelector.js:105
 msgid "Trigger based on the subscribers"
 msgstr ""
 
-#: blocks/workflows/trigger/DateSelector.js:112
+#: blocks/workflows/trigger/DateSelector.js:113
 msgid "Use a specific date"
 msgstr ""
 
-#: blocks/workflows/trigger/DateSelector.js:113
+#: blocks/workflows/trigger/DateSelector.js:114
 msgid "Use a custom field"
 msgstr ""
 
-#: blocks/workflows/trigger/DateSelector.js:130
+#: blocks/workflows/trigger/DateSelector.js:131
 msgid "Yearly"
 msgstr ""
 
-#: blocks/workflows/trigger/DateSelector.js:130
+#: blocks/workflows/trigger/DateSelector.js:131
 msgid "Yearly on the"
 msgstr ""
 
-#: blocks/workflows/trigger/DateSelector.js:134
+#: blocks/workflows/trigger/DateSelector.js:135
 msgid "Use this trigger to send emails based on user values. This is usefull for anniversaries like birthdays. To trigger this campaign every year you have to define repeats below."
 msgstr ""
 
-#: blocks/workflows/trigger/DateSelector.js:138
-#: blocks/workflows/trigger/DateSelector.js:206
+#: blocks/workflows/trigger/DateSelector.js:139
+#: blocks/workflows/trigger/DateSelector.js:207
 msgid "This workfow gets triggered for all subscribers on the defined date. Narrow down your selection with conditions below. If you only send a single email in this workflow consider using a regular campaign instead."
 msgstr ""
 
-#: blocks/workflows/trigger/DateSelector.js:197
+#: blocks/workflows/trigger/DateSelector.js:198
 #, js-format
 msgid "Once on %s"
 msgstr ""
 
-#: blocks/workflows/trigger/DateSelector.js:198
+#: blocks/workflows/trigger/DateSelector.js:199
 msgid "Once on"
 msgstr ""
 
-#: blocks/workflows/trigger/DateSelector.js:202
+#: blocks/workflows/trigger/DateSelector.js:203
 msgid "Use this trigger to send emails based on user values."
 msgstr ""
 
-#: blocks/workflows/trigger/DateSelector.js:269
+#: blocks/workflows/trigger/DateSelector.js:270
 msgid "Offset"
 msgstr ""
 
-#: blocks/workflows/trigger/DateSelector.js:270
+#: blocks/workflows/trigger/DateSelector.js:271
 msgid "Offset the time to trigger either before or after the defined date."
 msgstr ""
 
@@ -16256,31 +16263,31 @@ msgstr ""
 msgid "only when"
 msgstr ""
 
-#: blocks/workflows/trigger/FieldSelector.js:40
+#: blocks/workflows/trigger/FieldSelector.js:41
 msgid "Whenever"
 msgstr ""
 
-#: blocks/workflows/trigger/FieldSelector.js:45
+#: blocks/workflows/trigger/FieldSelector.js:46
 msgid "is updated"
 msgstr ""
 
-#: blocks/workflows/trigger/FieldSelector.js:46
+#: blocks/workflows/trigger/FieldSelector.js:47
 msgid "Choose the field you like to use to trigger this workflow."
 msgstr ""
 
-#: blocks/workflows/trigger/FieldSelector.js:57
+#: blocks/workflows/trigger/FieldSelector.js:58
 msgid "Any field"
 msgstr ""
 
-#: blocks/workflows/trigger/FieldSelector.js:60
+#: blocks/workflows/trigger/FieldSelector.js:61
 msgid "Loading..."
 msgstr ""
 
-#: blocks/workflows/trigger/FieldSelector.js:64
+#: blocks/workflows/trigger/FieldSelector.js:65
 msgid "User fields"
 msgstr ""
 
-#: blocks/workflows/trigger/FieldSelector.js:80
+#: blocks/workflows/trigger/FieldSelector.js:81
 msgid "Use conditions below to trigger this workflow only if the field matches the condition."
 msgstr ""
 
@@ -16312,37 +16319,37 @@ msgstr ""
 msgid "Define your hook you like to trigger"
 msgstr ""
 
-#: blocks/workflows/trigger/HookSelector.js:72
+#: blocks/workflows/trigger/HookSelector.js:73
 msgid "How to implement?"
 msgstr ""
 
-#: blocks/workflows/trigger/HookSelector.js:77
+#: blocks/workflows/trigger/HookSelector.js:78
 msgid "Trigger this workflow by executing some code."
 msgstr ""
 
-#: blocks/workflows/trigger/HookSelector.js:86
+#: blocks/workflows/trigger/HookSelector.js:87
 msgid "Trigger for a single subscriber"
 msgstr ""
 
-#: blocks/workflows/trigger/HookSelector.js:101
-#: blocks/workflows/trigger/HookSelector.js:123
-#: blocks/workflows/trigger/HookSelector.js:144
+#: blocks/workflows/trigger/HookSelector.js:102
+#: blocks/workflows/trigger/HookSelector.js:124
+#: blocks/workflows/trigger/HookSelector.js:145
 msgid "Copy Snippet"
 msgstr ""
 
-#: blocks/workflows/trigger/HookSelector.js:108
+#: blocks/workflows/trigger/HookSelector.js:109
 msgid "Trigger for multiple subscribers"
 msgstr ""
 
-#: blocks/workflows/trigger/HookSelector.js:129
+#: blocks/workflows/trigger/HookSelector.js:130
 msgid "Trigger for all subscribers"
 msgstr ""
 
-#: blocks/workflows/trigger/HookSelector.js:153
+#: blocks/workflows/trigger/HookSelector.js:154
 msgid "You can use it in your theme or in a plugin. Make sure you define the subscriber ID to trigger this workflow for the right subscriber."
 msgstr ""
 
-#: blocks/workflows/trigger/HookSelector.js:159
+#: blocks/workflows/trigger/HookSelector.js:160
 msgid "Use conditions to further segment your selection."
 msgstr ""
 
@@ -16371,15 +16378,15 @@ msgstr ""
 msgid "Run unlimited times"
 msgstr ""
 
-#: blocks/workflows/trigger/inspector.js:146
+#: blocks/workflows/trigger/inspector.js:147
 msgid "Number of runs"
 msgstr ""
 
-#: blocks/workflows/trigger/inspector.js:155
+#: blocks/workflows/trigger/inspector.js:156
 msgid "Allow unconfirmed subscribers to enter the workflow. This is useful if they need to confirm their subscription first. The trigger will be executed once they are confirmed."
 msgstr ""
 
-#: blocks/workflows/trigger/inspector.js:164
+#: blocks/workflows/trigger/inspector.js:165
 msgid "Enable for pending Subscribers"
 msgstr ""
 
@@ -16392,50 +16399,50 @@ msgstr ""
 msgid "No Trigger defined"
 msgstr ""
 
-#: blocks/workflows/trigger/LinkSelector.js:81
-#: blocks/workflows/trigger/PageSelector.js:85
+#: blocks/workflows/trigger/LinkSelector.js:82
+#: blocks/workflows/trigger/PageSelector.js:86
 #: blocks/workflows/trigger/TriggerSelector.js:138
 msgid "Select all lists where this workflow should get triggered"
 msgstr ""
 
-#: blocks/workflows/trigger/LinkSelector.js:86
+#: blocks/workflows/trigger/LinkSelector.js:87
 msgid "Add Link"
 msgstr ""
 
-#: blocks/workflows/trigger/LinkSelector.js:91
-#: blocks/workflows/trigger/PageSelector.js:95
+#: blocks/workflows/trigger/LinkSelector.js:92
+#: blocks/workflows/trigger/PageSelector.js:96
 msgid "The user must be an active subscriber for this workflow to get triggered."
 msgstr ""
 
-#: blocks/workflows/trigger/PageSelector.js:90
+#: blocks/workflows/trigger/PageSelector.js:91
 msgid "Add Page"
 msgstr ""
 
-#: blocks/workflows/trigger/PublishSelector.js:77
+#: blocks/workflows/trigger/PublishSelector.js:78
 msgid "Whenever a new"
 msgstr ""
 
-#: blocks/workflows/trigger/PublishSelector.js:79
+#: blocks/workflows/trigger/PublishSelector.js:80
 msgid "has been published"
 msgstr ""
 
-#: blocks/workflows/trigger/PublishSelector.js:84
+#: blocks/workflows/trigger/PublishSelector.js:85
 msgid "Filter selection"
 msgstr ""
 
-#: blocks/workflows/trigger/PublishSelector.js:96
+#: blocks/workflows/trigger/PublishSelector.js:97
 msgid "Taxonomies"
 msgstr ""
 
-#: blocks/workflows/trigger/PublishSelector.js:108
+#: blocks/workflows/trigger/PublishSelector.js:109
 msgid "Authors"
 msgstr ""
 
-#: blocks/workflows/trigger/PublishSelector.js:117
+#: blocks/workflows/trigger/PublishSelector.js:118
 msgid "Skip Release"
 msgstr ""
 
-#: blocks/workflows/trigger/PublishSelector.js:124
+#: blocks/workflows/trigger/PublishSelector.js:126
 #, js-format
 msgid "Define how many %s must have been published to trigger this workflow."
 msgstr ""
