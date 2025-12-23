@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: 4.1.15\n"
+"Project-Id-Version: 4.1.16\n"
 "Report-Msgid-Bugs-To: https://mailster.co/contact\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-12-09T10:06:41+00:00\n"
+"POT-Creation-Date: 2025-12-23T10:11:35+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: mailster\n"
@@ -158,49 +158,49 @@ msgstr ""
 msgid "We are currently not able to handle your request. Please try again later."
 msgstr ""
 
-#: classes/ajax.class.php:160
+#: classes/ajax.class.php:159
 msgid "Your nonce is expired! Please reload the site."
 msgstr ""
 
-#: classes/ajax.class.php:346
-#: classes/ajax.class.php:370
+#: classes/ajax.class.php:345
+#: classes/ajax.class.php:369
 msgid "Unable to save template!"
 msgstr ""
 
-#: classes/ajax.class.php:632
-#: classes/ajax.class.php:876
+#: classes/ajax.class.php:631
+#: classes/ajax.class.php:875
 msgid "Nonce invalid! Please reload site."
 msgstr ""
 
-#: classes/ajax.class.php:728
+#: classes/ajax.class.php:727
 #: classes/campaigns.class.php:2046
 #, php-format
 msgid "Attachments must not exceed the file size limit of %s!"
 msgstr ""
 
-#: classes/ajax.class.php:853
+#: classes/ajax.class.php:852
 #, php-format
 msgid "Message sent to %s. Check your inbox!"
 msgstr ""
 
-#: classes/ajax.class.php:854
-#: classes/ajax.class.php:887
+#: classes/ajax.class.php:853
+#: classes/ajax.class.php:886
 msgid "Couldn't send message. Check your settings!"
 msgstr ""
 
-#: classes/ajax.class.php:858
+#: classes/ajax.class.php:857
 msgid "Check your console for more info."
 msgstr ""
 
-#: classes/ajax.class.php:886
+#: classes/ajax.class.php:885
 msgid "Message sent. Check your inbox!"
 msgstr ""
 
-#: classes/ajax.class.php:1009
+#: classes/ajax.class.php:1008
 msgid "Custom"
 msgstr ""
 
-#: classes/ajax.class.php:1085
+#: classes/ajax.class.php:1084
 #: classes/campaigns.class.php:4575
 #, php-format
 msgid "%s click"
@@ -208,34 +208,34 @@ msgid_plural "%s clicks"
 msgstr[0] ""
 msgstr[1] ""
 
-#: classes/ajax.class.php:1085
+#: classes/ajax.class.php:1084
 #, php-format
 msgid "%s unique"
 msgstr ""
 
-#: classes/ajax.class.php:1133
+#: classes/ajax.class.php:1132
 #: classes/campaigns.class.php:4372
 msgid "opened"
 msgid_plural "opens"
 msgstr[0] ""
 msgstr[1] ""
 
-#: classes/ajax.class.php:1172
+#: classes/ajax.class.php:1171
 #: classes/manage.class.php:273
 msgid "Country"
 msgstr ""
 
-#: classes/ajax.class.php:1172
+#: classes/ajax.class.php:1171
 #: classes/campaigns.class.php:4541
 #: classes/subscribers.class.php:3715
 msgid "opens"
 msgstr ""
 
-#: classes/ajax.class.php:1182
+#: classes/ajax.class.php:1181
 msgid "back to world view"
 msgstr ""
 
-#: classes/ajax.class.php:1195
+#: classes/ajax.class.php:1194
 #: classes/campaigns.class.php:5178
 #: classes/forms.table.class.php:180
 #: classes/notification.class.php:555
@@ -248,168 +248,168 @@ msgstr ""
 msgid "unknown"
 msgstr ""
 
-#: classes/ajax.class.php:1495
+#: classes/ajax.class.php:1494
 #, php-format
 msgid "by %s"
 msgstr ""
 
-#: classes/ajax.class.php:1521
-#: classes/ajax.class.php:1574
+#: classes/ajax.class.php:1520
+#: classes/ajax.class.php:1573
 msgid "Load more entries"
 msgstr ""
 
-#: classes/ajax.class.php:1523
-#: classes/ajax.class.php:1576
+#: classes/ajax.class.php:1522
+#: classes/ajax.class.php:1575
 #, php-format
 msgid "Load more entries (%s left)"
 msgstr ""
 
-#: classes/ajax.class.php:1530
-#: classes/ajax.class.php:1584
+#: classes/ajax.class.php:1529
+#: classes/ajax.class.php:1583
 msgid "No entries found!"
 msgstr ""
 
-#: classes/ajax.class.php:1646
+#: classes/ajax.class.php:1645
 #: classes/placeholder.class.php:1260
 msgid "Read More"
 msgstr ""
 
-#: classes/ajax.class.php:1695
+#: classes/ajax.class.php:1694
 msgid "No title"
 msgstr ""
 
-#: classes/ajax.class.php:1697
-#: classes/ajax.class.php:1700
+#: classes/ajax.class.php:1696
+#: classes/ajax.class.php:1699
 msgid "No Title"
 msgstr ""
 
-#: classes/ajax.class.php:1704
+#: classes/ajax.class.php:1703
 msgid "There's currently no match for your selection!"
 msgstr ""
 
-#: classes/ajax.class.php:1707
+#: classes/ajax.class.php:1706
 msgid "Create a new one"
 msgstr ""
 
-#: classes/ajax.class.php:1770
+#: classes/ajax.class.php:1769
 msgid "Please fill out all fields correctly!"
 msgstr ""
 
-#: classes/ajax.class.php:1778
+#: classes/ajax.class.php:1777
 #, php-format
 msgid "%s is forwarding an email to you!"
 msgstr ""
 
-#: classes/ajax.class.php:1780
+#: classes/ajax.class.php:1779
 #, php-format
 msgctxt "user forwarded via website"
 msgid "%1$s via %2$s"
 msgstr ""
 
-#: classes/ajax.class.php:1785
+#: classes/ajax.class.php:1784
 #, php-format
 msgid "%1$s is forwarding this mail to you via %2$s"
 msgstr ""
 
-#: classes/ajax.class.php:1789
+#: classes/ajax.class.php:1788
 msgid "Sorry, we couldn't deliver your message. Please try again later!"
 msgstr ""
 
-#: classes/ajax.class.php:1793
+#: classes/ajax.class.php:1792
 msgid "Your message was sent successfully!"
 msgstr ""
 
-#: classes/ajax.class.php:1833
+#: classes/ajax.class.php:1832
 msgid "Not able to save file!"
 msgstr ""
 
-#: classes/ajax.class.php:1841
+#: classes/ajax.class.php:1840
 msgid "File has been saved!"
 msgstr ""
 
-#: classes/ajax.class.php:1883
+#: classes/ajax.class.php:1882
 #, php-format
 msgid "There was an error loading the template: %s"
 msgstr ""
 
-#: classes/ajax.class.php:1889
+#: classes/ajax.class.php:1888
 #: classes/templates.class.php:927
 msgid "Template successful loaded!"
 msgstr ""
 
-#: classes/ajax.class.php:1904
+#: classes/ajax.class.php:1903
 #, php-format
 msgid "There was an error using this template as default: %s"
 msgstr ""
 
-#: classes/ajax.class.php:1908
+#: classes/ajax.class.php:1907
 msgid "New default template!"
 msgstr ""
 
-#: classes/ajax.class.php:1936
+#: classes/ajax.class.php:1935
 #: classes/templates.class.php:621
 msgid "WordPress is not able to access to your filesystem!"
 msgstr ""
 
-#: classes/ajax.class.php:1937
+#: classes/ajax.class.php:1936
 #: classes/templates.class.php:622
 #, php-format
 msgid "Please add following lines to the wp-config.php %s"
 msgstr ""
 
-#: classes/ajax.class.php:1951
+#: classes/ajax.class.php:1950
 msgid "Couldn't load Location Database"
 msgstr ""
 
-#: classes/ajax.class.php:1955
+#: classes/ajax.class.php:1954
 #: views/settings/privacy.php:33
 msgid "Last update"
 msgstr ""
 
-#: classes/ajax.class.php:1955
+#: classes/ajax.class.php:1954
 #: blocks/workflows/inspector/QueueBadge.js:225
 msgid "right now"
 msgstr ""
 
-#: classes/ajax.class.php:1956
+#: classes/ajax.class.php:1955
 msgid "Location Database success loaded!"
 msgstr ""
 
-#: classes/ajax.class.php:2027
+#: classes/ajax.class.php:2026
 msgid "checking for new messages"
 msgstr ""
 
-#: classes/ajax.class.php:2041
+#: classes/ajax.class.php:2040
 msgid "Your bounce server is good!"
 msgstr ""
 
-#: classes/ajax.class.php:2046
+#: classes/ajax.class.php:2045
 msgid "Unable to get test message! Please check your settings."
 msgstr ""
 
-#: classes/ajax.class.php:2132
-#: classes/ajax.class.php:2150
-#: classes/ajax.class.php:2187
+#: classes/ajax.class.php:2131
+#: classes/ajax.class.php:2149
+#: classes/ajax.class.php:2186
 #, php-format
 msgid "Domain %s"
 msgstr ""
 
-#: classes/ajax.class.php:2136
+#: classes/ajax.class.php:2135
 msgid "TXT record found"
 msgstr ""
 
-#: classes/ajax.class.php:2151
+#: classes/ajax.class.php:2150
 msgid "no TXT record found"
 msgstr ""
 
-#: classes/ajax.class.php:2152
-#: classes/ajax.class.php:2199
+#: classes/ajax.class.php:2151
+#: classes/ajax.class.php:2198
 #, php-format
 msgid "No or wrong record found for %s. Please adjust the namespace records and add these lines:"
 msgstr ""
 
-#: classes/ajax.class.php:2155
-#: classes/ajax.class.php:2202
+#: classes/ajax.class.php:2154
+#: classes/ajax.class.php:2201
 #: views/settings/authentication.php:108
 #: views/settings/authentication.php:119
 #: views/settings/cron.php:38
@@ -423,48 +423,48 @@ msgstr ""
 msgid "copy"
 msgstr ""
 
-#: classes/ajax.class.php:2192
+#: classes/ajax.class.php:2191
 msgid "verified"
 msgstr ""
 
-#: classes/ajax.class.php:2196
+#: classes/ajax.class.php:2195
 msgid "not verified"
 msgstr ""
 
-#: classes/ajax.class.php:2221
+#: classes/ajax.class.php:2220
 msgid "Couldn't create List"
 msgstr ""
 
-#: classes/ajax.class.php:2440
+#: classes/ajax.class.php:2439
 #, php-format
 msgid "Template %s has been uploaded"
 msgstr ""
 
-#: classes/ajax.class.php:2634
+#: classes/ajax.class.php:2616
 msgid "An update to the Mailster translation is available!"
 msgstr ""
 
-#: classes/ajax.class.php:2636
+#: classes/ajax.class.php:2618
 msgid "Mailster is available in your language!"
 msgstr ""
 
-#: classes/ajax.class.php:2638
+#: classes/ajax.class.php:2620
 msgid "load it"
 msgstr ""
 
-#: classes/ajax.class.php:2641
+#: classes/ajax.class.php:2623
 msgid "Mailster is not available in your languages!"
 msgstr ""
 
-#: classes/ajax.class.php:2656
+#: classes/ajax.class.php:2638
 msgid "Couldn't load language file. Please try again later."
 msgstr ""
 
-#: classes/ajax.class.php:2660
+#: classes/ajax.class.php:2642
 msgid "Language as been loaded successfully."
 msgstr ""
 
-#: classes/ajax.class.php:2660
+#: classes/ajax.class.php:2642
 msgid "reloading"
 msgstr ""
 
@@ -1402,7 +1402,7 @@ msgstr ""
 #: classes/campaigns.class.php:457
 #: classes/settings.class.php:414
 #: blocks/forms/form-inspector/Options.js:44
-#: blocks/workflows/inspector/Options.js:35
+#: blocks/workflows/inspector/Options.js:29
 msgid "Options"
 msgstr ""
 
@@ -4466,49 +4466,49 @@ msgstr ""
 msgid "Confirm IP"
 msgstr ""
 
-#: classes/manage.class.php:1364
+#: classes/manage.class.php:1368
 msgid "Mailster Subscribers"
 msgstr ""
 
-#: classes/manage.class.php:1415
+#: classes/manage.class.php:1419
 #, php-format
 msgid "The same job has been scheduled already (%s)."
 msgstr ""
 
-#: classes/manage.class.php:1430
+#: classes/manage.class.php:1434
 msgid "Job scheduled."
 msgstr ""
 
-#: classes/manage.class.php:1436
+#: classes/manage.class.php:1440
 msgid "No Subscribers removed."
 msgstr ""
 
-#: classes/manage.class.php:1440
+#: classes/manage.class.php:1444
 #, php-format
 msgid "%s Subscriber removed."
 msgid_plural "%s Subscribers removed."
 msgstr[0] ""
 msgstr[1] ""
 
-#: classes/manage.class.php:1463
+#: classes/manage.class.php:1467
 msgid "Job deleted."
 msgstr ""
 
-#: classes/manage.class.php:1582
+#: classes/manage.class.php:1586
 #, php-format
 msgid "No Importer for %s found."
 msgstr ""
 
-#: classes/manage.class.php:1591
+#: classes/manage.class.php:1595
 #, php-format
 msgid "To import subscribers from %s you need an additional addon."
 msgstr ""
 
-#: classes/manage.class.php:1595
+#: classes/manage.class.php:1599
 msgid "Activate Addon"
 msgstr ""
 
-#: classes/manage.class.php:1597
+#: classes/manage.class.php:1601
 msgid "Install Addon"
 msgstr ""
 
@@ -15982,15 +15982,15 @@ msgstr ""
 msgid "Invalid Steps"
 msgstr ""
 
-#: blocks/workflows/inspector/Options.js:40
+#: blocks/workflows/inspector/Options.js:34
 msgid "Workflow Name"
 msgstr ""
 
-#: blocks/workflows/inspector/Options.js:43
+#: blocks/workflows/inspector/Options.js:37
 msgid "Define a name for your workflow."
 msgstr ""
 
-#: blocks/workflows/inspector/Options.js:44
+#: blocks/workflows/inspector/Options.js:38
 msgid "Add Workflow name"
 msgstr ""
 
