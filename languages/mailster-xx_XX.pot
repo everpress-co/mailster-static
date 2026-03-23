@@ -1,15 +1,15 @@
-# Copyright (C) 2025 EverPress
+# Copyright (C) 2026 EverPress
 # This file is distributed under the GPLv2 or later.
 msgid ""
 msgstr ""
-"Project-Id-Version: 4.1.16\n"
+"Project-Id-Version: 4.1.17\n"
 "Report-Msgid-Bugs-To: https://mailster.co/contact\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2025-12-23T10:11:35+00:00\n"
+"POT-Creation-Date: 2026-03-23T12:24:53+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: mailster\n"
@@ -812,7 +812,7 @@ msgstr ""
 #: classes/campaigns.class.php:1385
 #: classes/campaigns.class.php:1532
 #: classes/forms.table.class.php:129
-#: views/newsletter/submit.php:56
+#: views/newsletter/submit.php:60
 msgid "Duplicate"
 msgstr ""
 
@@ -902,12 +902,12 @@ msgid "Search Workflow"
 msgstr ""
 
 #: classes/automation.class.php:1110
-#: classes/block-forms.class.php:626
+#: classes/block-forms.class.php:643
 msgid "Not found"
 msgstr ""
 
 #: classes/automation.class.php:1111
-#: classes/block-forms.class.php:627
+#: classes/block-forms.class.php:644
 msgid "Not found in Trash"
 msgstr ""
 
@@ -967,10 +967,7 @@ msgid "This workflow doesn't exists."
 msgstr ""
 
 #: classes/block-forms.class.php:242
-#: classes/forms.class.php:295
-#: classes/forms.class.php:1584
-#: classes/forms.class.php:1600
-msgid "Shortcode"
+msgid "Block / Shortcode"
 msgstr ""
 
 #: classes/block-forms.class.php:244
@@ -1002,7 +999,7 @@ msgid "Double-Opt-In"
 msgstr ""
 
 #: classes/block-forms.class.php:261
-#: blocks/forms/form-inspector/Options.js:72
+#: blocks/forms/form-inspector/Options.js:75
 msgid "GDPR compliant"
 msgstr ""
 
@@ -1020,30 +1017,53 @@ msgstr ""
 msgid "Lists: %s"
 msgstr ""
 
-#: classes/block-forms.class.php:610
+#: classes/block-forms.class.php:269
+msgid "Copy"
+msgstr ""
+
+#: classes/block-forms.class.php:271
+msgid "Click to copy block markup to your clipboard"
+msgstr ""
+
+#: classes/block-forms.class.php:271
+msgid "Block"
+msgstr ""
+
+#: classes/block-forms.class.php:272
+msgid "Click to copy shortcode to your clipboard"
+msgstr ""
+
+#: classes/block-forms.class.php:272
+#: classes/forms.class.php:295
+#: classes/forms.class.php:1584
+#: classes/forms.class.php:1600
+msgid "Shortcode"
+msgstr ""
+
+#: classes/block-forms.class.php:627
 msgctxt "Post Type General Name"
 msgid "Block Forms"
 msgstr ""
 
-#: classes/block-forms.class.php:610
+#: classes/block-forms.class.php:627
 msgctxt "Post Type General Name"
 msgid "Forms"
 msgstr ""
 
-#: classes/block-forms.class.php:614
+#: classes/block-forms.class.php:631
 msgctxt "Post Type Singular Name"
 msgid "Form"
 msgstr ""
 
-#: classes/block-forms.class.php:616
+#: classes/block-forms.class.php:633
 msgid "Form Attributes"
 msgstr ""
 
-#: classes/block-forms.class.php:618
+#: classes/block-forms.class.php:635
 msgid "Add New Form"
 msgstr ""
 
-#: classes/block-forms.class.php:619
+#: classes/block-forms.class.php:636
 #: classes/forms.table.class.php:48
 #: classes/lists.table.class.php:44
 #: classes/subscribers.table.class.php:101
@@ -1056,71 +1076,72 @@ msgstr ""
 msgid "Add New"
 msgstr ""
 
-#: classes/block-forms.class.php:620
+#: classes/block-forms.class.php:637
 msgid "New Form"
 msgstr ""
 
-#: classes/block-forms.class.php:621
+#: classes/block-forms.class.php:638
 #: includes/capability.php:183
 #: views/forms/detail.php:73
-#: blocks/form/edit.js:239
+#: blocks/form/edit.js:252
+#: blocks/form/edit.js:253
 msgid "Edit Form"
 msgstr ""
 
-#: classes/block-forms.class.php:622
+#: classes/block-forms.class.php:639
 msgid "Update Form"
 msgstr ""
 
-#: classes/block-forms.class.php:623
+#: classes/block-forms.class.php:640
 #: includes/capability.php:171
 msgid "View Form"
 msgstr ""
 
-#: classes/block-forms.class.php:624
+#: classes/block-forms.class.php:641
 msgid "View Forms"
 msgstr ""
 
-#: classes/block-forms.class.php:625
+#: classes/block-forms.class.php:642
 msgid "Search Form"
 msgstr ""
 
-#: classes/block-forms.class.php:628
+#: classes/block-forms.class.php:645
 msgid "Uploaded to this form"
 msgstr ""
 
-#: classes/block-forms.class.php:629
+#: classes/block-forms.class.php:646
 msgid "Forms list"
 msgstr ""
 
-#: classes/block-forms.class.php:630
+#: classes/block-forms.class.php:647
 msgid "Forms list navigation"
 msgstr ""
 
-#: classes/block-forms.class.php:631
+#: classes/block-forms.class.php:648
 msgid "Filter forms list"
 msgstr ""
 
-#: classes/block-forms.class.php:632
+#: classes/block-forms.class.php:649
 msgid "Form published"
 msgstr ""
 
-#: classes/block-forms.class.php:633
+#: classes/block-forms.class.php:650
 msgid "Form published privately."
 msgstr ""
 
-#: classes/block-forms.class.php:634
+#: classes/block-forms.class.php:651
 msgid "Form reverted to draft."
 msgstr ""
 
-#: classes/block-forms.class.php:635
+#: classes/block-forms.class.php:652
 msgid "Form scheduled."
 msgstr ""
 
-#: classes/block-forms.class.php:636
+#: classes/block-forms.class.php:653
 msgid "Form updated."
 msgstr ""
 
-#: classes/block-forms.class.php:640
+#: classes/block-forms.class.php:657
 #: classes/conditions.class.php:237
 #: classes/elementor.class.php:33
 #: classes/elementor.class.php:49
@@ -1135,38 +1156,38 @@ msgstr ""
 msgid "Form"
 msgstr ""
 
-#: classes/block-forms.class.php:641
+#: classes/block-forms.class.php:658
 msgid "Newsletter Form"
 msgstr ""
 
-#: classes/block-forms.class.php:776
+#: classes/block-forms.class.php:793
 msgid "Welcome to {company}!"
 msgstr ""
 
-#: classes/block-forms.class.php:786
+#: classes/block-forms.class.php:803
 msgid "Please confirm your email"
 msgstr ""
 
-#: classes/block-forms.class.php:797
+#: classes/block-forms.class.php:814
 #, php-format
 msgid "You have to confirm your email address to subscribe. Please click the link below to confirm. %s"
 msgstr ""
 
-#: classes/block-forms.class.php:808
+#: classes/block-forms.class.php:825
 msgid "Click here to confirm"
 msgstr ""
 
-#: classes/block-forms.class.php:946
+#: classes/block-forms.class.php:963
 #: blocks/homepage/inspector.js:164
 #, php-format,js-format
 msgid "Preview %s"
 msgstr ""
 
-#: classes/block-forms.class.php:946
+#: classes/block-forms.class.php:963
 msgid "Preview this form"
 msgstr ""
 
-#: classes/block-forms.class.php:946
+#: classes/block-forms.class.php:963
 #: classes/campaigns.class.php:1756
 #: classes/forms.table.class.php:190
 #: classes/widget.class.php:394
@@ -1176,42 +1197,42 @@ msgstr ""
 msgid "Preview"
 msgstr ""
 
-#: classes/block-forms.class.php:1121
+#: classes/block-forms.class.php:1138
 #: views/forms/detail.php:288
 #: views/settings/texts.php:30
-#: blocks/forms/form-inspector/CssPanel.js:108
+#: blocks/forms/form-inspector/CssPanel.js:109
 msgid "Submit Button"
 msgstr ""
 
-#: classes/block-forms.class.php:1213
+#: classes/block-forms.class.php:1230
 msgid "Newsletter Form Fields"
 msgstr ""
 
-#: classes/block-forms.class.php:1222
+#: classes/block-forms.class.php:1239
 msgid "Mailster Forms"
 msgstr ""
 
-#: classes/block-forms.class.php:1659
+#: classes/block-forms.class.php:1704
 #: classes/widget.class.php:8
 msgid "Newsletter Signup Form"
 msgstr ""
 
-#: classes/block-forms.class.php:1696
+#: classes/block-forms.class.php:1752
 msgid "close"
 msgstr ""
 
-#: classes/block-forms.class.php:1762
+#: classes/block-forms.class.php:1818
 #: classes/subscribers.class.php:144
 #: classes/subscribers.class.php:4154
 msgid "Subscribed"
 msgstr ""
 
-#: classes/block-forms.class.php:1762
+#: classes/block-forms.class.php:1818
 #: classes/subscribers.class.php:4155
 msgid "Unsubscribed"
 msgstr ""
 
-#: classes/block-forms.class.php:1969
+#: classes/block-forms.class.php:2025
 msgid "Default Form"
 msgstr ""
 
@@ -1371,10 +1392,10 @@ msgstr ""
 #: views/lists/detail.php:62
 #: views/newsletter/editbar.php:341
 #: views/newsletter/optionbar.php:114
-#: views/newsletter/submit.php:83
-#: views/newsletter/submit.php:94
-#: views/newsletter/submit.php:121
-#: views/newsletter/submit.php:127
+#: views/newsletter/submit.php:90
+#: views/newsletter/submit.php:101
+#: views/newsletter/submit.php:117
+#: views/newsletter/submit.php:123
 #: views/newsletter/template.php:134
 #: views/subscribers/detail.php:77
 #: blocks/workflows/inspector/Conditions.js:119
@@ -1401,7 +1422,7 @@ msgstr ""
 
 #: classes/campaigns.class.php:457
 #: classes/settings.class.php:414
-#: blocks/forms/form-inspector/Options.js:44
+#: blocks/forms/form-inspector/Options.js:45
 #: blocks/workflows/inspector/Options.js:29
 msgid "Options"
 msgstr ""
@@ -1563,13 +1584,13 @@ msgstr ""
 #: classes/forms.class.php:294
 #: classes/lists.class.php:36
 #: classes/subscribers.class.php:134
-#: patterns/forms.php:248
-#: patterns/forms.php:293
-#: patterns/forms.php:342
-#: patterns/forms.php:397
-#: patterns/forms.php:439
-#: patterns/forms.php:498
-#: patterns/forms.php:563
+#: patterns/forms.php:235
+#: patterns/forms.php:279
+#: patterns/forms.php:324
+#: patterns/forms.php:383
+#: patterns/forms.php:417
+#: patterns/forms.php:470
+#: patterns/forms.php:524
 #: views/lists/detail.php:67
 #: views/newsletter/optionbar.php:81
 #: views/subscribers/detail.php:119
@@ -1813,27 +1834,27 @@ msgstr ""
 #: classes/campaigns.class.php:1225
 #: classes/campaigns.class.php:1391
 #: views/manage/import.php:44
-#: views/newsletter/submit.php:67
-#: views/newsletter/submit.php:78
+#: views/newsletter/submit.php:74
+#: views/newsletter/submit.php:81
 msgid "Pause"
 msgstr ""
 
 #: classes/campaigns.class.php:1228
-#: views/newsletter/submit.php:183
+#: views/newsletter/submit.php:163
 msgid "Resume Campaign"
 msgstr ""
 
 #: classes/campaigns.class.php:1228
 #: classes/campaigns.class.php:1392
 #: views/manage/import.php:45
-#: views/newsletter/submit.php:86
-#: views/newsletter/submit.php:152
-#: views/newsletter/submit.php:183
+#: views/newsletter/submit.php:93
+#: views/newsletter/submit.php:148
+#: views/newsletter/submit.php:163
 msgid "Resume"
 msgstr ""
 
 #: classes/campaigns.class.php:1230
-#: views/newsletter/submit.php:185
+#: views/newsletter/submit.php:165
 msgid "Start Campaign"
 msgstr ""
 
@@ -2058,8 +2079,8 @@ msgid "Name of the module (click to edit)"
 msgstr ""
 
 #: classes/campaigns.class.php:1745
-#: views/newsletter/submit.php:65
-#: views/newsletter/submit.php:181
+#: views/newsletter/submit.php:72
+#: views/newsletter/submit.php:159
 #: views/settings/frontend.php:122
 #: views/settings/frontend.php:132
 #: views/settings/frontend.php:142
@@ -2471,19 +2492,20 @@ msgstr ""
 #: patterns/default-form.php:15
 #: patterns/forms.php:17
 #: patterns/forms.php:48
-#: patterns/forms.php:171
-#: patterns/forms.php:252
-#: patterns/forms.php:301
-#: patterns/forms.php:350
-#: patterns/forms.php:401
-#: patterns/forms.php:443
-#: patterns/forms.php:502
-#: patterns/forms.php:567
-#: patterns/forms.php:731
+#: patterns/forms.php:153
+#: patterns/forms.php:239
+#: patterns/forms.php:287
+#: patterns/forms.php:332
+#: patterns/forms.php:387
+#: patterns/forms.php:421
+#: patterns/forms.php:474
+#: patterns/forms.php:528
+#: patterns/forms.php:532
+#: patterns/forms.php:670
 #: views/newsletter/precheck.php:97
 #: views/settings/texts.php:26
 #: views/settings/wordpress-users.php:25
-#: blocks/workflows/email/EmailSelector.js:102
+#: blocks/workflows/email/EmailSelector.js:110
 #: blocks/workflows/notification/inspector.js:70
 msgid "Email"
 msgstr ""
@@ -2513,7 +2535,7 @@ msgid "Signup"
 msgstr ""
 
 #: classes/conditions.class.php:214
-#: views/newsletter/submit.php:133
+#: views/newsletter/submit.php:129
 msgid "Confirm"
 msgstr ""
 
@@ -2803,7 +2825,7 @@ msgstr ""
 
 #: classes/conditions.class.php:895
 #: views/newsletter/details.php:163
-#: blocks/forms/form-inspector/CssPanel.js:46
+#: blocks/forms/form-inspector/CssPanel.js:47
 msgid "Mobile"
 msgstr ""
 
@@ -3317,7 +3339,7 @@ msgstr ""
 #: views/forms/detail.php:114
 #: views/forms/detail.php:147
 #: views/forms/detail.php:232
-#: blocks/forms/input/inspector.js:135
+#: blocks/forms/input/inspector.js:125
 msgid "Label"
 msgstr ""
 
@@ -3775,7 +3797,7 @@ msgstr ""
 #: views/newsletter/details.php:78
 #: views/newsletter/precheck.php:33
 #: views/newsletter/precheck.php:93
-#: blocks/forms/form-inspector/Doubleoptin.js:55
+#: blocks/forms/form-inspector/Doubleoptin.js:57
 #: blocks/workflows/email/inspector.js:62
 #: blocks/workflows/notification/inspector.js:85
 msgid "Subject"
@@ -4279,7 +4301,7 @@ msgid "Create new Field"
 msgstr ""
 
 #: classes/manage.class.php:299
-#: blocks/forms/form-inspector/CssPanel.js:47
+#: blocks/forms/form-inspector/CssPanel.js:48
 msgid "Basic"
 msgstr ""
 
@@ -4374,7 +4396,7 @@ msgstr ""
 #: views/forms/detail.php:286
 #: views/settings/capabilities.php:74
 #: views/settings/texts.php:49
-#: blocks/forms/form-inspector/CssPanel.js:100
+#: blocks/forms/form-inspector/CssPanel.js:101
 msgid "Other"
 msgstr ""
 
@@ -4514,7 +4536,7 @@ msgstr ""
 
 #: classes/manage.import.abstract.php:83
 #: classes/manage.import.abstract.php:104
-#: views/manage/method-paste.php:7
+#: views/manage/method-paste.php:6
 #: views/manage/method-wordpress.php:38
 #: views/setup.php:79
 msgid "Next Step"
@@ -4554,10 +4576,6 @@ msgstr ""
 
 #: classes/notices.class.php:303
 msgid "Dismiss this notice (Alt-click to dismiss all notices)"
-msgstr ""
-
-#: classes/notices.class.php:303
-msgid "Dismiss"
 msgstr ""
 
 #: classes/notices.class.php:408
@@ -4864,7 +4882,7 @@ msgid "Attachments"
 msgstr ""
 
 #: classes/precheck.class.php:198
-#: blocks/forms/form-inspector/FormStylesPanel.js:113
+#: blocks/forms/form-inspector/FormStylesPanel.js:114
 msgid "Size"
 msgstr ""
 
@@ -5212,7 +5230,7 @@ msgstr ""
 
 #: classes/settings.class.php:257
 #: patterns/default-form.php:3
-#: blocks/forms/messages/edit.js:36
+#: blocks/forms/messages/edit.js:41
 msgid "Please confirm your subscription!"
 msgstr ""
 
@@ -5220,7 +5238,7 @@ msgstr ""
 #: classes/tinymce.class.php:184
 #: includes/static.php:51
 #: includes/static.php:62
-#: blocks/forms/messages/edit.js:37
+#: blocks/forms/messages/edit.js:42
 #: blocks/homepage-context/edit.js:23
 msgid "Thanks for your interest!"
 msgstr ""
@@ -5252,8 +5270,8 @@ msgstr ""
 #: includes/updates.php:39
 #: patterns/default-form.php:7
 #: patterns/forms.php:40
-#: patterns/forms.php:175
-#: patterns/forms.php:727
+#: patterns/forms.php:157
+#: patterns/forms.php:666
 #: views/settings/texts.php:27
 msgid "First Name"
 msgstr ""
@@ -5263,9 +5281,9 @@ msgstr ""
 #: includes/updates.php:40
 #: patterns/default-form.php:11
 #: patterns/forms.php:44
-#: patterns/forms.php:179
-#: patterns/forms.php:297
-#: patterns/forms.php:346
+#: patterns/forms.php:161
+#: patterns/forms.php:283
+#: patterns/forms.php:328
 #: views/settings/texts.php:28
 msgid "Last Name"
 msgstr ""
@@ -5276,13 +5294,11 @@ msgstr ""
 #: classes/widget.class.php:520
 #: includes/updates.php:44
 #: patterns/forms.php:21
-#: patterns/forms.php:183
-#: patterns/forms.php:212
-#: patterns/forms.php:256
-#: patterns/forms.php:305
-#: patterns/forms.php:354
-#: patterns/forms.php:405
-#: patterns/forms.php:571
+#: patterns/forms.php:165
+#: patterns/forms.php:199
+#: patterns/forms.php:243
+#: patterns/forms.php:291
+#: patterns/forms.php:391
 #: blocks/homepage/constants.js:43
 msgid "Subscribe"
 msgstr ""
@@ -5657,7 +5673,7 @@ msgid "Username"
 msgstr ""
 
 #: classes/settings.class.php:1673
-#: views/newsletter/submit.php:27
+#: views/newsletter/submit.php:35
 #: views/settings/bounce.php:49
 msgid "Password"
 msgstr ""
@@ -6452,7 +6468,7 @@ msgid "Custom %s"
 msgstr ""
 
 #: classes/templates.class.php:1633
-#: views/manage/method-upload.php:10
+#: views/manage/method-upload.php:9
 msgid "The web browser on your device cannot be used to upload files. You may be able to use the <a href=\"http://wordpress.org/extend/mobile/\">native app for your device</a> instead."
 msgstr ""
 
@@ -6467,32 +6483,32 @@ msgid "Drop your ZIP file here to upload new template"
 msgstr ""
 
 #: classes/templates.class.php:1714
-#: views/manage/method-upload.php:92
+#: views/manage/method-upload.php:91
 msgctxt "Uploader: Drop files here - or - Select Files"
 msgid "or"
 msgstr ""
 
 #: classes/templates.class.php:1715
-#: views/manage/method-upload.php:93
+#: views/manage/method-upload.php:92
 msgid "Select File"
 msgstr ""
 
 #: classes/templates.class.php:1716
-#: views/manage/method-upload.php:109
+#: views/manage/method-upload.php:108
 #, php-format
 msgid "Maximum upload file size: %s."
 msgstr ""
 
 #: classes/templates.class.php:1724
 #: classes/templates.class.php:1726
-#: views/manage/method-upload.php:101
-#: views/manage/method-upload.php:103
+#: views/manage/method-upload.php:100
+#: views/manage/method-upload.php:102
 msgid "Upload"
 msgstr ""
 
 #: classes/templates.class.php:1727
 #: views/manage/import.php:46
-#: views/manage/method-upload.php:104
+#: views/manage/method-upload.php:103
 #: views/newsletter/editbar.php:342
 #: views/newsletter/optionbar.php:115
 #: views/newsletter/template.php:135
@@ -6501,7 +6517,7 @@ msgid "Cancel"
 msgstr ""
 
 #: classes/templates.class.php:1735
-#: views/manage/method-upload.php:111
+#: views/manage/method-upload.php:110
 msgid "Your browser has some limitations uploading large files with the multi-file uploader. Please use the browser uploader for files over 100MB."
 msgstr ""
 
@@ -6846,7 +6862,7 @@ msgid "Minimal"
 msgstr ""
 
 #: classes/widget.class.php:557
-#: blocks/forms/input/inspector.js:206
+#: blocks/forms/input/inspector.js:196
 msgid "Width"
 msgstr ""
 
@@ -8719,132 +8735,132 @@ msgstr ""
 msgid "Pattern 03"
 msgstr ""
 
-#: patterns/forms.php:79
-#: patterns/forms.php:599
+#: patterns/forms.php:77
+#: patterns/forms.php:556
 msgid "Join our email list and get a special 20% discount!"
 msgstr ""
 
-#: patterns/forms.php:87
-#: patterns/forms.php:138
-#: patterns/forms.php:607
-#: patterns/forms.php:642
+#: patterns/forms.php:81
+#: patterns/forms.php:122
+#: patterns/forms.php:560
+#: patterns/forms.php:591
 msgid "Your Email address"
 msgstr ""
 
-#: patterns/forms.php:91
-#: patterns/forms.php:142
-#: patterns/forms.php:611
-#: patterns/forms.php:646
+#: patterns/forms.php:85
+#: patterns/forms.php:126
+#: patterns/forms.php:564
+#: patterns/forms.php:595
 msgid "Get 20% now"
 msgstr ""
 
-#: patterns/forms.php:99
-#: patterns/forms.php:455
+#: patterns/forms.php:89
+#: patterns/forms.php:429
 msgid "When you subscribe, you give us permission to send you emails about our products, exclusive promotions, and special events. However, you have the option to withdraw your consent at any point by clicking on the unsubscribe link provided in the emails."
 msgstr ""
 
-#: patterns/forms.php:114
+#: patterns/forms.php:104
 msgid "Pattern 04"
 msgstr ""
 
-#: patterns/forms.php:130
+#: patterns/forms.php:118
 msgid "Sign up for our email and save on your first order!"
 msgstr ""
 
-#: patterns/forms.php:155
+#: patterns/forms.php:135
 msgid "Pattern 05"
 msgstr ""
 
-#: patterns/forms.php:167
-#: patterns/forms.php:380
+#: patterns/forms.php:147
+#: patterns/forms.php:361
 msgid "Enter your email address to join our newsletter."
 msgstr ""
 
-#: patterns/forms.php:192
+#: patterns/forms.php:179
 msgid "Pattern 06"
 msgstr ""
 
-#: patterns/forms.php:204
+#: patterns/forms.php:191
 msgid "Stay up to date with the latest news and relevant updates from us."
 msgstr ""
 
-#: patterns/forms.php:221
+#: patterns/forms.php:208
 msgid "Pattern 07"
 msgstr ""
 
-#: patterns/forms.php:243
-#: patterns/forms.php:289
-#: patterns/forms.php:334
+#: patterns/forms.php:230
+#: patterns/forms.php:275
+#: patterns/forms.php:320
 #, php-format
 msgid "Enter your email address to join %s others."
 msgstr ""
 
-#: patterns/forms.php:271
+#: patterns/forms.php:257
 msgid "Pattern 08"
 msgstr ""
 
-#: patterns/forms.php:316
+#: patterns/forms.php:302
 msgid "Pattern 09"
 msgstr ""
 
-#: patterns/forms.php:366
+#: patterns/forms.php:347
 msgid "Pattern 10"
 msgstr ""
 
-#: patterns/forms.php:415
+#: patterns/forms.php:401
 msgid "Pattern 11"
 msgstr ""
 
-#: patterns/forms.php:474
+#: patterns/forms.php:448
 msgid "Pattern 12"
 msgstr ""
 
-#: patterns/forms.php:533
+#: patterns/forms.php:497
 msgid "Pattern 13"
 msgstr ""
 
-#: patterns/forms.php:559
+#: patterns/forms.php:520
 msgid "You've unlocked a 10% discount on your next purchase!"
 msgstr ""
 
-#: patterns/forms.php:586
+#: patterns/forms.php:543
 msgid "Pattern 14"
 msgstr ""
 
-#: patterns/forms.php:621
+#: patterns/forms.php:574
 msgid "Pattern 15"
 msgstr ""
 
-#: patterns/forms.php:634
+#: patterns/forms.php:587
 #, php-format
 msgid "Join %1$s others and get a special %2$s discount!"
 msgstr ""
 
-#: patterns/forms.php:656
+#: patterns/forms.php:605
 msgid "Pattern 16"
 msgstr ""
 
-#: patterns/forms.php:669
+#: patterns/forms.php:618
 msgid "Many people receive my posts in their inbox regularly, and they enjoy this service free of charge."
 msgstr ""
 
-#: patterns/forms.php:674
+#: patterns/forms.php:623
 msgid "Enter your email address and press enter"
 msgstr ""
 
-#: patterns/forms.php:678
+#: patterns/forms.php:627
 msgid "No spam, you can cancel at any time."
 msgstr ""
 
-#: patterns/forms.php:687
+#: patterns/forms.php:636
 msgid "Pattern 17"
 msgstr ""
 
-#: patterns/forms.php:719
+#: patterns/forms.php:662
 msgid "Your ebook one click away"
 msgstr ""
 
-#: patterns/forms.php:735
+#: patterns/forms.php:674
 msgid "Get now!"
 msgstr ""
 
@@ -9784,6 +9800,8 @@ msgstr ""
 #: views/forms/detail.php:121
 #: views/forms/detail.php:154
 #: views/settings/texts.php:14
+#: blocks/forms/messages/InputBlockControls.js:39
+#: blocks/forms/messages/InputBlockControls.js:42
 msgid "Error Message"
 msgstr ""
 
@@ -9794,7 +9812,7 @@ msgstr ""
 
 #: views/forms/detail.php:122
 #: views/forms/detail.php:155
-#: blocks/forms/input/inspector.js:256
+#: blocks/forms/input/inspector.js:246
 msgid "Error Message (optional)"
 msgstr ""
 
@@ -9889,20 +9907,20 @@ msgstr ""
 
 #: views/forms/detail.php:215
 #: views/forms/detail.php:287
-#: blocks/forms/form-inspector/CssPanel.js:104
+#: blocks/forms/form-inspector/CssPanel.js:105
 msgid "Required Asterisk"
 msgstr ""
 
 #: views/forms/detail.php:221
-#: blocks/forms/form-inspector/FormStylesPanel.js:100
-#: blocks/forms/messages/inspector.js:40
-#: blocks/forms/messages/inspector.js:60
+#: blocks/forms/form-inspector/FormStylesPanel.js:101
+#: blocks/forms/messages/inspector.js:37
+#: blocks/forms/messages/inspector.js:52
 msgid "Background Color"
 msgstr ""
 
 #: views/forms/detail.php:222
-#: blocks/forms/messages/inspector.js:45
-#: blocks/forms/messages/inspector.js:65
+#: blocks/forms/messages/inspector.js:42
+#: blocks/forms/messages/inspector.js:57
 msgid "Text Color"
 msgstr ""
 
@@ -9951,22 +9969,22 @@ msgid "Selector Prefix"
 msgstr ""
 
 #: views/forms/detail.php:274
-#: blocks/forms/form-inspector/CssPanel.js:61
+#: blocks/forms/form-inspector/CssPanel.js:62
 msgid "Form selector"
 msgstr ""
 
 #: views/forms/detail.php:275
-#: blocks/forms/form-inspector/CssPanel.js:65
+#: blocks/forms/form-inspector/CssPanel.js:66
 msgid "Field wrapper"
 msgstr ""
 
 #: views/forms/detail.php:276
-#: blocks/forms/form-inspector/CssPanel.js:82
+#: blocks/forms/form-inspector/CssPanel.js:83
 msgid "Custom Field Wrapper divs"
 msgstr ""
 
 #: views/forms/detail.php:281
-#: blocks/forms/form-inspector/CssPanel.js:91
+#: blocks/forms/form-inspector/CssPanel.js:92
 msgid "Custom Field Inputs"
 msgstr ""
 
@@ -9992,7 +10010,7 @@ msgid "Fill fields with known data if user is logged in"
 msgstr ""
 
 #: views/forms/detail.php:319
-#: blocks/forms/form-inspector/Options.js:109
+#: blocks/forms/form-inspector/Options.js:115
 msgid "Redirect after submit"
 msgstr ""
 
@@ -10051,7 +10069,7 @@ msgid "Assign following tags to subscribers who signup via this form."
 msgstr ""
 
 #: views/forms/detail.php:376
-#: blocks/forms/form-inspector/Doubleoptin.js:40
+#: blocks/forms/form-inspector/Doubleoptin.js:41
 msgid "Double Opt In"
 msgstr ""
 
@@ -10068,12 +10086,12 @@ msgid "Confirmation Settings"
 msgstr ""
 
 #: views/forms/detail.php:394
-#: blocks/forms/form-inspector/Doubleoptin.js:63
+#: blocks/forms/form-inspector/Doubleoptin.js:66
 msgid "Headline"
 msgstr ""
 
 #: views/forms/detail.php:398
-#: blocks/forms/form-inspector/Doubleoptin.js:84
+#: blocks/forms/form-inspector/Doubleoptin.js:89
 msgid "Linktext"
 msgstr ""
 
@@ -10092,7 +10110,7 @@ msgid "Resend confirmation %1$s times with a delay of %2$s hours if user hasn't 
 msgstr ""
 
 #: views/forms/detail.php:415
-#: blocks/forms/form-inspector/Doubleoptin.js:95
+#: blocks/forms/form-inspector/Doubleoptin.js:101
 msgid "Redirect after confirm"
 msgstr ""
 
@@ -10122,8 +10140,8 @@ msgid "With Block Forms, you have the convenience of creating standard forms and
 msgstr ""
 
 #: views/forms/empty.php:11
-#: blocks/form/FormSelector.js:68
-#: blocks/form/FormSelector.js:102
+#: blocks/form/FormSelector.js:73
+#: blocks/form/FormSelector.js:107
 msgid "Create new form"
 msgstr ""
 
@@ -10316,7 +10334,7 @@ msgid "Message ID"
 msgstr ""
 
 #: views/logging/detail.php:35
-#: blocks/forms/form-inspector/Doubleoptin.js:72
+#: blocks/forms/form-inspector/Doubleoptin.js:76
 #: blocks/forms/gdpr/inspector.js:40
 msgid "Content"
 msgstr ""
@@ -10343,28 +10361,6 @@ msgstr[1] ""
 
 #: views/logging/overview.php:19
 msgid "Search Log Entries"
-msgstr ""
-
-#: views/manage/clean-list-notice.php:2
-msgid "Please make sure your lists are clean!"
-msgstr ""
-
-#: views/manage/clean-list-notice.php:4
-msgid "Lists can contain many invalid email addresses after some time, and you may get into trouble sending to too many of them."
-msgstr ""
-
-#: views/manage/clean-list-notice.php:4
-msgid "We recommend using a professional service upfront to verify your lists before you import them into Mailster."
-msgstr ""
-
-#: views/manage/clean-list-notice.php:6
-#, php-format
-msgid "We have partnered with %1$s, where you can get %2$s off on every purchase with the code %3$s."
-msgstr ""
-
-#: views/manage/clean-list-notice.php:7
-#, php-format
-msgid "Clear your list with %s"
 msgstr ""
 
 #: views/manage/delete.php:8
@@ -10595,23 +10591,23 @@ msgstr ""
 msgid "%1$s created this job on the %2$s"
 msgstr ""
 
-#: views/manage/method-paste.php:2
+#: views/manage/method-paste.php:1
 msgid "Copy and paste from your spreadsheet app. Mailster tries the guess the used formatting."
 msgstr ""
 
-#: views/manage/method-upload.php:2
+#: views/manage/method-upload.php:1
 msgid "Upload you subscribers as comma-separated list (CSV)"
 msgstr ""
 
-#: views/manage/method-upload.php:72
+#: views/manage/method-upload.php:71
 msgid "Comma-separated values (CSV)"
 msgstr ""
 
-#: views/manage/method-upload.php:91
+#: views/manage/method-upload.php:90
 msgid "Drop your list here"
 msgstr ""
 
-#: views/manage/method-upload.php:109
+#: views/manage/method-upload.php:108
 msgid "Split your lists into max 50.000 subscribers each."
 msgstr ""
 
@@ -11512,80 +11508,80 @@ msgstr ""
 msgid "create list"
 msgstr ""
 
-#: views/newsletter/submit.php:22
+#: views/newsletter/submit.php:30
 msgid "Offer a public web version for this campaign. If disabled this campaign will be marked as \"private\""
 msgstr ""
 
-#: views/newsletter/submit.php:23
+#: views/newsletter/submit.php:31
 msgid "Web version"
 msgstr ""
 
-#: views/newsletter/submit.php:26
-#: views/newsletter/submit.php:31
+#: views/newsletter/submit.php:34
+#: views/newsletter/submit.php:39
 msgid "Protect the web version with a password."
 msgstr ""
 
-#: views/newsletter/submit.php:39
+#: views/newsletter/submit.php:47
 msgid "Delete Permanently"
 msgstr ""
 
-#: views/newsletter/submit.php:39
+#: views/newsletter/submit.php:47
 msgid "Move to Trash"
 msgstr ""
 
-#: views/newsletter/submit.php:52
-#: views/newsletter/submit.php:75
-#: views/newsletter/submit.php:115
-#: views/newsletter/submit.php:147
-#: views/newsletter/submit.php:190
+#: views/newsletter/submit.php:63
+#: views/newsletter/submit.php:84
+#: views/newsletter/submit.php:112
+#: views/newsletter/submit.php:155
+#: views/newsletter/submit.php:170
 msgid "Update"
 msgstr ""
 
-#: views/newsletter/submit.php:82
-#: views/newsletter/submit.php:93
-#: views/newsletter/submit.php:120
-#: views/newsletter/submit.php:125
-#: views/newsletter/submit.php:131
+#: views/newsletter/submit.php:89
+#: views/newsletter/submit.php:100
+#: views/newsletter/submit.php:116
+#: views/newsletter/submit.php:121
+#: views/newsletter/submit.php:127
 msgid "Publish"
 msgstr ""
 
-#: views/newsletter/submit.php:86
-#: views/newsletter/submit.php:152
+#: views/newsletter/submit.php:93
+#: views/newsletter/submit.php:148
 msgid "Save and resume campaign"
 msgstr ""
 
-#: views/newsletter/submit.php:88
-#: views/newsletter/submit.php:154
-#: views/newsletter/submit.php:185
+#: views/newsletter/submit.php:95
+#: views/newsletter/submit.php:150
+#: views/newsletter/submit.php:165
 #: views/single-newsletter.php:122
 msgid "Send now"
 msgstr ""
 
-#: views/newsletter/submit.php:88
-#: views/newsletter/submit.php:154
+#: views/newsletter/submit.php:95
+#: views/newsletter/submit.php:150
 msgid "Save and send campaign"
 msgstr ""
 
-#: views/newsletter/submit.php:100
+#: views/newsletter/submit.php:107
 msgid "Removes all pending entries from this campaign in the queue."
 msgstr ""
 
-#: views/newsletter/submit.php:100
+#: views/newsletter/submit.php:107
 msgid "Clear Queue of this auto responder."
 msgstr ""
 
-#: views/newsletter/submit.php:116
-#: views/newsletter/submit.php:167
-msgid "Statistic"
+#: views/newsletter/submit.php:111
+#: views/newsletter/submit.php:143
+msgid "See statistics of this campaign"
 msgstr ""
 
-#: views/newsletter/submit.php:126
-#: views/newsletter/submit.php:132
+#: views/newsletter/submit.php:122
+#: views/newsletter/submit.php:128
 msgid "Save as draft"
 msgstr ""
 
-#: views/newsletter/submit.php:139
-#: views/newsletter/submit.php:140
+#: views/newsletter/submit.php:135
+#: views/newsletter/submit.php:136
 msgid "Submit for Review"
 msgstr ""
 
@@ -11640,8 +11636,8 @@ msgid "Run Precheck"
 msgstr ""
 
 #: views/settings.php:32
-#: blocks/forms/form-inspector/CssPanel.js:44
-#: blocks/forms/form-inspector/CssPanel.js:57
+#: blocks/forms/form-inspector/CssPanel.js:45
+#: blocks/forms/form-inspector/CssPanel.js:58
 msgid "General"
 msgstr ""
 
@@ -14181,39 +14177,42 @@ msgstr ""
 msgid "Wobble"
 msgstr ""
 
-#: blocks/form/edit.js:170
+#: blocks/form/edit.js:175
 #, js-format
 msgid "Newsletter Homepage: %s"
 msgstr ""
 
-#: blocks/form/edit.js:175
+#: blocks/form/edit.js:180
 msgid "Mailster Subscription Form"
 msgstr ""
 
-#: blocks/form/edit.js:182
-#: blocks/form/edit.js:261
-msgid "Select a form you like to display on this page."
+#: blocks/form/edit.js:187
+msgid "Select a form you like to display."
 msgstr ""
 
-#: blocks/form/edit.js:208
-#: blocks/form/FormSelector.js:96
+#: blocks/form/edit.js:219
+#: blocks/form/FormSelector.js:101
 msgid "Edit form"
 msgstr ""
 
-#: blocks/form/edit.js:214
-#: blocks/form/edit.js:245
+#: blocks/form/edit.js:226
+#: blocks/form/edit.js:258
 msgid "Reload Form"
 msgstr ""
 
-#: blocks/form/edit.js:256
+#: blocks/form/edit.js:270
 msgid "Form Selector"
 msgstr ""
 
-#: blocks/form/FormSelector.js:60
+#: blocks/form/edit.js:275
+msgid "Select a form you like to display on this page."
+msgstr ""
+
+#: blocks/form/FormSelector.js:65
 msgid "You currently have no forms. Please create a new form."
 msgstr ""
 
-#: blocks/form/FormSelector.js:83
+#: blocks/form/FormSelector.js:88
 msgid "Choose a form"
 msgstr ""
 
@@ -14223,7 +14222,7 @@ msgstr ""
 
 #: blocks/forms/close/edit.js:52
 #: blocks/forms/gdpr/edit.js:64
-#: blocks/forms/input/edit.js:99
+#: blocks/forms/input/edit.js:104
 #: blocks/forms/lists/edit.js:106
 #: blocks/forms/lists/edit.js:124
 msgid "Enter Label"
@@ -14261,60 +14260,60 @@ msgstr ""
 msgid "Custom CSS"
 msgstr ""
 
-#: blocks/forms/form-inspector/CssPanel.js:45
+#: blocks/forms/form-inspector/CssPanel.js:46
 msgid "Tablet"
 msgstr ""
 
-#: blocks/forms/form-inspector/CssPanel.js:69
+#: blocks/forms/form-inspector/CssPanel.js:70
 msgid "Input fields"
 msgstr ""
 
-#: blocks/forms/form-inspector/CssPanel.js:73
+#: blocks/forms/form-inspector/CssPanel.js:74
 msgid "Labels"
 msgstr ""
 
-#: blocks/forms/form-inspector/CssPanel.js:77
+#: blocks/forms/form-inspector/CssPanel.js:78
 msgid "Outside Wrapper"
 msgstr ""
 
-#: blocks/forms/form-inspector/CssPanel.js:112
+#: blocks/forms/form-inspector/CssPanel.js:113
 msgid "Close Button"
 msgstr ""
 
-#: blocks/forms/form-inspector/CssPanel.js:122
+#: blocks/forms/form-inspector/CssPanel.js:123
 msgid "Enter your custom CSS"
 msgstr ""
 
-#: blocks/forms/form-inspector/CssPanel.js:172
+#: blocks/forms/form-inspector/CssPanel.js:175
 msgid "Your CSS Rules"
 msgstr ""
 
-#: blocks/forms/form-inspector/CssPanel.js:208
+#: blocks/forms/form-inspector/CssPanel.js:211
 #: blocks/forms/form-inspector/EventsPanel.js:92
 msgid "Open in Modal Window"
 msgstr ""
 
-#: blocks/forms/form-inspector/CssPanel.js:215
+#: blocks/forms/form-inspector/CssPanel.js:218
 msgid "Basic Input Styling"
 msgstr ""
 
-#: blocks/forms/form-inspector/CssPanel.js:218
+#: blocks/forms/form-inspector/CssPanel.js:221
 msgid "This option is useful if your theme doesn't add styling to input fields"
 msgstr ""
 
-#: blocks/forms/form-inspector/CssPanel.js:243
+#: blocks/forms/form-inspector/CssPanel.js:247
 msgid "Selectors"
 msgstr ""
 
-#: blocks/forms/form-inspector/CssPanel.js:244
+#: blocks/forms/form-inspector/CssPanel.js:248
 msgid "Helps you find the right selector for form elements"
 msgstr ""
 
-#: blocks/forms/form-inspector/CssPanel.js:250
+#: blocks/forms/form-inspector/CssPanel.js:254
 msgid "Choose Selector"
 msgstr ""
 
-#: blocks/forms/form-inspector/CssPanel.js:312
+#: blocks/forms/form-inspector/CssPanel.js:317
 msgid "Enter your custom CSS here. Every declaration will get prefixed to work only for this specific form."
 msgstr ""
 
@@ -14329,28 +14328,28 @@ msgstr ""
 msgid "Set the padding of your form in %"
 msgstr ""
 
-#: blocks/forms/form-inspector/Doubleoptin.js:41
+#: blocks/forms/form-inspector/Doubleoptin.js:42
 msgid "Single Opt In"
 msgstr ""
 
-#: blocks/forms/form-inspector/Doubleoptin.js:46
-#: blocks/forms/form-inspector/Options.js:60
+#: blocks/forms/form-inspector/Doubleoptin.js:47
+#: blocks/forms/form-inspector/Options.js:62
 msgid "Enable double opt in"
 msgstr ""
 
-#: blocks/forms/form-inspector/Doubleoptin.js:57
+#: blocks/forms/form-inspector/Doubleoptin.js:59
 msgid "Subject for the confirmation message."
 msgstr ""
 
-#: blocks/forms/form-inspector/Doubleoptin.js:65
+#: blocks/forms/form-inspector/Doubleoptin.js:68
 msgid "The headline is part of the confirmation message. If empty the subject line will be used."
 msgstr ""
 
-#: blocks/forms/form-inspector/Doubleoptin.js:86
+#: blocks/forms/form-inspector/Doubleoptin.js:91
 msgid "This is the text of the link subscribers have to click to confirm their email address."
 msgstr ""
 
-#: blocks/forms/form-inspector/Doubleoptin.js:96
+#: blocks/forms/form-inspector/Doubleoptin.js:102
 msgid "Redirect subscribers after they clicked the link."
 msgstr ""
 
@@ -14395,25 +14394,25 @@ msgid "Learn more about Events"
 msgstr ""
 
 #: blocks/forms/form-inspector/FormModal.js:58
-#: blocks/forms/form-inspector/Options.js:50
+#: blocks/forms/form-inspector/Options.js:51
 msgid "Form Name"
 msgstr ""
 
 #: blocks/forms/form-inspector/FormModal.js:62
-#: blocks/forms/form-inspector/Options.js:53
+#: blocks/forms/form-inspector/Options.js:54
 msgid "Define a name for your form."
 msgstr ""
 
 #: blocks/forms/form-inspector/FormModal.js:63
-#: blocks/forms/form-inspector/Options.js:54
+#: blocks/forms/form-inspector/Options.js:55
 msgid "Add title"
 msgstr ""
 
-#: blocks/forms/form-inspector/FormModal.js:228
+#: blocks/forms/form-inspector/FormModal.js:225
 msgid "Select Template"
 msgstr ""
 
-#: blocks/forms/form-inspector/FormModal.js:233
+#: blocks/forms/form-inspector/FormModal.js:230
 msgid "Select a template to get started"
 msgstr ""
 
@@ -14421,43 +14420,43 @@ msgstr ""
 msgid "Form Styles"
 msgstr ""
 
-#: blocks/forms/form-inspector/FormStylesPanel.js:95
+#: blocks/forms/form-inspector/FormStylesPanel.js:96
 msgid "Color"
 msgstr ""
 
-#: blocks/forms/form-inspector/FormStylesPanel.js:125
+#: blocks/forms/form-inspector/FormStylesPanel.js:126
 msgid "Auto"
 msgstr ""
 
-#: blocks/forms/form-inspector/FormStylesPanel.js:126
+#: blocks/forms/form-inspector/FormStylesPanel.js:127
 msgid "Contain"
 msgstr ""
 
-#: blocks/forms/form-inspector/FormStylesPanel.js:127
+#: blocks/forms/form-inspector/FormStylesPanel.js:128
 msgid "Cover"
 msgstr ""
 
-#: blocks/forms/form-inspector/FormStylesPanel.js:150
+#: blocks/forms/form-inspector/FormStylesPanel.js:152
 msgid "Fixed background"
 msgstr ""
 
-#: blocks/forms/form-inspector/FormStylesPanel.js:160
+#: blocks/forms/form-inspector/FormStylesPanel.js:162
 msgid "Fullscreen Background"
 msgstr ""
 
-#: blocks/forms/form-inspector/FormStylesPanel.js:170
+#: blocks/forms/form-inspector/FormStylesPanel.js:172
 msgid "Repeated Background"
 msgstr ""
 
-#: blocks/forms/form-inspector/FormStylesPanel.js:190
-msgid "Opacity"
-msgstr ""
-
-#: blocks/forms/form-inspector/FormStylesPanel.js:209
+#: blocks/forms/form-inspector/FormStylesPanel.js:199
 msgid "Clear Media"
 msgstr ""
 
-#: blocks/forms/form-inspector/FormStylesPanel.js:238
+#: blocks/forms/form-inspector/FormStylesPanel.js:206
+msgid "Opacity"
+msgstr ""
+
+#: blocks/forms/form-inspector/FormStylesPanel.js:242
 #: blocks/forms/form-inspector/InputStylesPanel.js:93
 msgid "Border Radius"
 msgstr ""
@@ -14498,35 +14497,35 @@ msgstr ""
 msgid "You can update the list names and the precheck status in the editor."
 msgstr ""
 
-#: blocks/forms/form-inspector/Options.js:63
+#: blocks/forms/form-inspector/Options.js:65
 msgid "New subscribers must confirm their subscription."
 msgstr ""
 
-#: blocks/forms/form-inspector/Options.js:73
+#: blocks/forms/form-inspector/Options.js:76
 msgid "Users must check a checkbox to submit the form"
 msgstr ""
 
-#: blocks/forms/form-inspector/Options.js:84
+#: blocks/forms/form-inspector/Options.js:88
 msgid "Merge Data"
 msgstr ""
 
-#: blocks/forms/form-inspector/Options.js:85
+#: blocks/forms/form-inspector/Options.js:89
 msgid "Allow users to update their data with this form. Data like tags and lists will get merged together."
 msgstr ""
 
-#: blocks/forms/form-inspector/Options.js:96
+#: blocks/forms/form-inspector/Options.js:101
 msgid "Allow Prefills"
 msgstr ""
 
-#: blocks/forms/form-inspector/Options.js:97
+#: blocks/forms/form-inspector/Options.js:102
 msgid "Allow to prefill this form with GET variables. Use the field name as key and the value as value."
 msgstr ""
 
-#: blocks/forms/form-inspector/Options.js:110
+#: blocks/forms/form-inspector/Options.js:116
 msgid "Redirect subscribers after they submit the form. Keep empty to stay on the same page and show a success message."
 msgstr ""
 
-#: blocks/forms/form-inspector/Options.js:122
+#: blocks/forms/form-inspector/Options.js:129
 msgid "Edit Error/Success Messages"
 msgstr ""
 
@@ -14805,7 +14804,7 @@ msgstr ""
 msgid "Automatically fixed broken Blocks."
 msgstr ""
 
-#: blocks/forms/form-wrapper/edit.js:246
+#: blocks/forms/form-wrapper/edit.js:256
 msgid "Forms may look different in the editor. Please check the final result on your website."
 msgstr ""
 
@@ -14819,8 +14818,8 @@ msgid "Label Align"
 msgstr ""
 
 #: blocks/forms/gdpr/inspector.js:36
-#: blocks/forms/input/inspector.js:127
-#: blocks/forms/messages/inspector.js:71
+#: blocks/forms/input/inspector.js:117
+#: blocks/forms/messages/inspector.js:63
 msgid "Field Settings"
 msgstr ""
 
@@ -14863,80 +14862,80 @@ msgstr ""
 msgid "Change element alignment"
 msgstr ""
 
-#: blocks/forms/input/inspector.js:100
+#: blocks/forms/input/inspector.js:90
 msgid "Colors & Borders"
 msgstr ""
 
-#: blocks/forms/input/inspector.js:108
+#: blocks/forms/input/inspector.js:98
 #: blocks/forms/input/Styles.js:60
 msgid "Apply to all input fields"
 msgstr ""
 
-#: blocks/forms/input/inspector.js:109
+#: blocks/forms/input/inspector.js:99
 msgid "Apply the stlye of this input field to all input fields of your form."
 msgstr ""
 
-#: blocks/forms/input/inspector.js:115
+#: blocks/forms/input/inspector.js:105
 msgid "Apply styles"
 msgstr ""
 
-#: blocks/forms/input/inspector.js:136
+#: blocks/forms/input/inspector.js:126
 msgid "Define a label for your field"
 msgstr ""
 
-#: blocks/forms/input/inspector.js:148
+#: blocks/forms/input/inspector.js:138
 msgid "Inline Labels"
 msgstr ""
 
-#: blocks/forms/input/inspector.js:149
+#: blocks/forms/input/inspector.js:139
 msgid "Place the label inside the input field to save some space."
 msgstr ""
 
-#: blocks/forms/input/inspector.js:162
+#: blocks/forms/input/inspector.js:152
 msgid "Required Field"
 msgstr ""
 
-#: blocks/forms/input/inspector.js:163
+#: blocks/forms/input/inspector.js:153
 msgid "Make this field mandatory so people cannot submit the form without entering data."
 msgstr ""
 
-#: blocks/forms/input/inspector.js:177
+#: blocks/forms/input/inspector.js:167
 msgid "Show asterisk"
 msgstr ""
 
-#: blocks/forms/input/inspector.js:178
+#: blocks/forms/input/inspector.js:168
 msgid "Enable an asterisk (*) after the label on required fields."
 msgstr ""
 
-#: blocks/forms/input/inspector.js:191
+#: blocks/forms/input/inspector.js:181
 msgid "Use native form element"
 msgstr ""
 
-#: blocks/forms/input/inspector.js:192
+#: blocks/forms/input/inspector.js:182
 msgid "Native form elements provide a better user experience but often miss some styling."
 msgstr ""
 
-#: blocks/forms/input/inspector.js:212
+#: blocks/forms/input/inspector.js:202
 msgid "Set the width of the input field."
 msgstr ""
 
-#: blocks/forms/input/inspector.js:223
+#: blocks/forms/input/inspector.js:213
 msgid "Height"
 msgstr ""
 
-#: blocks/forms/input/inspector.js:229
+#: blocks/forms/input/inspector.js:219
 msgid "Set the height of the textarea."
 msgstr ""
 
-#: blocks/forms/input/inspector.js:240
+#: blocks/forms/input/inspector.js:230
 msgid "Autocomplete Attribute"
 msgstr ""
 
-#: blocks/forms/input/inspector.js:241
+#: blocks/forms/input/inspector.js:231
 msgid "Define which autocomplete value will be used on this field."
 msgstr ""
 
-#: blocks/forms/input/inspector.js:257
+#: blocks/forms/input/inspector.js:247
 msgid "Define the text for this field if an error occurs."
 msgstr ""
 
@@ -14973,23 +14972,25 @@ msgstr ""
 msgid "List Settings"
 msgstr ""
 
-#: blocks/forms/messages/edit.js:39
+#: blocks/forms/messages/edit.js:44
 msgid "Some fields are missing or incorrect!"
 msgstr ""
 
-#: blocks/forms/messages/edit.js:81
+#: blocks/forms/messages/edit.js:102
 msgid "Enter Success Message"
 msgstr ""
 
-#: blocks/forms/messages/edit.js:93
+#: blocks/forms/messages/edit.js:114
 msgid "Enter Error Message"
 msgstr ""
 
-#: blocks/forms/messages/inspector.js:30
+#: blocks/forms/messages/InputBlockControls.js:32
+#: blocks/forms/messages/InputBlockControls.js:35
+#: blocks/forms/messages/inspector.js:32
 msgid "Success Message"
 msgstr ""
 
-#: blocks/forms/messages/inspector.js:50
+#: blocks/forms/messages/inspector.js:47
 msgid "Error Messages"
 msgstr ""
 
@@ -15201,7 +15202,7 @@ msgstr ""
 msgid "No Links defined."
 msgstr ""
 
-#: blocks/util/InlineStyles.js:160
+#: blocks/util/InlineStyles.js:158
 msgid "Mailster Inline styles have been updated."
 msgstr ""
 
@@ -15801,25 +15802,25 @@ msgstr ""
 msgid "Unsubs"
 msgstr ""
 
-#: blocks/workflows/email/EmailSelector.js:87
-#: blocks/workflows/email/EmailSelector.js:127
+#: blocks/workflows/email/EmailSelector.js:95
+#: blocks/workflows/email/EmailSelector.js:135
 msgid "Edit Email"
 msgstr ""
 
-#: blocks/workflows/email/EmailSelector.js:92
-#: blocks/workflows/email/EmailSelector.js:130
+#: blocks/workflows/email/EmailSelector.js:100
+#: blocks/workflows/email/EmailSelector.js:138
 msgid "New Email"
 msgstr ""
 
-#: blocks/workflows/email/EmailSelector.js:103
+#: blocks/workflows/email/EmailSelector.js:111
 msgid "Select an email you like to send in this step"
 msgstr ""
 
-#: blocks/workflows/email/EmailSelector.js:107
+#: blocks/workflows/email/EmailSelector.js:115
 msgid "Select a email"
 msgstr ""
 
-#: blocks/workflows/email/EmailSelector.js:136
+#: blocks/workflows/email/EmailSelector.js:144
 msgid "Email for this step"
 msgstr ""
 
@@ -16611,7 +16612,7 @@ msgstr ""
 
 #: blocks/forms/messages/block.json
 msgctxt "block description"
-msgid "Adds a Message field to your Mailster Block Form"
+msgid "The message block contains the success and error messages for the form. It's a required block and can't be removed."
 msgstr ""
 
 #: blocks/homepage-context/block.json
